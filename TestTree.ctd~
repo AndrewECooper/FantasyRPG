@@ -1,0 +1,317 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="True" name="Intro" prog_lang="custom-colors" readonly="False" tags="" unique_id="1">
+		<rich_text>This project is really very personal to me. It is a mixture of a Fantasy Heartbreaker and an attempt at an Old School Renaissance game. I've been doing this hobby now since 1989. My first game was an AD&amp;D 1st Edition campaign that changed over to 2nd Edition almost immediately after I started playing. Since those halcyon days I have played numerous games ranging from very traditional to bleeding edge indie. I've enjoyed a bit of everything. Dogs in the Vineyard may be one of the best games ever created. Capes is superb. However, over the last several months as I've contemplated introducing the hobby of role-playing to my own children I've wandered back around to my own beginnings.  
+
+  
+See, Old School to me doesn't mean the Red Box Set or OD&amp;D or whatnot. It means 2nd Edition. I cut my teeth on that game. I had a blast with that game. I want a game that captures the spirit of 2nd Edition but either cuts out or improves on broken/convoluted parts of the game. Lot's of things have advanced and improved with role-playing in general and D&amp;D specifically over the years. I've got no desire to toss out every new improvement to the game. If that were the case, I'd just go back to playing 2nd Edition straight up.  Instead I want to keep the parts of the game I remember fondly while modifying the parts that I remember annoying me.  
+
+  
+What is this game?  Perhaps it would be easier to say what it is not.  
+
+  
+It is not a ground breaking game of new unique mechanics. I mean this. I've taken the 1st and 2nd Edition chassis and tacked on a lot of rules and techniques that I've picked up from other games over the years. If you are reading through the rules here and you say to yourself, &quot;Self, that looks like a rule from &lt;insert cool game here&gt;.&quot;, it probably is that exact rule ported over to here. I likely saw it over in said game, liked it and copy/pasted it right over here. I'm going to try to list all the games I've stolen from in the credits but frankly I'm not sure I'll remember them all. If I forget one, let me know and I'll add it.  
+
+  
+So, what is this game then?  
+
+  
+* It is a Frankenstein Monster created from the harvested parts of other great games.  
+* It is 1st/2nd Edition AD&amp;D upgraded to the way I like to play.  
+* It is easily hackable.  
+* It values player rulings rather than having a rule for everything.  
+* It is very traditional in its setup with a GM and players.  
+
+  
+If that sounds like something you'd be interested in perusing, here it is. Peruse until your little heart is content. Play the game if you like. Hack the hell out of it. Make it your own. I intend to. If that sounds like a crappy game that you'd hate, move on along to the next game. Not every game has to be enjoyed by everyone. It doesn't make this a bad game or you a bad person. It just means this isn't going to float your boat. I wish you luck and happiness playing whatever game you settle upon.
+
+  
+</rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="True" name="How To Play" prog_lang="custom-colors" readonly="False" tags="" unique_id="2">
+		<rich_text>Saying something is a role-playing game is classifying it so broadly that it is almost useless as a description. Polaris and GURPS are both role-playing games but other than some commonalities like having characters and there being a plot, there's almost nothing about them that is the same. So, I'm going to avoid the stupid section that is in most game books that attempts to define what a role-playing game is. That's like tilting at windmills. Instead, I'm going to tell you what I created this game to be and how to play it at your table.  
+</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="What's the Point?" prog_lang="custom-colors" readonly="False" tags="" unique_id="3">
+			<rich_text>That's a very interesting question. The point of this game is to collectively tell fun and engaging fantasy adventure stories with lots of magic, action and combat. The players create interesting fantasy characters with cool abilities and then challenge them with powerful villains and monsters and difficult obstacles and see how those characters fare.  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="How Do You Win?" prog_lang="custom-colors" readonly="False" tags="" unique_id="4">
+			<rich_text>You win by entertaining both yourself and the other players at the table with your ingenuity, creativity and good old-fashioned chutzpah. You win by beating the bad guys, fighting with monsters, discovering treasures making a difference in the fictional world. If you and your friends create characters and a world that causes you to become invested in the events there and you all look forward to the game to see what happens...  you win!  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="What Do You Do?" prog_lang="custom-colors" readonly="False" tags="" unique_id="5">
+			<rich_text>Well, since the point of the game is telling stories, let's look at the elements of a story. There's character, setting, conflict, plot and theme.  
+  
+One player takes on the job of Gamemaster (GM). This player is primarily responsible for the setting. The other players each control 1 or more of the primary characters (the heroes) in the story.  
+  
+In play, the GM sets the initial scene (like an author starting a book) and the other players describe how the characters that they control react (also like an author) to the elements of the scene. The players are responsible for having their characters pursue with great vigor the parts of the situation that interest them. The GM is responsible for throwing interesting and challenging obstacles in their way. This interaction of pursuing goals within the setting and creating challenging opposition allows all the players to create conflict, plot and theme during play together.  
+  
+At the table you'll do most of that verbally through talking to one another. You might also use some play aids such as maps and miniatures. When the rules systems are engaged players roll dice and use the outcomes to alter the situation. Puzzles are presented and solved. Battles are set up and tactics decided. Players might act out scenes as their characters.  
+</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Gamemaster Responsibilities" prog_lang="custom-colors" readonly="False" tags="" unique_id="6">
+				<rich_text>Develop the setting. That doesn't mean that the entire universe that the characters inhabit has to be detailed. It does mean that enough of the setting for the characters to interact with has to be properly though out. How much that is really depends on the scope of the game. Games revolving around one small village and its surroundings will have a bit smaller scope than a game of travelling mercenaries that move from place to place and kingdom to kingdom.  
+
+Make memorable non-player characters. The players generally each control one character. That means all the other people that inhabit the setting are up to the GM. Of course some of these characters don't have to be very detailed. The shopkeeper at the general store might not be all that important in a town the player characters are just passing through. However, the many characters that the players interact with that are important need to come to life. After all, if the villain isn't interesting or memorable it will be difficult for the players to become invested in opposing him.  
+  
+Prepare appropriate challenges. Challenges need to be appropriate in both theme and difficulty. Slap-stick comedy challenges in a serious and gritty game are not generally well-received. Challenges that are too easy or too hard either bore or frustrate players.  
+  
+Watch the players and respond to what they like. Hooking characters into a cool situation isn't hard if you watch the players and simply develop the situation around what they have indicated through verbal and nonverbal cues they like and are jazzed about. Trying to hook them into something they don't like will frustrate you and bore them.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Player Responsibilities" prog_lang="custom-colors" readonly="False" tags="" unique_id="7">
+				<rich_text>Players have one, primary responsibility that might be more important than any other thing going on in the game.  It's pretty simple: Don't turtle. Don't retreat into an impeneratable shell and refuse to be engaged. Have your character do things and pursue goals. Interact with the setting and see what interests you. If nothing does then talk to the GM about adding parts to the setting that would interest you. Do something! The only thing that really causes the game to fail completely is players that don't interact and get bored. Don't be part of that problem.  </rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="The Basic System" prog_lang="custom-colors" readonly="False" tags="" unique_id="8">
+			<rich_text>When it comes time to pull out the dice and engage the rule systems in this book, there is one primary system that gets used more than any other and is at the core of the game; the Attribute Check. This check is super easy. The player rolls 1d20 and adds the bonus/penalty from the appropriate attribute and compares it to a Difficulty. If the result of the roll is equal to or higher than the Difficulty then the Check is a success; otherwise, it is a failure.  The standard Difficulties are:  
+  
+Easy:         5  
+Normal:       10  
+Moderate:     15  
+Hard:         20  
+Very Hard:    25  
+Extreme:      30  
+ 
+Generally a natural roll of 1 is always a failure and a natural roll of 20 always succeeds.  
+  
+</rich_text>
+			<rich_text style="italic">Example: Arrack the Fighter wants to push a boulder out of the way. The GM thinks the boulder is big but not impossible to move so assigns a Moderate Difficulty (15) to the Check. Moving the boulder is something that primarily requires Strength, so Arrack will use his Strength bonus of +2. Arrack's player rolls 1d20 and the result is 13. After adding the +2 for Strength the final result is 15. That equals the Difficulty so Arrack is able to push the boulder. </rich_text>
+			<rich_text> 
+</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Modifiers" prog_lang="custom-colors" readonly="False" tags="" unique_id="9">
+				<rich_text>If the character has a Skill that can be applied to the situation, then the player can add a +4 bonus to the roll. Each additional slot the character has in a skill adds another +2 to the roll.  
+
+Other modifiers can come into play when making a check. It could be raining, so the footing is bad when trying to push the boulder out of the way. Arrock could be distracted by goblins firing arrows at him. Any number of things. The rule of thumb is this, if the situation causes the task to get easier, add 2 to the roll. If it makes the task harder, subtract 2 from the roll. The GM can make any modifications to these numbers that she feels appropriate.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Taking 10" prog_lang="custom-colors" readonly="False" tags="" unique_id="10">
+				<rich_text>If a character isn't in any danger while attempting a task and she would succeed on a roll of 10, she can simply Take 10 instead of rolling. That means simply assuming that the roll comes up 10. This eliminates the weird failures of what should be somewhat routine tasks.
+</rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Creating a Character" prog_lang="custom-colors" readonly="False" tags="" unique_id="11">
+			<rich_text>To create a starting character follow theses steps. We will create a starting character as an example.  
+  
+</rich_text>
+			<rich_text weight="heavy">1. Generate Attribute scores.  </rich_text>
+			<rich_text> 
+
+The standard method is to roll 4d6, discard the lowest die and then add the remaining 3 dice together. Do this 6 times, once for each attribute.  
+  
+Using the standard method we rolled and get: 10, 14, 16, 15, 7, and 11.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">2. Decide the character's Race. </rich_text>
+			<rich_text> 
+  
+We generate the rolls first to see what scores we have to work with in determining race and class. Our scores are sufficient to be any race or class so we decide t0 make a Gnome since we've never played one before.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">3. Decide the character's class. </rich_text>
+			<rich_text> 
+  
+Gnomes make pretty darn good Mages so we'll go with that.  
+  
+</rich_text>
+			<rich_text weight="heavy">4. Assign the rolled scores to the Attributes as desired. </rich_text>
+			<rich_text> 
+  
+For a Mage, Intelligence and Charisma are the most important Attributes. We also know that our Gnome gets a +1 to its Intelligence attribute. Given that we put our two highest rolls in Intelligence and Charisma. We put the lower of these into Intelligence knowing it will get bumped up due to our racial choice.  
+
+We have a low score of 7 which will give us a penalty. Since we envision our short little gnome as being a bit of a scrawny fellow and not much of a front line fighter we put the 7 in Strength.  
+  
+Dexterity is useful in not getting hit so we put a good score there. Then we put our two rolls that had no bonuses or penalties in Constitution and Wisdom.  
+
+Original Rolls: 10, 14, 16, 15, 7, 11  
+Gnome Mage Level 1  
+Str: 7 (-1) Dex: 14 (+1) Con: 10 (+0)   
+Int: 16 (+2) Wis: 11 (+0) Cha: 16 (+2)  
+  
+</rich_text>
+			<rich_text weight="heavy">5. Determine calculated Attributes. </rich_text>
+			<rich_text> 
+  
+Starting Hit Points are the Constitution attribute plus the Hit Die determined by the Class. So our gnome has 10 + 1d4 + Constitution Bonus. We roll a 3, that gives us a total of 13.  
+  
+Our gnome mage has an Attack Bonus of zero.  
+  
+Our class gives us 1 Mana plus our Charisma bonus. Our Race allows us to add our Intelligence bonus in as well. This gives us 5 Mana.  
+  
+Armor Class and Reflex Defenses are based on Dexterity, Fortitude is based on Constitution and Willpower is based on Wisdom.  
+  
+HP: 13 AB: +0 Mana: 5  
+AC: 11 Fort: 10 Ref: 11 Will: 10  
+  
+</rich_text>
+			<rich_text weight="heavy">5. Choose Spells, Prayers and Thief Abilities. </rich_text>
+			<rich_text> 
+
+We don't have Prayers or Thief Abilities but we do get 1 plus our Intelligence bonus as Spell selections. That means we get 3. We think a mix of 1 attack spell, 1 defense spell and 1 miscellaneous spell is probably good. We are 1st level so only 1st level spells are available to us.  
+  
+Spells: Mage Armor, Burning Hands, Identify  
+  
+</rich_text>
+			<rich_text weight="heavy">6. Choose Skills. </rich_text>
+			<rich_text> 
+
+We get 2 Weapons Skills and 3 plus Intelligence bonus (5) in Other Skills.  
+  
+Weapon Skills: Bow, Bow and Thrown Weapon Style  
+Other Skills: Stonemason (+1 Gnome), Spellcraft, Language (Sylvan, Dwarven), Cooking  
+  
+</rich_text>
+			<rich_text weight="heavy">7. Pick Equipment. </rich_text>
+			<rich_text> 
+
+We handle starting equipment simply. Our gnome can have any non-magical equipment that our GM deems reasonable for the game. He then gets 1d10 starting gold pieces left over.  
+  
+We choose: Leather armor, Bow, Arrows (20), Dagger, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Spellbook)  
+  
+</rich_text>
+			<rich_text weight="heavy">8. Determine Combat stats and recalculated any Attributes that might have changed. </rich_text>
+			<rich_text> 
+  
+Leather Armor bumps our AC to 12.  
+  
+Weapons:  AB Damage  #Att  
+Bow   +1 1d6+1 1  
+Dagger  -1 1d6-1 1  
+Dagger(Thrown) +1 1d6+1 1 
+  
+</rich_text>
+			<rich_text weight="heavy">9. Pick a name. </rich_text>
+			<rich_text> 
+
+You can actually do this at any time. We choose Grimble Thornwhistle.  
+  
+Voila! Here's our 1st level Gnome Mage  
+  
+Grimble Thornwhistle 
+Gnome Mage Level 1  
+Str: 7 (-1) Dex: 14 (+1) Con: 10 (+0)   
+Int: 16 (+2) Wis: 11 (+0) Cha: 16 (+2)  
+HP: 13 AB: +0 Mana: 5  
+AC: 12 Fort: 10 Ref: 11 Will: 10  
+  
+Weapon Skills: Bow, Bow and Thrown Weapon Style  
+Other Skills: Stonemason (+1 Gnome), Spellcraft, Language (Badger, Dwarven), Cooking  
+  
+Weapons:  AB Damage  #Att  
+Bow   +1 1d6+1 1  
+Dagger   -1 1d6-1 1  
+Dagger(Thrown) +1 1d6+1 1 
+  
+Spells: Mage Armor, Burning Hands, Identify  
+  
+Equipment: Leather armor, Bow, Arrows (20), Dagger, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Spellbook)  
+  
+Racial Features:  
+Can learn the simple common speech of burrowing mammals (moles, badgers, etc)  
++1 to hit with offensive Mage Spells.  
++Intelligence bonus to Mana as well as Charisma.  
++1 to Stonemason or Mining  
+Darkvision
+</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="True" name="Races" prog_lang="custom-colors" readonly="False" tags="" unique_id="12">
+		<rich_text>Racial Ability Requirements     
+Ability    Dwarf   Elf   Gnome   Halfling  
+Strength   8/18   3/18   6/18   7/18  
+Dexterity   3/17   6/18   3/18   7/18  
+Constitution  11/18   7/18   8/18   10/18  
+Intelligence   3/18   8/18   6/18   6/18  
+Wisdom    3/18   3/18   3/18   3/17  
+Charisma   3/17   8/18   3/18   3/18  
+
+  
+Racial Ability Adjustments  
+Dwarf   +1 Constitution  
+Elf   +1 Charisma  
+Gnome  +1 Intelligence  
+Halfling  +1 Dexterity  
+</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Dwarves" prog_lang="custom-colors" readonly="False" tags="" unique_id="13">
+			<rich_text>Dwarves are short, stocky fellows, easily identified by their size and shape. They average 4 to 4-1⁄2 feet tall. They have ruddy cheeks, dark eyes, and dark hair. Dwarves generally live for 350 years.  
+
+Dwarves tend to be dour and taciturn. They are given to hard work and care little for most humor. They are strong and brave. They enjoy beer, ale, mead, and even stronger drink. Their chief love, however, is precious metal, particularly gold. They prize gems, of course, especially diamonds and opaque gems (except pearls, which they do not like). Dwarves like the earth and dislike the sea. Not overly fond of elves, they have a fierce hatred of orcs and goblins. Their short, stocky builds make them ill-suited for riding horses or other large mounts (although ponies present no difficulty), so they tend to be a trifle dubious and wary of these creatures. They are ill-disposed toward magic and have little talent for it, but revel in fighting, warcraft, and scientific arts such as engineering.  
+  
+Though dwarves are suspicious and avaricious, their courage and tenacity more than compensate for these shortcomings.  
+  
+Dwarves typically dwell in hilly or mountainous regions. They prefer life in the comforting gloom and solidness that is found underground. They have several special abilities that relate to their underground life, and they are noted for being particularly resistant to magics and poisons.  
+  
+Allowed Classes: Fighter, Cleric, Thief, Fighter/Cleric, Fighter/Thief  
++2 to Defenses vs Mage Spells  
++1 to Defenses vs Poisons  
++1 to hit Orcs, Half-orcs, goblins and hobgoblins  
++2 AC vs Ogres, Trolls, Ogre Magi, Giants and Titans  
++1 to Stonemason, Mining, Armorsmithing, Weaponsmithing or Blacksmithing (just 1)  
+Darkvision  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Elves" prog_lang="custom-colors" readonly="False" tags="" unique_id="14">
+			<rich_text>Elves tend to be somewhat shorter and slimmer than normal humans. Their features are finely chiseled and delicate, and they speak in melodic tones. Although they appear fragile and weak, as a race they are quick and strong. Elves often live to be over 1,200 years old, although long before this time they feel compelled to depart the realms of men and mortals. Where they go is uncertain, but it is an undeniable urge of their race.  
+
+Elves are often considered frivolous and aloof. In fact, they are not, although humans often find their personalities impossible to fathom. They concern themselves with natural beauty, dancing and frolicking, playing and singing, unless necessity dictates otherwise. They are not fond of ships or mines, but enjoy growing things and gazing at the open sky. Even though elves tend toward haughtiness and arrogance at times, they regard their friends and associates as equals. They do not make friends easily, but a friend (or enemy) is never forgotten. They prefer to distance themselves from humans, have little love for dwarves, and hate the evil denizens of the woods.  
+  
+Their humor is clever, as are their songs and poetry. Elves are brave but never foolhardy. They eat sparingly; they drink mead and wine, but seldom to excess. While they find well-wrought jewelry a pleasure to behold, they are not overly interested in money or gain. They find magic and swordplay (or any refined combat art) fascinating. If they have a weakness it lies in these interests.  
+  
+There are five branches of the elven race; aquatic, gray, high, wood, and dark. Elf player characters are always assumed to be of the most common type -- high elves -- although a character can be another type of elf with the GM's permission (but the choice grants no additional powers). To the eye of outsiders, the differences between the groups are mostly cosmetic, but most elves maintain that there are important cultural differences between the various groups. Aquatic elves spend their lives beneath the waves and have adapted to these conditions. Gray elves are considered the most noble and serious-minded of this breed. High elves are the most common. Wood elves are considered to be wild, temperamental, and savage. All others hold that the subterranean dark elves are corrupt and evil, no longer part of the elven community.  
+  
+Allowed Classes: Fighter, Cleric, Mage, Thief, Fighter/Mage, Fighter/Thief, Mage/Thief, Fighter/Mage/Thief  
++4 to Defenses vs Magical Sleep and Charm Spells  
++1 to Attack Bonus with Longswords and Bows  
++2 to Search for secret doors  
++2 AC vs Ogres, Trolls, Ogre Magi, Giants and Titans  
+Low-light Vision  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Gnomes" prog_lang="custom-colors" readonly="False" tags="" unique_id="15">
+			<rich_text>Kin to dwarves, gnomes are noticeably smaller than their distant cousins. Gnomes, as they proudly maintain, are also less rotund than dwarves. Their noses, however, are significantly larger. Most gnomes have dark tan or brown skin and white hair. A typical gnome lives for 350 years.  
+
+Gnomes have lively and sly senses of humor, especially for practical jokes. They have a great love of living things and finely wrought items, particularly gems and jewelry. Gnomes love all sorts of precious stones and are masters of gem polishing and cutting.  
+  
+Gnomes prefer to live in areas of rolling, rocky hills, well wooded and uninhabited by humans. Their diminutive stature has made them suspicious of the larger races--humans and elves--although they are not hostile. They are sly and furtive with those they do not know or trust, and somewhat reserved even under the best of circumstances. Dwelling in mines and burrows, they are sympathetic to dwarves, but find their cousins' aversion to surface dwellers foolish.  
+
+  
+Allowed Classes: Fighter, Cleric, Mage, Thief, or any two classes as a multi-class but not three.  
+Can learn the simple common speech of burrowing mammals (moles, badgers, etc)  
++1 to hit with offensive Mage Spells.  
++Intelligence bonus to Mana as well as Charisma.  
++1 to Stonemason or Mining  
+Darkvision
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Halflings" prog_lang="custom-colors" readonly="False" tags="" unique_id="16">
+			<rich_text>Halflings are short, generally plump people, very much like small humans. Their faces are round and broad and often quite florid. Their hair is typically curly and the tops of their feet are covered with coarse hair. They prefer not to wear shoes whenever possible. Their typical life expectancy is approximately 150 years.  
+
+Halflings are sturdy and industrious, generally quiet and peaceful. Overall they prefer the comforts of home to dangerous adventuring. They enjoy good living, rough humor, and homespun stories. In fact, they can be a trifle boring at times. Halflings are not forward, but they are observant and conversational if in friendly company. Halflings see wealth only as a means of gaining creature comforts, which they love. Though they are not overly brave or ambitious, they are generally honest and hard working when there is need.  
+  
+Halfling homes are well-furnished burrows, although most of their work is done on the surface. Elves generally like them in a patronizing sort of way. Dwarves cheerfully tolerate them, thinking halflings somewhat soft and harmless. Gnomes, although they drink more and eat less, like halflings best, feeling them kindred spirits. Because halflings are more open and outgoing than any of these other three, they get along with other races far better.  
+  
+There are three types of halflings: Hairfeets, Tallfellows, and Stouts. Hairfeets are the most common type, but for player characters, any of the three is acceptable.  
+
+  
+Allowed Classes: Fighter, Cleric, Thief, or Fighter/Thief.  
++1 point per level to spend on Thief Abilities  
++2 to Willpower Defense  
++1 to hit with slings or thrown weapons  
+Lowlight Vision  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Humans" prog_lang="custom-colors" readonly="False" tags="" unique_id="17">
+			<rich_text>Although humans are treated as a single race in the AD&amp;D game, they come in all the varieties we know on Earth. A human PC can have whatever racial characteristics the GM allows.  
+
+Humans are also more social and tolerant than most other races, accepting the company of elves, dwarves, and the like with noticeably less complaint. Because of these abilities and tendencies, humans have become significant powers within the world and often rule empires that other races (because of their racial tendencies) would find difficult to manage.  
+  
+Allowed Classes: Any combination of 3 or less classes.  
++1 to any single Attribute  
++1 to any single Defense  
+1 Additonal slot for Other Skills.  
++1 to any 2 Other Skills.
+</rich_text>
+		</node>
+	</node>
+</cherrytree>
