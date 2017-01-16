@@ -63,7 +63,7 @@ Watch the players and respond to what they like. Hooking characters into a cool 
 			</node>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="The Basic System" prog_lang="custom-colors" readonly="False" tags="" unique_id="8">
-			<rich_text>When it comes time to pull out the dice and engage the rule systems in this book, there is one primary system that gets used more than any other and is at the core of the game; the Attribute Check. This check is super easy. The player rolls 1d20 and adds the bonus/penalty from the appropriate attribute and compares it to a Difficulty. If the result of the roll is equal to or higher than the Difficulty then the Check is a success; otherwise, it is a failure.  The standard Difficulties are:  
+			<rich_text>When it comes time to pull out the dice and engage the rule systems in this book, there is one primary system that gets used more than any other and is at the core of the game; the Attribute Check. This check is super easy. The player rolls 1d20 and adds the appropriate attribute and compares it to a Difficulty. If the result of the roll is equal to or higher than the Difficulty then the Check is a success; otherwise, it is a failure.  The standard Difficulties are:  
   
 Easy:         5  
 Normal:       10  
@@ -75,11 +75,11 @@ Extreme:      30
 Generally a natural roll of 1 is always a failure and a natural roll of 20 always succeeds.  
   
 </rich_text>
-			<rich_text style="italic">Example: Arrack the Fighter wants to push a boulder out of the way. The GM thinks the boulder is big but not impossible to move so assigns a Moderate Difficulty (15) to the Check. Moving the boulder is something that primarily requires Strength, so Arrack will use his Strength bonus of +2. Arrack's player rolls 1d20 and the result is 13. After adding the +2 for Strength the final result is 15. That equals the Difficulty so Arrack is able to push the boulder. </rich_text>
+			<rich_text style="italic">Example: Arrack the Fighter wants to push a boulder out of the way. The GM thinks the boulder is big but not impossible to move so assigns a Moderate Difficulty (15) to the Check. Moving the boulder is something that primarily requires Strength, so Arrack will use his Strength +2. Arrack's player rolls 1d20 and the result is 13. After adding the +2 for Strength the final result is 15. That equals the Difficulty so Arrack is able to push the boulder. </rich_text>
 			<rich_text> 
 </rich_text>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="Modifiers" prog_lang="custom-colors" readonly="False" tags="" unique_id="9">
-				<rich_text>If the character has a Skill that can be applied to the situation, then the player can add a +4 bonus to the roll. Each additional slot the character has in a skill adds another +2 to the roll.  
+				<rich_text>If the character has a Skill that can be applied to the situation, then the player can add a +4 bonus to the roll.
 
 Other modifiers can come into play when making a check. It could be raining, so the footing is bad when trying to push the boulder out of the way. Arrock could be distracted by goblins firing arrows at him. Any number of things. The rule of thumb is this, if the situation causes the task to get easier, add 2 to the roll. If it makes the task harder, subtract 2 from the roll. The GM can make any modifications to these numbers that she feels appropriate.  
 </rich_text>
@@ -96,16 +96,34 @@ Other modifiers can come into play when making a check. It could be raining, so 
 			<rich_text weight="heavy">1. Generate Attribute scores.  </rich_text>
 			<rich_text> 
 
-The standard method is to roll 4d6, discard the lowest die and then add the remaining 3 dice together. Do this 6 times, once for each attribute.  
+There are three methods to generate attribute scores. You have to pick one or perhaps your GM indicates everyone is using a particular method.
+
+The Random Method: For each attribute roll 1d6-2. This will generate a score for that attribute that range from -1 to +4. This method will produce very random character statistics. GM's might want to allow players to reroll or choose another method if the sum of all the character's attributes is less than 1.
+
+The Point Buy: You have 7 points to distribute between your attributes. All attributes start with a value of 0.  Each point assigned to an attribute raises it by 1.  If you take a negative value for an attribute, you get that number of additional points to assign to other attributes.  No attribute may be lower than -2 or greater than +4.
+
+The Attribute Array: You simply take the following array of attribute scores and assign them to your character's attributes as you see fit: -1, 0, 1, 2, 2, 4.
+
+</rich_text>
+			<rich_text style="italic">Example:
   
-Using the standard method we rolled and get: 10, 14, 16, 15, 7, and 11.  
+Using the Random method we rolled and get: -1, 0, 1, 2, 3, 3. </rich_text>
+			<rich_text> 
 
   
 </rich_text>
 			<rich_text weight="heavy">2. Decide the character's Race. </rich_text>
 			<rich_text> 
   
-We generate the rolls first to see what scores we have to work with in determining race and class. Our scores are sufficient to be any race or class so we decide t0 make a Gnome since we've never played one before.  
+We generate the rolls first to see what scores we have to work with in determining race and class. Races other than human can have minimum and maximum attribute values. It is possible to roll a set of scores than would not be able to choose a race or class. Not likely but possible. 
+
+If we are doing the Point Buy or the Attribute Array, we can hold off on deciding our attribute scores until we have chosen our race and class. 
+
+</rich_text>
+			<rich_text style="italic">Example: 
+
+Our random scores are sufficient to be any race or class so we decide to make a Gnome since we've never played one before.  </rich_text>
+			<rich_text>
 
   
 </rich_text>
@@ -115,51 +133,70 @@ We generate the rolls first to see what scores we have to work with in determini
 Gnomes make pretty darn good Mages so we'll go with that.  
   
 </rich_text>
-			<rich_text weight="heavy">4. Assign the rolled scores to the Attributes as desired. </rich_text>
+			<rich_text weight="heavy">4. Assign the scores to the Attributes as desired. </rich_text>
 			<rich_text> 
   
-For a Mage, Intelligence and Charisma are the most important Attributes. We also know that our Gnome gets a +1 to its Intelligence attribute. Given that we put our two highest rolls in Intelligence and Charisma. We put the lower of these into Intelligence knowing it will get bumped up due to our racial choice.  
+For a Mage, Intelligence and Charisma are the most important Attributes. We also know that our Gnome gets a +1 to its Intelligence attribute. Given that we put our two highest rolls in Intelligence and Charisma.   
 
-We have a low score of 7 which will give us a penalty. Since we envision our short little gnome as being a bit of a scrawny fellow and not much of a front line fighter we put the 7 in Strength.  
+We have a low score of -1 which will give us a penalty. Since we envision our short little gnome as being a bit of a scrawny fellow and not much of a front line fighter we put the -1 in Strength.  
   
-Dexterity is useful in not getting hit so we put a good score there. Then we put our two rolls that had no bonuses or penalties in Constitution and Wisdom.  
+Dexterity is useful in not getting hit so we put a good score there. Then we put our other two rolls in Constitution and Wisdom.  
 
-Original Rolls: 10, 14, 16, 15, 7, 11  
+</rich_text>
+			<rich_text style="italic">Example: 
+
+Original Rolls: -1, 0, 1, 2, 3, 3  
 Gnome Mage Level 1  
-Str: 7 (-1) Dex: 14 (+1) Con: 10 (+0)   
-Int: 16 (+2) Wis: 11 (+0) Cha: 16 (+2)  
+Str: -1     Dex: +2     Con: +0   
+Int: +4     Wis: +1     Cha: +3  </rich_text>
+			<rich_text>
   
 </rich_text>
 			<rich_text weight="heavy">5. Determine calculated Attributes. </rich_text>
 			<rich_text> 
   
-Starting Hit Points are the Constitution attribute plus the Hit Die determined by the Class. So our gnome has 10 + 1d4 + Constitution Bonus. We roll a 3, that gives us a total of 13.  
+Starting Hit Points are 10 plus the character's class hit die plus the Constitution attribute.
+
+</rich_text>
+			<rich_text style="italic">Example: 
+
+So our gnome has 10 + 1d4 + Constitution. We roll a 3, that gives us a total of 13.  </rich_text>
+			<rich_text>
   
-Our gnome mage has an Attack Bonus of zero.  
+</rich_text>
+			<rich_text style="italic">Our gnome mage has an Attack Bonus of zero.  
   
-Our class gives us 1 Mana plus our Charisma bonus. Our Race allows us to add our Intelligence bonus in as well. This gives us 5 Mana.  
+Our class gives us 1 Mana plus our Charisma. Our Race allows us to add our Intelligence in as well. This gives us 8 Mana.  </rich_text>
+			<rich_text>
   
 Armor Class and Reflex Defenses are based on Dexterity, Fortitude is based on Constitution and Willpower is based on Wisdom.  
   
-HP: 13 AB: +0 Mana: 5  
-AC: 11 Fort: 10 Ref: 11 Will: 10  
+HP: 13  AB: +0  Mana: 8  
+AC: 12  Fort: 10    Ref: 12     Will: 11  
   
 </rich_text>
 			<rich_text weight="heavy">5. Choose Spells, Prayers and Thief Abilities. </rich_text>
 			<rich_text> 
 
-We don't have Prayers or Thief Abilities but we do get 1 plus our Intelligence bonus as Spell selections. That means we get 3. We think a mix of 1 attack spell, 1 defense spell and 1 miscellaneous spell is probably good. We are 1st level so only 1st level spells are available to us.  
+We don't have Prayers or Thief Abilities but we do get 1 plus our Intelligence bonus as Spell selections. That means we get 5. We think a mix of 2 attack spell, 2 defense spell and 1 miscellaneous spell is probably good. We are 1st level so only 1st level spells are available to us.  
+
+</rich_text>
+			<rich_text style="italic">Example:
   
-Spells: Mage Armor, Burning Hands, Identify  
+Spells: Mage Armor, Shield, Magic Missle, Burning Hands, Identify  </rich_text>
+			<rich_text>
   
 </rich_text>
 			<rich_text weight="heavy">6. Choose Skills. </rich_text>
 			<rich_text> 
 
-We get 2 Weapons Skills and 3 plus Intelligence bonus (5) in Other Skills.  
-  
-Weapon Skills: Bow, Bow and Thrown Weapon Style  
-Other Skills: Stonemason (+1 Gnome), Spellcraft, Language (Sylvan, Dwarven), Cooking  
+We get 3 plus Intelligence bonus (7) in Skills.  
+
+</rich_text>
+			<rich_text style="italic">Example:
+
+Skills: Stonemason (+1 Gnome), Spellcraft, Language (Sylvan, Dwarven), Cooking, Ancient History, Appraising, </rich_text>
+			<rich_text>Brewing
   
 </rich_text>
 			<rich_text weight="heavy">7. Pick Equipment. </rich_text>
@@ -167,50 +204,65 @@ Other Skills: Stonemason (+1 Gnome), Spellcraft, Language (Sylvan, Dwarven), Coo
 
 We handle starting equipment simply. Our gnome can have any non-magical equipment that our GM deems reasonable for the game. He then gets 1d10 starting gold pieces left over.  
   
-We choose: Leather armor, Bow, Arrows (20), Dagger, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Spellbook)  
+</rich_text>
+			<rich_text style="italic">Example:
+
+We choose: Leather armor, Bow, Arrows (20), Dagger, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Spellbook)  </rich_text>
+			<rich_text>
   
 </rich_text>
 			<rich_text weight="heavy">8. Determine Combat stats and recalculated any Attributes that might have changed. </rich_text>
 			<rich_text> 
+
+Buying equipment or chosing skills might have some affect on our calculated attributes. 
+
+</rich_text>
+			<rich_text style="italic">Example:
   
-Leather Armor bumps our AC to 12.  
+Leather Armor bumps our AC to 13.  
   
-Weapons:  AB Damage  #Att  
-Bow   +1 1d6+1 1  
-Dagger  -1 1d6-1 1  
-Dagger(Thrown) +1 1d6+1 1 
+Weapons:        AB  Damage  #Att  
+Bow             +2  1d6     1  
+Dagger          -1  1d6-1   1  
+Dagger(Thrown)  +2  1d6     1 </rich_text>
+			<rich_text>
   
 </rich_text>
 			<rich_text weight="heavy">9. Pick a name. </rich_text>
 			<rich_text> 
 
-You can actually do this at any time. We choose Grimble Thornwhistle.  
+You can actually do this at any time. 
+
+</rich_text>
+			<rich_text style="italic">Example:
+
+We choose Grimble Thornwhistle.  </rich_text>
+			<rich_text>
   
 Voila! Here's our 1st level Gnome Mage  
   
 Grimble Thornwhistle 
 Gnome Mage Level 1  
-Str: 7 (-1) Dex: 14 (+1) Con: 10 (+0)   
-Int: 16 (+2) Wis: 11 (+0) Cha: 16 (+2)  
-HP: 13 AB: +0 Mana: 5  
-AC: 12 Fort: 10 Ref: 11 Will: 10  
+Str: -1     Dex: +2     Con: +0   
+Int: +4     Wis: +1     Cha: +3  
+HP: 13  AB: +0  Mana: 8  
+AC: 13  Fort: 10    Ref: 12     Will: 11  
   
-Weapon Skills: Bow, Bow and Thrown Weapon Style  
-Other Skills: Stonemason (+1 Gnome), Spellcraft, Language (Badger, Dwarven), Cooking  
+Skills: Stonemason (+1 Gnome), Spellcraft, Language (Sylvan, Dwarven), Cooking, Ancient History, Appraising, Brewing
   
-Weapons:  AB Damage  #Att  
-Bow   +1 1d6+1 1  
-Dagger   -1 1d6-1 1  
-Dagger(Thrown) +1 1d6+1 1 
+Weapons:        AB  Damage  #Att  
+Bow             +2  1d6     1  
+Dagger          -1  1d6-1   1  
+Dagger(Thrown)  +2  1d6     1 
   
-Spells: Mage Armor, Burning Hands, Identify  
+Spells: Mage Armor, Shield, Magic Missle, Burning Hands, Identify  
   
 Equipment: Leather armor, Bow, Arrows (20), Dagger, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Spellbook)  
   
 Racial Features:  
 Can learn the simple common speech of burrowing mammals (moles, badgers, etc)  
 +1 to hit with offensive Mage Spells.  
-+Intelligence bonus to Mana as well as Charisma.  
++Intelligence to Mana as well as Charisma.  
 +1 to Stonemason or Mining  
 Darkvision
 </rich_text>
@@ -218,20 +270,20 @@ Darkvision
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="True" name="Races" prog_lang="custom-colors" readonly="False" tags="" unique_id="12">
 		<rich_text>Racial Ability Requirements     
-Ability    Dwarf   Elf   Gnome   Halfling  
-Strength   8/18   3/18   6/18   7/18  
-Dexterity   3/17   6/18   3/18   7/18  
-Constitution  11/18   7/18   8/18   10/18  
-Intelligence   3/18   8/18   6/18   6/18  
-Wisdom    3/18   3/18   3/18   3/17  
-Charisma   3/17   8/18   3/18   3/18  
+Ability         Dwarf   Elf     Gnome   Halfling  
+Strength        +0/+4   -2/+4   -1/+4   -1/+4  
+Dexterity       -2/+3   -1/+4   -2/+4   -1/+4  
+Constitution    +1/+4   -1/+4   +0/+4   +1/+4  
+Intelligence    -2/+4   +0/+4   -1/+4   -1/+4  
+Wisdom          -2/+4   -2/+4   -2/+4   -2/+3  
+Charisma        -2/+3   +0/+4   -2/+4   -2/+4  
 
   
 Racial Ability Adjustments  
-Dwarf   +1 Constitution  
-Elf   +1 Charisma  
-Gnome  +1 Intelligence  
-Halfling  +1 Dexterity  
+Dwarf       +1 Constitution  
+Elf         +1 Charisma  
+Gnome       +1 Intelligence  
+Halfling    +1 Dexterity  
 </rich_text>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Dwarves" prog_lang="custom-colors" readonly="False" tags="" unique_id="13">
 			<rich_text>Dwarves are short, stocky fellows, easily identified by their size and shape. They average 4 to 4-1⁄2 feet tall. They have ruddy cheeks, dark eyes, and dark hair. Dwarves generally live for 350 years.  
@@ -279,7 +331,7 @@ Gnomes prefer to live in areas of rolling, rocky hills, well wooded and uninhabi
 Allowed Classes: Fighter, Cleric, Mage, Thief, or any two classes as a multi-class but not three.  
 Can learn the simple common speech of burrowing mammals (moles, badgers, etc)  
 +1 to hit with offensive Mage Spells.  
-+Intelligence bonus to Mana as well as Charisma.  
++Intelligence to Mana as well as Charisma.  
 +1 to Stonemason or Mining  
 Darkvision
 </rich_text>
@@ -306,7 +358,7 @@ Lowlight Vision
 
 Humans are also more social and tolerant than most other races, accepting the company of elves, dwarves, and the like with noticeably less complaint. Because of these abilities and tendencies, humans have become significant powers within the world and often rule empires that other races (because of their racial tendencies) would find difficult to manage.  
   
-Allowed Classes: Any combination of 3 or less classes.  
+Allowed Classes: Any combination of 3 or fewer classes.  
 +1 to any single Attribute  
 +1 to any single Defense  
 1 Additonal slot for Other Skills.  

@@ -63,7 +63,7 @@ Watch the players and respond to what they like. Hooking characters into a cool 
 			</node>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="The Basic System" prog_lang="custom-colors" readonly="False" tags="" unique_id="8">
-			<rich_text>When it comes time to pull out the dice and engage the rule systems in this book, there is one primary system that gets used more than any other and is at the core of the game; the Attribute Check. This check is super easy. The player rolls 1d20 and adds the bonus/penalty from the appropriate attribute and compares it to a Difficulty. If the result of the roll is equal to or higher than the Difficulty then the Check is a success; otherwise, it is a failure.  The standard Difficulties are:  
+			<rich_text>When it comes time to pull out the dice and engage the rule systems in this book, there is one primary system that gets used more than any other and is at the core of the game; the Attribute Check. This check is super easy. The player rolls 1d20 and adds the appropriate attribute and compares it to a Difficulty. If the result of the roll is equal to or higher than the Difficulty then the Check is a success; otherwise, it is a failure.  The standard Difficulties are:  
   
 Easy:         5  
 Normal:       10  
@@ -75,11 +75,11 @@ Extreme:      30
 Generally a natural roll of 1 is always a failure and a natural roll of 20 always succeeds.  
   
 </rich_text>
-			<rich_text style="italic">Example: Arrack the Fighter wants to push a boulder out of the way. The GM thinks the boulder is big but not impossible to move so assigns a Moderate Difficulty (15) to the Check. Moving the boulder is something that primarily requires Strength, so Arrack will use his Strength bonus of +2. Arrack's player rolls 1d20 and the result is 13. After adding the +2 for Strength the final result is 15. That equals the Difficulty so Arrack is able to push the boulder. </rich_text>
+			<rich_text style="italic">Example: Arrack the Fighter wants to push a boulder out of the way. The GM thinks the boulder is big but not impossible to move so assigns a Moderate Difficulty (15) to the Check. Moving the boulder is something that primarily requires Strength, so Arrack will use his Strength +2. Arrack's player rolls 1d20 and the result is 13. After adding the +2 for Strength the final result is 15. That equals the Difficulty so Arrack is able to push the boulder. </rich_text>
 			<rich_text> 
 </rich_text>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="Modifiers" prog_lang="custom-colors" readonly="False" tags="" unique_id="9">
-				<rich_text>If the character has a Skill that can be applied to the situation, then the player can add a +4 bonus to the roll. Each additional slot the character has in a skill adds another +2 to the roll.  
+				<rich_text>If the character has a Skill that can be applied to the situation, then the player can add a +4 bonus to the roll.
 
 Other modifiers can come into play when making a check. It could be raining, so the footing is bad when trying to push the boulder out of the way. Arrock could be distracted by goblins firing arrows at him. Any number of things. The rule of thumb is this, if the situation causes the task to get easier, add 2 to the roll. If it makes the task harder, subtract 2 from the roll. The GM can make any modifications to these numbers that she feels appropriate.  
 </rich_text>
@@ -96,16 +96,34 @@ Other modifiers can come into play when making a check. It could be raining, so 
 			<rich_text weight="heavy">1. Generate Attribute scores.  </rich_text>
 			<rich_text> 
 
-The standard method is to roll 4d6, discard the lowest die and then add the remaining 3 dice together. Do this 6 times, once for each attribute.  
+There are three methods to generate attribute scores. You have to pick one or perhaps your GM indicates everyone is using a particular method.
+
+The Random Method: For each attribute roll 1d6-2. This will generate a score for that attribute that range from -1 to +4. This method will produce very random character statistics. GM's might want to allow players to reroll or choose another method if the sum of all the character's attributes is less than 1.
+
+The Point Buy: You have 7 points to distribute between your attributes. All attributes start with a value of 0.  Each point assigned to an attribute raises it by 1.  If you take a negative value for an attribute, you get that number of additional points to assign to other attributes.  No attribute may be lower than -2 or greater than +4.
+
+The Attribute Array: You simply take the following array of attribute scores and assign them to your character's attributes as you see fit: -1, 0, 1, 2, 2, 4.
+
+</rich_text>
+			<rich_text style="italic">Example:
   
-Using the standard method we rolled and get: 10, 14, 16, 15, 7, and 11.  
+Using the Random method we rolled and get: -1, 0, 1, 2, 3, 3. </rich_text>
+			<rich_text> 
 
   
 </rich_text>
 			<rich_text weight="heavy">2. Decide the character's Race. </rich_text>
 			<rich_text> 
   
-We generate the rolls first to see what scores we have to work with in determining race and class. Our scores are sufficient to be any race or class so we decide t0 make a Gnome since we've never played one before.  
+We generate the rolls first to see what scores we have to work with in determining race and class. Races other than human can have minimum and maximum attribute values. It is possible to roll a set of scores than would not be able to choose a race or class. Not likely but possible. 
+
+If we are doing the Point Buy or the Attribute Array, we can hold off on deciding our attribute scores until we have chosen our race and class. 
+
+</rich_text>
+			<rich_text style="italic">Example: 
+
+Our random scores are sufficient to be any race or class so we decide to make a Gnome since we've never played one before.  </rich_text>
+			<rich_text>
 
   
 </rich_text>
@@ -115,51 +133,70 @@ We generate the rolls first to see what scores we have to work with in determini
 Gnomes make pretty darn good Mages so we'll go with that.  
   
 </rich_text>
-			<rich_text weight="heavy">4. Assign the rolled scores to the Attributes as desired. </rich_text>
+			<rich_text weight="heavy">4. Assign the scores to the Attributes as desired. </rich_text>
 			<rich_text> 
   
-For a Mage, Intelligence and Charisma are the most important Attributes. We also know that our Gnome gets a +1 to its Intelligence attribute. Given that we put our two highest rolls in Intelligence and Charisma. We put the lower of these into Intelligence knowing it will get bumped up due to our racial choice.  
+For a Mage, Intelligence and Charisma are the most important Attributes. We also know that our Gnome gets a +1 to its Intelligence attribute. Given that we put our two highest rolls in Intelligence and Charisma.   
 
-We have a low score of 7 which will give us a penalty. Since we envision our short little gnome as being a bit of a scrawny fellow and not much of a front line fighter we put the 7 in Strength.  
+We have a low score of -1 which will give us a penalty. Since we envision our short little gnome as being a bit of a scrawny fellow and not much of a front line fighter we put the -1 in Strength.  
   
-Dexterity is useful in not getting hit so we put a good score there. Then we put our two rolls that had no bonuses or penalties in Constitution and Wisdom.  
+Dexterity is useful in not getting hit so we put a good score there. Then we put our other two rolls in Constitution and Wisdom.  
 
-Original Rolls: 10, 14, 16, 15, 7, 11  
+</rich_text>
+			<rich_text style="italic">Example: 
+
+Original Rolls: -1, 0, 1, 2, 3, 3  
 Gnome Mage Level 1  
-Str: 7 (-1) Dex: 14 (+1) Con: 10 (+0)   
-Int: 16 (+2) Wis: 11 (+0) Cha: 16 (+2)  
+Str: -1     Dex: +2     Con: +0   
+Int: +4     Wis: +1     Cha: +3  </rich_text>
+			<rich_text>
   
 </rich_text>
 			<rich_text weight="heavy">5. Determine calculated Attributes. </rich_text>
 			<rich_text> 
   
-Starting Hit Points are the Constitution attribute plus the Hit Die determined by the Class. So our gnome has 10 + 1d4 + Constitution Bonus. We roll a 3, that gives us a total of 13.  
+Starting Hit Points are 10 plus the character's class hit die plus the Constitution attribute.
+
+</rich_text>
+			<rich_text style="italic">Example: 
+
+So our gnome has 10 + 1d4 + Constitution. We roll a 3, that gives us a total of 13.  </rich_text>
+			<rich_text>
   
-Our gnome mage has an Attack Bonus of zero.  
+</rich_text>
+			<rich_text style="italic">Our gnome mage has an Attack Bonus of zero.  
   
-Our class gives us 1 Mana plus our Charisma bonus. Our Race allows us to add our Intelligence bonus in as well. This gives us 5 Mana.  
+Our class gives us 1 Mana plus our Charisma. Our Race allows us to add our Intelligence in as well. This gives us 8 Mana.  </rich_text>
+			<rich_text>
   
 Armor Class and Reflex Defenses are based on Dexterity, Fortitude is based on Constitution and Willpower is based on Wisdom.  
   
-HP: 13 AB: +0 Mana: 5  
-AC: 11 Fort: 10 Ref: 11 Will: 10  
+HP: 13  AB: +0  Mana: 8  
+AC: 12  Fort: 10    Ref: 12     Will: 11  
   
 </rich_text>
 			<rich_text weight="heavy">5. Choose Spells, Prayers and Thief Abilities. </rich_text>
 			<rich_text> 
 
-We don't have Prayers or Thief Abilities but we do get 1 plus our Intelligence bonus as Spell selections. That means we get 3. We think a mix of 1 attack spell, 1 defense spell and 1 miscellaneous spell is probably good. We are 1st level so only 1st level spells are available to us.  
+We don't have Prayers or Thief Abilities but we do get 1 plus our Intelligence bonus as Spell selections. That means we get 5. We think a mix of 2 attack spell, 2 defense spell and 1 miscellaneous spell is probably good. We are 1st level so only 1st level spells are available to us.  
+
+</rich_text>
+			<rich_text style="italic">Example:
   
-Spells: Mage Armor, Burning Hands, Identify  
+Spells: Mage Armor, Shield, Magic Missle, Burning Hands, Identify  </rich_text>
+			<rich_text>
   
 </rich_text>
 			<rich_text weight="heavy">6. Choose Skills. </rich_text>
 			<rich_text> 
 
-We get 2 Weapons Skills and 3 plus Intelligence bonus (5) in Other Skills.  
-  
-Weapon Skills: Bow, Bow and Thrown Weapon Style  
-Other Skills: Stonemason (+1 Gnome), Spellcraft, Language (Sylvan, Dwarven), Cooking  
+We get 3 plus Intelligence bonus (7) in Skills.  
+
+</rich_text>
+			<rich_text style="italic">Example:
+
+Skills: Stonemason (+1 Gnome), Spellcraft, Language (Sylvan, Dwarven), Cooking, Ancient History, Appraising, </rich_text>
+			<rich_text>Brewing
   
 </rich_text>
 			<rich_text weight="heavy">7. Pick Equipment. </rich_text>
@@ -167,50 +204,65 @@ Other Skills: Stonemason (+1 Gnome), Spellcraft, Language (Sylvan, Dwarven), Coo
 
 We handle starting equipment simply. Our gnome can have any non-magical equipment that our GM deems reasonable for the game. He then gets 1d10 starting gold pieces left over.  
   
-We choose: Leather armor, Bow, Arrows (20), Dagger, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Spellbook)  
+</rich_text>
+			<rich_text style="italic">Example:
+
+We choose: Leather armor, Bow, Arrows (20), Dagger, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Spellbook)  </rich_text>
+			<rich_text>
   
 </rich_text>
 			<rich_text weight="heavy">8. Determine Combat stats and recalculated any Attributes that might have changed. </rich_text>
 			<rich_text> 
+
+Buying equipment or chosing skills might have some affect on our calculated attributes. 
+
+</rich_text>
+			<rich_text style="italic">Example:
   
-Leather Armor bumps our AC to 12.  
+Leather Armor bumps our AC to 13.  
   
-Weapons:  AB Damage  #Att  
-Bow   +1 1d6+1 1  
-Dagger  -1 1d6-1 1  
-Dagger(Thrown) +1 1d6+1 1 
+Weapons:        AB  Damage  #Att  
+Bow             +2  1d6     1  
+Dagger          -1  1d6-1   1  
+Dagger(Thrown)  +2  1d6     1 </rich_text>
+			<rich_text>
   
 </rich_text>
 			<rich_text weight="heavy">9. Pick a name. </rich_text>
 			<rich_text> 
 
-You can actually do this at any time. We choose Grimble Thornwhistle.  
+You can actually do this at any time. 
+
+</rich_text>
+			<rich_text style="italic">Example:
+
+We choose Grimble Thornwhistle.  </rich_text>
+			<rich_text>
   
 Voila! Here's our 1st level Gnome Mage  
   
 Grimble Thornwhistle 
 Gnome Mage Level 1  
-Str: 7 (-1) Dex: 14 (+1) Con: 10 (+0)   
-Int: 16 (+2) Wis: 11 (+0) Cha: 16 (+2)  
-HP: 13 AB: +0 Mana: 5  
-AC: 12 Fort: 10 Ref: 11 Will: 10  
+Str: -1     Dex: +2     Con: +0   
+Int: +4     Wis: +1     Cha: +3  
+HP: 13  AB: +0  Mana: 8  
+AC: 13  Fort: 10    Ref: 12     Will: 11  
   
-Weapon Skills: Bow, Bow and Thrown Weapon Style  
-Other Skills: Stonemason (+1 Gnome), Spellcraft, Language (Badger, Dwarven), Cooking  
+Skills: Stonemason (+1 Gnome), Spellcraft, Language (Sylvan, Dwarven), Cooking, Ancient History, Appraising, Brewing
   
-Weapons:  AB Damage  #Att  
-Bow   +1 1d6+1 1  
-Dagger   -1 1d6-1 1  
-Dagger(Thrown) +1 1d6+1 1 
+Weapons:        AB  Damage  #Att  
+Bow             +2  1d6     1  
+Dagger          -1  1d6-1   1  
+Dagger(Thrown)  +2  1d6     1 
   
-Spells: Mage Armor, Burning Hands, Identify  
+Spells: Mage Armor, Shield, Magic Missle, Burning Hands, Identify  
   
 Equipment: Leather armor, Bow, Arrows (20), Dagger, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Spellbook)  
   
 Racial Features:  
 Can learn the simple common speech of burrowing mammals (moles, badgers, etc)  
 +1 to hit with offensive Mage Spells.  
-+Intelligence bonus to Mana as well as Charisma.  
++Intelligence to Mana as well as Charisma.  
 +1 to Stonemason or Mining  
 Darkvision
 </rich_text>
@@ -299,6 +351,1608 @@ Allowed Classes: Fighter, Cleric, Thief, or Fighter/Thief.
 +2 to Willpower Defense  
 +1 to hit with slings or thrown weapons  
 Lowlight Vision  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Humans" prog_lang="custom-colors" readonly="False" tags="" unique_id="17">
+			<rich_text>Although humans are treated as a single race in the AD&amp;D game, they come in all the varieties we know on Earth. A human PC can have whatever racial characteristics the GM allows.  
+
+Humans are also more social and tolerant than most other races, accepting the company of elves, dwarves, and the like with noticeably less complaint. Because of these abilities and tendencies, humans have become significant powers within the world and often rule empires that other races (because of their racial tendencies) would find difficult to manage.  
+  
+Allowed Classes: Any combination of 3 or less classes.  
++1 to any single Attribute  
++1 to any single Defense  
+1 Additonal slot for Other Skills.  
++1 to any 2 Other Skills.
+</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="True" name="Classes" prog_lang="custom-colors" readonly="False" tags="" unique_id="18">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Cleric" prog_lang="custom-colors" readonly="False" tags="" unique_id="19">
+			<rich_text>Clerics are holy warriors for their faith. They have good combat abilities and are able to wear heavy armor. Their defining ability; however, is their knowledge of holy Prayers. Prayers channel the power of the gods and create miraculous events from healing to earthquakes. High level clerics are fearsome agents of their deities.  
+
+  
+Prerequisite: Wisdom 9  
+
+  
+Level AB AD  HD  WS OS #Att  Prayers  
+--------------------------------------------------------------  
+1  +1 1d6  +1d8  3 3 1  1  
+2  +1 1d6  +1d8  3 3 1  1  
+3  +1 1d6  +1d8  3 3 1  2  
+4  +2 1d6  +1d8  4 4 1  2  
+5  +2 1d6  +1d8  4 4 1  3  
+6  +2 1d6  +1d8  4 4 1  3  
+7  +3 1d6  +1d8  4 4 1  4  
+8  +3 1d6  +1d8  5 5 1  4  
+9  +3 1d8  +1d8  5 5 1  5  
+10  +4 1d8  +1d8  5 5 1  5  
+11  +4 1d8  +2  5 5 3/2  6  
+12  +4 1d8  +2  6 6 3/2  6  
+13  +4 1d8  +2  6 6 3/2  7  
+14  +5 1d8  +2  6 6 3/2  7  
+15  +5 1d8  +2  6 6 3/2  8  
+16  +5 1d8  +2  7 7 3/2  8  
+17  +5 1d10  +2  7 7 3/2  9  
+18  +6 1d10  +2  7 7 3/2  9  
+19  +6 1d10  +2  7 7 3/2  10  
+20  +6 1d10  +2  8 8 3/2  10  
+
+  
+
+  
+Armor: Any  
+
+  
+Prayers: Cleric knows the number of Prayers listed plus his Wisdom bonus.  Each level the cleric can learn a new prayer if he has a slot open and/or change 1 prayer for another of his choice.  He may only learn or switch to prayers that have a level equal to or less than his current cleric level.  
+
+  
+Turn Undead: A cleric can attempt to turn a number of hit dice of undead equal to twice his level. The undead targets must be in Close range. The cleric makes an attack with his Base Attack Bonus plus his Charisma modifier against each target's Willpower Defense. If the attack succeeds then the target is turned.  A turned target must attempt to flee or at least move as far away from the cleric as possible for 1d6 rounds.  
+
+  
+If the cleric has more than twice the hit dice of the undead, it is totally destroyed rather than being turned.
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Fighter" prog_lang="custom-colors" readonly="False" tags="" unique_id="20">
+			<rich_text>Fighters are the armored knight and the daring swashbucklers of the world. Their combat abilites are superb. They can take more punishment and do greater amounts of damage with their weapons than any other class. If you want to play any type of great warrior from a samurai to a peasant hero, the Fighter is your class.  
+
+  
+Prerequisite: Strength 9  
+
+  
+Level AB AD  HD  WS OS #Att  
+-------------------------------------------------  
+1  +1 1d8  +1d10 4 2 1  
+2  +1 1d8  +1d10 4 2 1  
+3  +2 1d8  +1d10 5 2 1  
+4  +2 1d8  +1d10 5 2 1  
+5  +3 1d8  +1d10 5 3 1  
+6  +3 1d8  +1d10 6 3 3/2  
+7  +4 1d8  +1d10 6 3 3/2  
+8  +4 1d8  +1d10 6 3 3/2  
+9  +4 1d10  +1d10 7 3 3/2  
+10  +5 1d10  +1d10 7 4 3/2  
+11  +5 1d10  +3  7 4 3/2  
+12  +5 1d10  +3  8 4 2  
+13  +6 1d10  +3  8 4 2  
+14  +6 1d10  +3  8 4 2  
+15  +6 1d10  +3  9 5 2  
+16  +7 1d10  +3  9 5 2  
+17  +7 1d12  +3  9 5 2  
+18  +7 1d12  +3  10 5 5/2  
+19  +8 1d12  +3  10 5 5/2  
+20  +8 1d12  +3  10 6 5/2  
+
+  
+
+  
+Armor: Any  
+Can Use Weapon Specialization  
+Can Use Intelligence Bonus on either WS or OS.</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Mage" prog_lang="custom-colors" readonly="False" tags="" unique_id="21">
+			<rich_text>Mages are the masters of the arcane. They harness the mysteries of the universe and bend them to their will. They can see into the future, travel to other dimensions and throw balls of fire into their enemies. While their combat skills might be poor, their ability to cast powerful magic spells more than makes up for their physical prowess.  
+
+  
+Prerequisite: Intelligence 9  
+
+  
+Lvl AB AD HD  WS OS #Att  Spells Mana  
+----------------------------------------------------  
+1 +0 1d6 +1d4  2 3 1  1  1  
+2 +0 1d6 +1d4  2 3 1  1  2  
+3 +1 1d6 +1d4  2 3 1  2  3  
+4 +1 1d6 +1d4  2 4 1  2  4  
+5 +1 1d6 +1d4  3 4 1  3  5  
+6 +1 1d6 +1d4  3 4 1  3  6  
+7 +2 1d6 +1d4  3 4 1  4  7  
+8 +2 1d6 +1d4  3 5 1  4  8  
+9 +2 1d6 +1d4  3 5 1  5  9  
+10 +2 1d6 +1d4  4 5 1  5  10  
+11 +3 1d6 +1  4 5 1  6  11  
+12 +3 1d6 +1  4 6 1  6  12  
+13 +3 1d6 +1  4 6 1  7  13  
+14 +3 1d6 +1  4 6 1  7  14  
+15 +3 1d6 +1  5 6 1  8  15  
+16 +4 1d6 +1  5 7 1  8  16  
+17 +4 1d6 +1  5 7 1  9  17  
+18 +4 1d6 +1  5 7 1  9  18  
+19 +4 1d6 +1  5 7 1  10  19  
+20 +4 1d6 +1  6 8 1  10  20  
+
+  
+
+  
+Armor: Light  
+
+  
+Spells: The Mage know the number of Spells listed plus his Intelligence bonus.  He has the amount of Mana listed plus his Charisma bonus.  At each new level he can learn a new spell if a slot is open and / or change an existing spell for a new one.  Spells learned or switch to must be the same or lower level than the character's Mage level.
+
+  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Thief" prog_lang="custom-colors" readonly="False" tags="" unique_id="22">
+			<rich_text>Thieves are the class that relies on a quick wit and subterfuge rather than brute strength. They aren't as physically hardy as the Fighter or Cleric but they have good combat abilities and their Sneak Attack makes them very, very dangerous. They also have very useful Thief Abilities that let them get into places they aren't supposed to be. No party is really complete without a good Thief.  
+
+  
+Prerequisite: Dexterity 9  
+
+  
+Level AB AD HD  WS OS #Att 
+------------------------------------------------- 
+1 +1 1d6 +1d6  3 4 1 
+2 +1 1d6 +1d6  3 4 1 
+3 +1 1d6 +1d6  3 5 1 
+4 +2 1d6 +1d6  4 5 1 
+5 +2 1d6 +1d6  4 5 1 
+6 +2 1d6 +1d6  4 6 1 
+7 +3 1d6 +1d6  4 6 1 
+8 +3 1d6 +1d6  5 6 1 
+9 +3 1d6 +1d6  5 7 1 
+10 +4 1d6 +1d6  5 7 1 
+11 +4 1d8 +2  5 7 3/2 
+12 +4 1d8 +2  6 8 3/2 
+13 +4 1d8 +2  6 8 3/2 
+14 +5 1d8 +2  6 8 3/2 
+15 +5 1d8 +2  6 9 3/2 
+16 +5 1d8 +2  7 9 3/2 
+17 +5 1d8 +2  7 9 3/2 
+18 +6 1d8 +2  7 10 3/2 
+19 +6 1d8 +2  7 10 3/2 
+20 +6 1d8 +2  8 10 3/2 
+
+  
+
+  
+Armor: Light  
+
+  
+Sneak Attack: If the Thief attacks an opponent who is already engaged or is unaware of the thief's pressence then on a successful attack roll the thief can add his Sneak Attack dice. (+1d6 at 1st / +2d6 at 8th / +3d6 at 15th) The Thief can use a ranged or thrown weapon for the Sneak Attack as long as the target is within Close range.  
+
+  
+Thief Abilities  (+5 at 1st Level / +3 per level)  
+---------------  
+Stealth   (Dex)  
+Find / Remove Traps (Int)  
+Pick Locks  (Dex)  
+Climb   (Str)  
+Slieght of Hand (Dex)</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="True" name="Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="23">
+		<rich_text>Spells are cast using Mana.  Each spell costs a specified amount of mana to cast.  Some spells can be augmented by spending additional mana.  Augmentation can be additional damage, increased duration, increased range and other effects.  These are enumerated in the spell description.  
+  
+A caster may cast any spell that he knows, he has enough mana to cast and that he meets any other requirements in the spell description.  A caster can know a number of spells equal to the chart given in the class description plus his Intelligence bonus.  
+</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="1st Level Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="24">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Shield" prog_lang="custom-colors" readonly="False" tags="" unique_id="25">
+				<rich_text weight="heavy">Shield</rich_text>
+				<rich_text>  
+Casting Time: 1 Action  
+Range: Personal  
+Target: Your  
+Duration: 5 rounds  
+
+  
+Shield creates an invisible, tower shield-sized mobile disk of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC.  
+
+  
+Augmentation: +5 rounds per Mana.
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Mage Armor" prog_lang="custom-colors" readonly="False" tags="" unique_id="26">
+				<rich_text weight="heavy">Mage Armor </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Touch  
+Target: Creature Touched  
+Duration: 1 hour  
+
+  
+An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC.  
+
+  
+Augmentation: +1 hour per Mana.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Summon Monster" prog_lang="custom-colors" readonly="False" tags="" unique_id="27">
+				<rich_text weight="heavy">Summon Monster </rich_text>
+				<rich_text> 
+Casting Time: 1 Round  
+Range: Close  
+Duration: 1 Round  
+
+  
+This spell summons a creature. It appears where you designate and acts immediately, on your turn. It attacks your opponents to the best of its ability. If you can communicate with the creature, you can direct it not to attack, to attack particular enemies, or to perform other actions.  
+
+  
+The summoned creature is a 1 HD monster. You choose which kind of creature to summon, and you can change that choice each time you cast the spell.  
+
+  
+A summoned monster cannot summon or otherwise conjure another creature, nor can it use any teleportation or planar travel abilities. Creatures cannot be summoned into an environment that cannot support them.  
+
+  
+Augmentation: +1 Round per Mana.  +1 HD per Mana (Max 5HD).  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Unseen Servant" prog_lang="custom-colors" readonly="False" tags="" unique_id="28">
+				<rich_text weight="heavy">Unseen Servant </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: 25 feet  
+Target: Creature Touched  
+Duration: 1 hour  
+
+  
+An unseen servant is an invisible, mindless, shapeless force that performs simple tasks at your command. It can run and fetch things, open unstuck doors, and hold chairs, as well as clean and mend. The servant can perform only one activity at a time, but it repeats the same activity over and over again if told to do so as long as you remain within range. It can open only normal doors, drawers, lids, and the like. It can lift 20 pounds or drag 100 pounds. It can trigger traps and such, but it can exert only 20 pounds of force, which is not enough to activate certain pressure plates and other devices. It can’t perform any task that requires a skill check with a DC higher than 10 or that requires a check using a skill that can’t be used untrained.  
+
+  
+The servant cannot attack in any way; it is never allowed an attack roll. It cannot be killed, but it dissipates if it takes 6 points of damage from area attacks. It has a Defense of 5 against attacks. If you attempt to send it beyond the spell’s range, measured from your current position, the servant ceases to exist.  
+
+  
+Augmentation: +1 hour per Mana.  +5 feet per Mana.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Magic Missile" prog_lang="custom-colors" readonly="False" tags="" unique_id="29">
+				<rich_text weight="heavy">Magic Missile </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Long  
+Target: Up to 5 creatures no more than 15 ft apart.  
+
+  
+A missile of magical energy darts forth from your fingertip dealing 1d4+1 points of force damage.  
+
+  
+The missile strikes unerringly, even if the target is in melee combat or has less than total cover or total concealment. Specific parts of a creature can’t be singled out. Inanimate objects are not damaged by the spell.  
+
+  
+If you shoot multiple missiles, you can have them strike a single creature or several creatures. A single missile can strike only one creature. You must designate targets before you roll damage.  
+
+  
+Augmentation: +1 missile per 2 Mana (Max 5 missiles).  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Shocking Grasp" prog_lang="custom-colors" readonly="False" tags="" unique_id="30">
+				<rich_text weight="heavy">Shocking Grasp </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Touch  
+Target: Creature Touched  
+Defense: Toughness  
+
+  
+Your successful melee attack deals 1d6 points of electricity damage. When delivering the jolt, you gain a +2 bonus on attack rolls if the opponent is wearing metal armor (or made out of metal, carrying a lot of metal, or the like).  
+
+  
+Augmentation: +1d6 per Mana (maximum 5d6).  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Burning Hands" prog_lang="custom-colors" readonly="False" tags="" unique_id="31">
+				<rich_text weight="heavy">Burning Hands </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Close  
+Area: Cone shaped burst.  
+Defense: Toughness  
+
+  
+A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes 1d4 points of fire damage. Flammable materials burn if the flames touch them. A character can extinguish burning items as a full-round action.  
+
+  
+Augmentation: +1d4 per Mana (maximum 5d4).  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Enlarge Person" prog_lang="custom-colors" readonly="False" tags="" unique_id="32">
+				<rich_text weight="heavy">Enlarge Person </rich_text>
+				<rich_text> 
+Casting Time: 1 Round  
+Range: Close  
+Target: 1 Humanoid Creature  
+Defense: Toughness  
+Duration: 1 minute  
+
+  
+This spell causes instant growth of a humanoid creature, doubling its height and multiplying its weight by 8. The target gains a +2 size bonus to Strength, a -2 size penalty to Dexterity (to a minimum of 1), and a -1 penalty on attack rolls and AC due to its increased size. This spell does not change the target’s speed.  
+
+  
+If insufficient room is available for the desired growth, the creature attains the maximum possible size and may make a Strength check (using its increased Strength) to burst any enclosures in the process. If it fails, it is constrained without harm by the materials enclosing it— the spell cannot be used to crush a creature by increasing its size.  
+
+  
+All equipment worn or carried by a creature is similarly enlarged by the spell. Melee and projectile weapons affected by this spell deal more damage. Other magical properties are not affected by this spell. Any enlarged item that leaves an enlarged creature’s possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown weapons deal their normal damage, and projectiles deal damage based on the size of the weapon that fired them. Magical properties of enlarged items are not increased by this spell.  
+
+  
+Augmentation: +1 minute per Mana. +1 target per 3 Mana.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Alarm" prog_lang="custom-colors" readonly="False" tags="" unique_id="33">
+				<rich_text weight="heavy">Alarm </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Close  
+Area: 20 foot radius 
+Duration: 2 hours  
+
+  
+Alarm sounds a mental or audible alarm each time a creature enters the warded area or touches it. A creature that speaks the password (determined by you at the time of casting) does not set off the alarm. You decide at the time of casting whether the alarm will be mental or audible.  
+
+  
+Mental Alarm  
+A mental alarm alerts you (and only you) so long as you remain within 1 mile of the warded area. You note a single mental “ping” that awakens you from normal sleep but does not otherwise disturb concentration. A silence spell has no effect on a mental alarm.  
+  
+Audible Alarm  
+An audible alarm produces the sound of a hand bell, and anyone within 60 feet of the warded area can hear it clearly. Reduce the distance by 10 feet for each interposing closed door and by 20 feet for each substantial interposing wall. In quiet conditions, the ringing can be heard faintly as far as 180 feet away. The sound lasts for 1 round. Creatures within a silence spell cannot hear the ringing.  
+
+  
+Ethereal or astral creatures do not trigger the alarm.  
+
+  
+Augmentation: +1 Mana per type of creature to exclude. +2 hours per Mana.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Hold Portal" prog_lang="custom-colors" readonly="False" tags="" unique_id="34">
+				<rich_text weight="heavy">Hold Portal </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Long  
+Target: 1 portal up to 20 sq feet.  
+Duration: 1 minute  
+
+  
+This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A knock spell or a successful dispel magic spell can negate a hold portal spell.  For a portal affected by this spell, add 5 to the normal Difficulty for forcing open the portal.  
+
+  
+Augmentation: +1 minute per Mana.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Identify" prog_lang="custom-colors" readonly="False" tags="" unique_id="35">
+				<rich_text weight="heavy">Identify </rich_text>
+				<rich_text> 
+Casting Time: 1 hour 
+Range: Touch  
+Target: 1 touched object  
+
+  
+The spell determines all magic properties of a single magic item, including how to activate those functions (if appropriate), and how many charges are left (if any). Identify does not function when used on an artifact.  
+
+  
+Material Component  
+A pearl of at least 100 gp value. Component is destroyed in the casting.  
+</rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="3rd Level Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="36">
+			<rich_text>Protection from Arrows: Subject immune to most ranged attacks.  
+Resist Energy: Ignores first 10 (or more) points of damage/attack from specified energy type.  
+Mirror Image: Creates decoy duplicates of you (1d4 +1 per three levels, max 8).  
+Web: Fills 20-ft.-radius spread with sticky spiderwebs.  
+Fog Cloud: Fog obscures vision.  
+Scare: Panics creatures of less than 6 HD.  
+Knock: Opens locked or magically sealed door.  
+Levitate: Subject moves up and down at your direction.  
+Rope Trick: As many as eight creatures hide in extradimensional space.  
+Scorching Ray: Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="5th Level Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="37">
+			<rich_text>Magic Circle against Chaos/Evil/Good/Law: As protection spells, but 10-ft. radius and 10 min./level.  
+Dispel Magic: Cancels magical spells and effects.  
+Fireball: 1d6 damage per level, 20-ft. radius.  
+Lightning Bolt: Electricity deals 1d6/level damage.  
+Wind Wall: Deflects arrows, smaller creatures, and gases.  
+Sleet Storm: Hampers vision and movement.  
+Stinking Cloud: Nauseating vapors, 1 round/level.  
+Heroism: Gives +2 bonus on attack rolls, saves, skill checks.  
+Major Image: As silent image, plus sound, smell and thermal effects.  
+Fly: Subject flies at speed of 60 ft.
+</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="True" name="Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="38">
+		<rich_text>A priest can cast any prayer he knows.  After casting the prayer the priest rolls a d20 plus his Wisdom bonus against a Difficulty of 15.  If roll succeeds then the prayer can be used again.  If it fails then it is used up until the next long rest.  Some prayers can be augmented.  Each augmentation increases the difficulty of the roll to reuse the prayer.  Prayers may not be augmented beyond a Difficulty of 20.  
+</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="1st Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="39">
+			<rich_text></rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Shield of Faith" prog_lang="custom-colors" readonly="False" tags="" unique_id="40">
+				<rich_text weight="heavy">Shield of Faith </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Touch  
+Target: Creature touched.  
+Duration: 1 minute  
+
+  
+This spell creates a shimmering, magical field around the touched creature that averts attacks. The spell grants the subject a +2 bonus to AC.  
+
+  
+Augmentation: +1 AC per 2 augment.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Endure Elements" prog_lang="custom-colors" readonly="False" tags="" unique_id="41">
+				<rich_text weight="heavy">Endure Elements </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Touch  
+Target: Creature touched.  
+Duration: 24 hours  
+
+  
+A creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make Fortitude saves). The creature’s equipment is likewise protected.  Endure elements doesn’t provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Bane" prog_lang="custom-colors" readonly="False" tags="" unique_id="42">
+				<rich_text weight="heavy">Bane </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Close  
+Target: 1 Enemy in range.  
+Duration: 5 rounds  
+Defense: Willpower  
+
+  
+Bane fills your enemies with fear and doubt. Each affected creature takes a -1 penalty on attack rolls and a -1 penalty on saving throws against fear effects. Bane counters and dispels bless.  
+
+  
+Augmentation: +2 rounds per augment. +1 target per augment.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Command" prog_lang="custom-colors" readonly="False" tags="" unique_id="43">
+				<rich_text weight="heavy">Command </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Close  
+Target: 1 creature in range.  
+Duration: 1 round  
+Defense: Willpower  
+  
+You give the subject a single command, which it obeys to the best of its ability at its earliest opportunity. You may select from the following options.  
+
+  
+Approach  
+On its turn, the subject moves toward you as quickly and directly as possible for 1 round. The creature may do nothing but move during its turn, and it provokes attacks of opportunity for this movement as normal.  
+
+  
+Drop  
+On its turn, the subject drops whatever it is holding. It can’t pick up any dropped item until its next turn.  
+
+  
+Fall  
+On its turn, the subject falls to the ground and remains prone for 1 round. It may act normally while prone but takes any appropriate penalties.  
+
+  
+Flee  
+On its turn, the subject moves away from you as quickly as possible for 1 round. It may do nothing but move during its turn, and it provokes attacks of opportunity for this movement as normal.  
+
+  
+Halt  
+The subject stands in place for 1 round. It may not take any actions but is not considered helpless.  
+
+  
+If the subject can’t carry out your command on its next turn, the spell automatically fails.  
+
+  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Bless" prog_lang="custom-colors" readonly="False" tags="" unique_id="44">
+				<rich_text weight="heavy">Bless </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Close  
+Target: The caster or 1 ally in range.  
+Duration: 5 rounds  
+
+  
+Bless fills your allies with courage. Each ally gains a +1 bonus on attack rolls and on Defenses against fear effects. Bless counters and dispels bane.  
+
+  
+Augmentation: +2 rounds per augment. +1 target per augment.  
+
+  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Divine Favor" prog_lang="custom-colors" readonly="False" tags="" unique_id="45">
+				<rich_text weight="heavy">Divine Favor </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Personal  
+Target: The caster  
+Duration: 1 minute  
+
+  
+Calling upon the strength and wisdom of a deity, you gain a +1 bonus on attack and weapon damage rolls. The bonus doesn’t apply to spell damage.  
+
+  
+Augmentation: +1 bonus per +2 augment.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Magic Weapon" prog_lang="custom-colors" readonly="False" tags="" unique_id="46">
+				<rich_text weight="heavy">Magic Weapon </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Touch  
+Target: 1 Weapon  
+Duration: 1 minute  
+
+  
+Magic weapon gives a weapon a +1 bonus on attack and damage rolls. You can’t cast this spell on a natural weapon, such as an unarmed strike.  
+
+  
+Augmentation: +1 minute per augment.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Cure Wounds" prog_lang="custom-colors" readonly="False" tags="" unique_id="47">
+				<rich_text weight="heavy">Cure Wounds </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Touch  
+Target: 1 Creature  
+Defense: Reflex  
+
+  
+When laying your hand upon a living creature, you cure 1d8+1 points of damage. This spell deals damage to undead instead of curing their wounds. An undead creature can apply spell resistance and can apply their Reflex defense to not be touched.  
+
+  
+Augmentation: +1d8+1 point per augment.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Remove Fear" prog_lang="custom-colors" readonly="False" tags="" unique_id="48">
+				<rich_text weight="heavy">Remove Fear </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Close  
+Target: 1 Creature  
+Duration: 10 minutes 
+
+  
+You instill courage in the subject, granting it a +4 bonus against fear effects. If the subject is under the influence of a fear effect when receiving the spell, that effect is suppressed for the duration of the spell. Remove fear counters and dispels cause fear.  
+
+  
+Augmentation: +1 creature per augment.  
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Santuary" prog_lang="custom-colors" readonly="False" tags="" unique_id="49">
+				<rich_text weight="heavy">Sanctuary </rich_text>
+				<rich_text> 
+Casting Time: 1 Action  
+Range: Touch  
+Target: 1 Creature.  
+Duration: 1 Round  
+
+  
+Any opponent attempting to strike or otherwise directly attack the warded creature, even with a targeted spell, must have a Willpower Defense of 15. If not, the opponent can’t follow through with the attack, that part of its action is lost and it can’t directly attack the warded creature for the duration of the spell. Those not attempting to attack the subject remain unaffected. This spell does not prevent the warded creature from being attacked or affected by area or effect spells. The subject cannot attack without breaking the spell but may use nonattack spells or otherwise act.  
+
+  
+Augmentation: +1 to Willpower Defense per augmentation. +1 round per augmentation.  
+
+  
+</rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="3rd Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="50">
+			<rich_text>Aid: +1 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10).  
+Bear’s Endurance: Subject gains +4 to Con for 1 min./level.  
+Bull’s Strength: Subject gains +4 to Str for 1 min./level.  
+Eagle’s Splendor: Subject gains +4 to Cha for 1 min./level.  
+Owl’s Wisdom: Subject gains +4 to Wis for 1 min./level.  
+Hold Person: Paralyzes one humanoid for 1 round/level.  
+Remove Paralysis: Frees one or more creatures from paralysis or slow effect.  
+Restoration, Lesser: Dispels magical ability penalty or repairs 1d4 ability damage.  
+Shield Other F: You take half of subject’s damage.  
+Silence: Negates sound in 20-ft. radius.  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="5th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="51">
+			<rich_text>Animate Dead M: Creates undead skeletons and zombies.  
+Remove Blindness/Deafness: Cures normal or magical conditions.  
+Remove Curse: Frees object or person from curse.  
+Remove Disease: Cures all diseases affecting subject.  
+Prayer: Allies +1 bonus on most rolls, enemies -1 penalty.  
+Protection from Energy: Absorb 12 points/level of damage from one kind of energy.  
+Searing Light: Ray deals 1d8/two levels damage, more against undead.  
+Magic Vestment: Armor or shield gains +1 enhancement per four levels.  
+Glyph of Warding M: Inscription harms those who pass it.  
+Create Food and Water: Feeds three humans (or one horse)/level.  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="7th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="52">
+			<rich_text>Air Walk: Subject treads on air as if solid (climb at 45-degree angle).  
+Control Water: Raises or lowers bodies of water.  
+Death Ward: Grants immunity to death spells and negative energy effects.  
+Dimensional Anchor: Bars extradimensional movement.  
+Discern Lies: Reveals deliberate falsehoods.  
+Dismissal: Forces a creature to return to native plane.  
+Divination M: Provides useful advice for specific proposed actions.  
+Divine Power: You gain attack bonus, +6 to Str, and 1 hp/level.  
+Freedom of Movement: Subject moves normally despite impediments.  
+Neutralize Poison: Immunizes subject against poison, detoxifies venom in or on subject.  
+Planar Ally, Lesser X: Exchange services with a 6 HD extraplanar creature.  
+Poison: Touch deals 1d10 Con damage, repeats in 1 min.  
+Restoration M: Restores level and ability score drains.  
+Sending: Delivers short message anywhere, instantly.  
+Spell Immunity: Subject is immune to one spell per four levels.  
+Tongues: Speak any language.  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="10th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="53">
+			<rich_text>Break Enchantment: Frees subjects from enchantments, alterations, curses, and petrification.  
+Commune X: Deity answers one yes-or-no question/level.  
+Disrupting Weapon: Melee weapon destroys undead.  
+Flame Strike: Smite foes with divine fire (1d6/level damage).  
+Hallow M: Designates location as holy.  
+Mark of Justice: Designates action that will trigger curse on subject.  
+Plane Shift F: As many as eight subjects travel to another plane.  
+Raise Dead M: Restores life to subject who died as long as one day/level ago.  
+Righteous Might: Your size increases, and you gain combat bonuses.  
+Slay Living: Touch attack kills subject.  
+Spell Resistance: Subject gains SR 12 + level.  
+Symbol of Pain M: Triggered rune wracks nearby creatures with pain.  
+Symbol of Sleep M: Triggered rune puts nearby creatures into catatonic slumber.  
+True Seeing M: Lets you see all things as they really are.  
+Unhallow M: Designates location as unholy.  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="13th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="54">
+			<rich_text>Antilife Shell: 10-ft. field hedges out living creatures.  
+Banishment: Banishes 2 HD/level of extraplanar creatures.  
+Blade Barrier: Wall of blades deals 1d6/level damage.  
+Create Undead: Create ghouls, ghasts, mummies, or mohrgs.  
+Find the Path: Shows most direct way to a location.  
+Forbiddance M: Blocks planar travel, damages creatures of different alignment.  
+Geas/Quest: As lesser geas, plus it affects any creature.  
+Harm: Deals 10 points/level damage to target.  
+Heal: Cures 10 points/level of damage, all diseases and mental conditions.  
+Heroes’ Feast: Food for one creature/level cures and grants combat bonuses.  
+Planar Ally X: As lesser planar ally, but up to 12 HD.  
+Symbol of Fear M: Triggered rune panics nearby creatures.  
+Symbol of Persuasion M: Triggered rune charms nearby creatures.  
+Undeath to Death M: Destroys 1d4 HD/level undead (max 20d4).  
+Wind Walk: You and your allies turn vaporous and travel fast.  
+Word of Recall: Teleports you back to designated place.  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="15th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="55">
+			<rich_text>Blasphemy: Kills, paralyzes, weakens, or dazes nonevil subjects.  
+Control Weather: Changes weather in local area.  
+Destruction F: Kills subject and destroys remains.  
+Ethereal Jaunt: You become ethereal for 1 round/level.  
+Holy Word: Kills, paralyzes, blinds, or deafens nongood subjects.  
+Refuge M: Alters item to transport its possessor to you.  
+Regenerate: Subject’s severed limbs grow back, cures 4d8 damage +1/level (max +35).  
+Repulsion: Creatures can’t approach you.  
+Resurrection M: Fully restore dead subject.  
+Symbol of Stunning M: Triggered rune stuns nearby creatures.  
+Symbol of Weakness M: Triggered rune weakens nearby creatures.  
+Word of Chaos: Kills, confuses, stuns, or deafens nonchaotic subjects.  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="17th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="56">
+			<rich_text>Antimagic Field: Negates magic within 10 ft.  
+Create Greater Undead M: Create shadows, wraiths, spectres, or devourers.  
+Dimensional Lock: Teleportation and interplanar travel blocked for one day/level.  
+Discern Location: Reveals exact location of creature or object.  
+Earthquake: Intense tremor shakes 80-ft.-radius.  
+Fire Storm: Deals 1d6/level fire damage.  
+Holy Aura F: +4 to AC, +4 resistance, and SR 25 against evil spells.  
+Planar Ally, Greater X: As lesser planar ally, but up to 18 HD.  
+Shield of Law F: +4 to AC, +4 resistance, and SR 25 against chaotic spells.  
+Spell Immunity, Greater: As spell immunity, but up to 8th-level spells.  
+Symbol of Death M: Triggered rune slays nearby creatures.  
+Symbol of Insanity M: Triggered rune renders nearby creatures insane.  
+Unholy Aura F: +4 to AC, +4 resistance, and SR 25 against good spells.  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="19th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="57">
+			<rich_text>Astral Projection M: Projects you and companions onto Astral Plane.  
+Energy Drain: Subject gains 2d4 negative levels.  
+Etherealness: Travel to Ethereal Plane with companions.  
+Gate X: Connects two planes for travel or summoning.  
+Heal, Mass: As heal, but with several subjects.  
+Implosion: Kills one creature/round.  
+Miracle X: Requests a deity’s intercession.  
+Soul Bind F: Traps newly dead soul to prevent resurrection.  
+Storm of Vengeance: Storm rains acid, lightning, and hail.
+</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="True" name="Skills" prog_lang="custom-colors" readonly="False" tags="" unique_id="58">
+		<rich_text>Skills come in 2 forms: Weapon Skills and Other Skills. Each character has a number of Weapon Skills as determined by his character class.  Each character has a number of Other Skills as determined by his character class plus Intelligence bonus.  
+
+  
+</rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Weapon Skills" prog_lang="custom-colors" readonly="False" tags="" unique_id="59">
+			<rich_text>Weapon Skills are taken individually for each weapon. Instead of spending a single slot on a single weapon a character can spend 2 slots on Tight Group of weapons or 3 slots on a Broad Group of weapons.  
+
+  
+Being skilled in a weapon allows a characte to use that weapon at her normal Attack Bonus. Attempting to use a weapon that the character is not skilled in imposes an automatic -2 penalty to hit and the Attack Die is 1 size smaller.  
+
+  
+Fighter characters can spend additional slots beyond the first and gain Weapon Specialization.  Weapon Specialization gives the following bonuses: +1 to hit, +2 to damage and +1/2 an attack per round to a maximum of 3 attacks per round.  
+
+  
+Weapon Skill slots can also be spent on Fighting Styles.  
+
+</rich_text>
+			<rich_text weight="heavy">Weapon and Shield: </rich_text>
+			<rich_text> 
+A character with this style can use the shield as a secondary attack as if she were fighting with 2 weapons. All the penalties for fighting with two weapons apply and the damage die of the shield is 1 die type lower than the character's main weapon. However, the character still gets the AC bonus for the shield even when using the shield bash.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">One Handed Style: </rich_text>
+			<rich_text> 
+Character gains a +1 AC while using a one handed weapon and no shield or weapon in her off-hand.  The character must be in medium or lighter armor for this bonus.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Two Handed Weapon Style: </rich_text>
+			<rich_text> 
+Characters with this style get an additonal +2 damage on a successful hit.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Two Weapon Style: </rich_text>
+			<rich_text> 
+Characters with this style ignore the -2 penalty on their primary hand.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Bows or Thrown Weapon Style: </rich_text>
+			<rich_text> 
+Character may either use a move action twice and still take an attack at a -2 penalty or she may forego any movement and get a second attack at a -2 penalty.  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Other Skills" prog_lang="custom-colors" readonly="False" tags="" unique_id="60">
+			<rich_text>Skills allow a character to get a bonus to an Ability Check where the skill applies. If the character is making an Intelligence Check and the Ancient History skill would be applicable to the check then she gets a +4 bonus if she has that skill.  She gets an additional +2 bonus for every slot after the first spent on a single skill.  
+
+  
+Some skills allow special actions and those are listed in the skill description. Some skills also make certain actions automatically successful.  
+  
+The GM may very well decide some actions cannot be attempted at all unless the character has that skill.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Agriculture: </rich_text>
+			<rich_text> 
+The character has a knowledge of the basics of farming. This includes planting, harvesting, storing crops, tending animals, butchering, and other typical farming  
+chores.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Ancient History: </rich_text>
+			<rich_text> 
+The character has learned the legends, lore, and history of some ancient time and place. The knowledge must be specific, just as a historian would specialize today in the English Middle Ages, the Italian Renaissance, or the Roman Republic before Caesar. (The GM either can have ancient periods in mind for his game or can allow the players to name and designate them.) Thus, a player character could know details about the Age of Thorac Dragonking or the Time of the Sea-Raiders or whatever else was available.  
+
+  
+The knowledge acquired gives the character familiarity with the principal legends, historical events, characters, locations, battles, breakthroughs (scientific, cultural, and magical), unsolved mysteries, crafts, and oddities of the time. The character must roll a skill check to identify places or things he encounters from that age. For example, Rath knows quite a bit about the Coming of the Trolls, a particularly dark period of dwarven history. Moving through some deep caverns, he and his companions stumble across an ancient portal, sealed for untold ages.  Studying the handiwork, he realizes (rolls a successful skill check) that it bears several seals similar to those he has seen on &quot;banned&quot; portals from the time of Angnar, doorways to the legendary realm of Trolhel.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Animal Handling: </rich_text>
+			<rich_text> 
+Skill in this area enables a character to exercise a greater-than-normal degree of control over pack animals and beasts of burden. A successful skill check indicates that the character has succeeded in calming an excited or agitated animal.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Animal Lore: </rich_text>
+			<rich_text> 
+This skill enables a character to observe the actions or habitat of an animal and interpret what is going on. Actions can show how dangerous the creature is, whether it is hungry, protecting its young, or defending a nearby den. Furthermore, careful observation of signs and behaviors can even indicate the location of a water hole, animal herd, predator, or impending danger, such as a forest fire. A successful check means the character understood the basic actions of the creature.  
+
+  
+A character may also imitate the calls and cries of animals that he is reasonably familiar with, based on his background. This ability is limited by volume. The roar of a tyrannosaurus rex would be beyond the abilities of a normal character. A successful skill check means that only magical means can distinguish the character's call from that of the true animal. The cry is sufficient to fool animals, perhaps frightening them away or luring them closer. A failed check means the sound is incorrect in some slight way. A failed call may still fool some listeners, but creatures very familiar with the cry automatically detect a false call. All other creatures and characters are allowed a Wisdom check to detect the fake.  
+
+  
+Finally, animal lore increases the chance of successfully setting snares and traps (for hunting) since the character knows the general habits of the creature hunted.  
+
+  
+
+  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Animal Training: </rich_text>
+			<rich_text> 
+Characters with this skill can train one type of creature (declared when the skill is chosen) to obey simple commands and perform tricks. A character can spend additional skills to train other types of creatures or can improve his skill with an already chosen type. Creatures typically trained are dogs, horses, falcons, pigeons, elephants, ferrets, and parrots. A character can choose even more exotic creatures and monsters with animal intelligence; although, these are difficult to control.  
+
+  
+A trainer can work with up to three creatures at one time. The trainer may choose to teach general tasks or specific tricks. A general task gives the creature the ability to react to a number of nonspecific commands to do its job. Examples of tasks include guard and attack, carry a rider, perform heavy labor, hunt, track, or fight alongside soldiers (such as a war horse or elephant). A specific trick teaches the trained creature to do one specific action. A horse may rear on command, a falcon may pluck a designated object, a dog may attack a specific person, or a rat may run through a particular maze. With enough time, a creature can be trained to do both general tasks and specific tricks.  
+
+  
+Training for a general task requires three months of uninterrupted work. Training for a specific trick requires 2d6 weeks. At the end of the training time, a skill check is made. If successful, the animal is trained. An animal can be trained in 2d4 general tasks or specific tricks, or any combination of the two.  
+
+  
+An animal trainer can also try to tame wild animals (preparing them for training later on). Wild animals can be tamed only when they are very young. The taming requires one month of uninterrupted work with the creature. At the end of the month, a skill check is made. If successful, the beast is suitable for training. If the check fails, the creature retains enough of its wild behavior to make it untrainable. It can be kept, though it must be leashed or caged.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Appraising: </rich_text>
+			<rich_text> 
+This skill is highly useful for thieves, as it allows characters to estimate the value and authenticity of antiques, art objects, jewelry, cut gemstones, or other crafted items they find (although the GM can exclude those items too exotic or rare to be well known). The character must have the item in hand to examine. A successful skill check (rolled by the GM) enables the character to estimate the value of the item to the nearest 100 or 1,000 gp and to identify fakes.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Armorer: </rich_text>
+			<rich_text> 
+This character can make all of the types of armor given the proper materials and facilities. When making armor, the skill check is rolled at the end of the normal construction time.  
+
+  
+The time required to make armor is equal to two weeks per level of AC above 10. For  
+example, a shield (+1 AC) would require two weeks of work, whereas a suit of chain armor would require 10 weeks of work.  
+
+  
+The Difficulty of the skill check is based on the type of armor being created. Light armor is Easy. Medium Armor is Normal. Heavy Armor is Hard. Exotic or strange armor types are determined on a case by case basis.  
+
+  
+If an armorer is creating a suit of field plate or full plate armor, the character who will use the armor must be present at least once a week during the creation of the armor, since such types of armor require very exact fitting.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Artistic Ability: </rich_text>
+			<rich_text> 
+Player characters with artistic ability are naturally accomplished in various forms of the arts. They have an inherent understanding of color, form, space, flow, tone, pitch, and rhythm. Characters with artistic ability must select one art form (painting, sculpture, composition, etc.) to be skilled in. Thereafter they can attempt to create art works or musical compositions in their given field. Although it is not necessary to make a skill check, one can be made to determine the quality of the work. If a 20 is rolled on the check, the artist has created a work with some truly lasting value.  
+
+  
+Artistic ability also confers a +2 bonus to all skill checks requiring artistic skill--music or dance--and to attempts to appraise objects of art.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Astrology: </rich_text>
+			<rich_text> 
+This skill gives the character some understanding of the supposed influences of the stars. Knowing the birth date and time of any person, the astrologer can study the stars and celestial events and then prepare a forecast of the future for that person. The astrologer's insight into the future is limited to the next 30 days, and his knowledge is vague at best. If a successful skill check is made, the astrologer can foresee some general event--a great battle, a friend lost, a new friendship made, etc. The GM decides the exact prediction (based on his intentions for the next few gaming sessions). Note that the prediction does not guarantee the result. It only indicates the potential result.  
+
+  
+Characters with the astrology skill gain a +2 bonus to all navigation skill checks, provided the stars can be seen.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Blacksmithing: </rich_text>
+			<rich_text> 
+A character with blacksmithing skill is capable of making tools and implements from iron. Use of the skill requires a forge with a coal-fed fire and bellows, as well as a hammer and anvil. The character cannot make armor or most weapons, but can craft crowbars, grappling hooks, horseshoes, nails, hinges, plows, and most other iron objects.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Blind-fighting: </rich_text>
+			<rich_text> 
+A character with blind-fighting is skilled at fighting in conditions of poor or no light (but this skill does not allow spell use). In total darkness, the character suffers only a -2 penalty to his attack roll (as compared to a -4 penalty without this skill). Under starlight or moonlight, the character incurs only a -1 penalty. The character suffers no penalties to his AC because of darkness. Furthermore, the character retains special abilities that would normally be lost in darkness, although the effectiveness of these are reduced (skill checks are made at 1 Difficulty higher, etc.). This skill is effective only against opponents or threats within melee distance of the character. Blind-fighting does not grant any special protection from missile fire or anything outside the immediate range of the character's melee weapon. Thus, AC penalties remain for missile fire. (By the time the character hears the whoosh of the arrow, for example, it is too late for him to react.)  
+
+  
+While moving in darkness, the character suffers only half the normal movement penalty of those without this skill. Furthermore, this skill aids the character when dealing with invisible creatures, reducing the attack penalty to -2. However, it does not enable the character to discover invisible creatures; he has only a general idea of their location and cannot target them exactly.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Bowyer/Fletcher: </rich_text>
+			<rich_text> 
+This character can make bows and arrows. A weaponsmith is required to fashion arrowheads, but the bowyer/fletcher can perform all other necessary functions. The construction time for a long or short bow is one week, while composite bows require two weeks, and 1d6 arrows can be made in one day. When the construction time for the weapon is completed, the player makes a skill check. When the skill check is made, any failure means that the weapon is useless. A successful check means that the weapon is normal and is suitable for use. A successful Very Hard skill check enables the character to eitheer add Strength bonuses to damage rolls or the weapon is of such fine work that it is suitable for enchantment.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Brewing: </rich_text>
+			<rich_text> 
+The character is trained in the art of brewing beers and other strong drink. The character can prepare brewing formulas, select quality ingredients, set up and manage a brewery, control fermentation, and age the finished product.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Carpentry: </rich_text>
+			<rich_text> 
+The carpentry skill enables the character to do woodworking jobs: building houses, cabinetry, joinery, etc. Tools and materials must be available. The character can build basic items from experience, without the need for plans. Unusual and more complicated items (a catapult, for example) require plans prepared by an engineer. Truly unusual or highly complex items (wooden clockwork mechanisms, for example) require a skill check.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Charioteering: </rich_text>
+			<rich_text> 
+A character with skill in this skill is able to safely guide a chariot, over any type of terrain that can normally be negotiated Note that this skill does not impart the ability to move a chariot over terrain that it cannot traverse; even the best charioteer in the world cannot take such a vehicle into the mountains.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Cobbling: </rich_text>
+			<rich_text> 
+The character can fashion and repair shoes, boots, and sandals.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Cooking: </rich_text>
+			<rich_text> 
+Although all characters have rudimentary cooking skills, the character with this skill is an accomplished cook. A skill check is required only when attempting to prepare a truly magnificent meal worthy of a master chef or if circumstances make attempt difficult.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Dancing: </rich_text>
+			<rich_text> 
+The character knows many styles and varieties of dance, from folk dances to formal court balls.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Direction Sense: </rich_text>
+			<rich_text> 
+A character with this skill has an innate sense of direction. By concentrating for 1d6 rounds, the character can try to determine the direction the party is headed.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Disguise: </rich_text>
+			<rich_text> 
+The character with this skill is trained in the art of disguise. He can make himself look like any general type of person of about the same height, age, weight, and race. A Normal skill check indicates that the disguise is successful, while a failed roll means the attempt was too obvious in some way. The character can also disguise himself as a member of another race or sex. In this case, the skill check is at a Hard Difficulty. The character may also attempt to disguise himself as a specific person, with a Very Hard to the skill check.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Endurance: </rich_text>
+			<rich_text> 
+A character with endurance skill is able to perform continual strenuous physical activity for twice as long as a normal character before becoming subject to the effects of fatigue and exhaustion. In those cases where extreme endurance is required, a successful skill check must be made.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Engineering: </rich_text>
+			<rich_text> 
+The character is trained as a builder of both great and small things. Engineers can prepare plans for everything from simple machines (catapults, river locks, grist mills) to large buildings (fortresses, dams). A skill check is required only when designing something particularly complicated or unusual. An engineer must still find talented workmen to carry out his plan but he is trained to supervise and manage their work.  
+
+  
+An engineer is also familiar with the principles of siegecraft and can detect flaws in the defenses of a castle or similar construction. He knows how to construct and use siege weapons and machines, such as catapults, rams, and screws.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Etiquette: </rich_text>
+			<rich_text> 
+This skill gives the character a basic understanding of the proper forms of behavior and address required in many different situations, especially those involving nobility and persons of rank. Thus, the character will know the correct title to use when addressing a duke, the proper steps of ceremony to greet visiting diplomats, gestures to avoid in the presence of dwarves, etc. For extremely unusual occurrences, a Hard skill check must be made for the character to know the proper etiquette for the situation (an imperial visit, for example, is a sufficiently rare event).  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Fishing: </rich_text>
+			<rich_text> 
+The character is skilled in the art of fishing, be it with hook and line, net, or spear. Each hour the character spends fishing, roll a skill check. If the roll is failed, no fish are caught that hour. Otherwise, a hook and line or a spear will land 1d4 fish. A net will catch three times this amount. Of course, no fish can be caught where no fish are found. On the other hand, some areas teem with fish, such as a river or pool during spawning season. The GM may modify the Difficulty and results according to the situation.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Forgery: </rich_text>
+			<rich_text> 
+This skill enables the character to create duplicates of documents and handwriting and to detect such forgeries created by others. To forge a document (military orders, local decrees, etc.) where the handwriting is not specific to a person, the character needs only to have seen a similar document before. To forge a name, an autograph of that person is needed, and a skill check with a Normal Difficulty must be successfully rolled. To forge a longer document written in the hand of some particular person, a large sample of his handwriting is needed, with a Hard Difficulty to the check.  
+
+  
+It is important to note that the forger always thinks he has been successful. If the check succeeds, the work will pass examination by all except those intimately familiar with that handwriting or by those with the forgery skill who examine the document carefully. If the check is failed, the forgery is detectable to anyone familiar with the type of document or handwriting--if he examines the document closely. Furthermore, those with forgery skill may examine a document to learn if it is a forgery. On a successful skill roll, the authenticity of any document can be ascertained.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Gaming: </rich_text>
+			<rich_text> 
+The character knows most common games of chance and skill, including cards, dice, bones, draughts, and chess. When playing a game, the character may either play out the actual game (which may take too much time for some) or make a skill check, with success indicating victory. If two skilled characters play each other, the one with the highest successful die roll wins. A character with gaming skill can also attempt to cheat, thus gaining a +2 bonus to his roll. If the natural skill check for the game is 1-4, however, the character has been caught cheating (even if he won the game).  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Gem Cutting: </rich_text>
+			<rich_text> 
+A character with this skill can finish the rough gems that are discovered through mining at a rate of 1d10 stones per day. A gem cutter derives no benefit from the assistance of nonskilled characters. A gem cutter must work with a good light source and must have an assortment of chisels, small hammers, and specially hardened blades. Uncut gems, while still of value, are not nearly as valuable as the finished product. If the cutting is successful (as determined by a skill check), the gem cutter increases the value of a given stone to the range appropriate for its type. If a Very Hard Difficulty is rolled, the work is exceptionally brilliant and the value of the gem falls into the range for the next most valuable gem.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Healing: </rich_text>
+			<rich_text> 
+A character skilled in healing knows how to use natural medicines and basic principles of first aid and doctoring. If the character tends another within one round of wounding (and makes a successful skill check), his ministrations restore 1d3 hit points (but no more hit points can be restored than were lost in the previous round). Only one healing attempt can be made on a character per day.  
+
+  
+A character with healing skill can also attempt to aid a poisoned individual, provided the poison entered through a wound. If the poisoned character can be tended to immediately (the round after the character is poisoned) and the care continues for the next five rounds, the victim gains a +2 bonus Defense (delay the attack until the last round of tending). No skill check is required, but the poisoned character must be tended to immediately (normally by sacrificing any other action by the skilled character) and cannot do anything himself. If the care and rest are interrupted, the poisoned attack must immediately be rolled.  
+
+  
+A character with healing skill can also attempt to diagnose and treat diseases. When dealing with normal diseases, a successful skill check automatically reduces the disease to its mildest form and shortest duration. Those who also have herbalism knowledge gain an additional +2 bonus to this check. A skilled character can also attempt to deal with magical diseases, whether caused by spells or creatures. In this case, a successful skill check diagnoses the cause of the disease. However, since the disease is magical in nature, it can be treated only by magical means.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Heraldry: </rich_text>
+			<rich_text> 
+The knowledge of heraldry enables the character to identify the different crests and symbols that denote different persons and groups. Heraldry comes in many forms and is used for many different purposes. It can be used to identify noblemen, families, guilds, sects, legions, political factions, and castes. The symbols may appear on flags, shields, helmets, badges, embroidery, standards, clothing, coins, and more. The symbols used may include geometric patterns, calligraphed lines of script, fantastic beasts, religious symbols, and magical seals (made for the express purpose of identification). Heraldry can vary from the highly formalized rules and regulations of late medieval Europe to the knowledge of different shield patterns and shapes used by African tribesmen.  
+
+  
+The character automatically knows the different heraldic symbols of his homeland and whom they are associated with. In addition, if the character makes a successful skill check, he can correctly identify the signs and symbols of other lands, provided he has at least a passing knowledge of the inhabitants of that land. His heraldry skill is of little use upon first entering a foreign land.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Herbalism: </rich_text>
+			<rich_text> 
+Those with herbalist knowledge can identify plants and fungus and prepare nonmagical potions, poultices, powders, balms, salves, ointments, infusions, and plasters for medical and pseudo-medical purposes. They can also prepare natural plant poisons and purgatives. The GM must decide the exact strength of such poisons. A character with both herbalism and healing skills gains bonuses when using his healing talent (see the Healing skill).  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Hunting: </rich_text>
+			<rich_text> 
+When in wilderness settings, the character can attempt to stalk and bring down game. A skill check must be made with a -1 penalty for every nonproficient hunter in the party. If the die roll is successful, the hunter (and those with him) have come within 101 to 200 yards (100+1d100) of an animal. The group can attempt to close the range, but a skill check must be made for each 20 yards closed. If the stalking is successful, the hunter automatically surprises the game. The type of animal stalked depends on the nature of the terrain and the whim of the GM.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Juggling: </rich_text>
+			<rich_text> 
+The character can juggle, a talent useful for entertainments, diversions, and certain rare emergencies. When juggling normally (to entertain or distract), no skill check is required. A check is made when trying spectacular tricks (&quot;Watch me eat this apple in mid-air!&quot;). However, juggling also enables the character to attempt desperate moves. On a successful Very Hard check, the character can catch small items thrown to harm him (as opposed to items thrown for him to catch). Thus, the character could catch a dagger or a dart before it hits. If this roll fails, however, the character automatically suffers damage (sticking your hand in the path of a dagger is likely to hurt).  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Jumping: </rich_text>
+			<rich_text> 
+The character can attempt exceptional leaps both vertically and horizontally.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Languages: </rich_text>
+			<rich_text> 
+The character has learned to speak a language of the known world.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Leatherworking: </rich_text>
+			<rich_text> 
+This skill enables a character to tan and treat leather and to make clothing and other leather objects. The character can make leather armor, as well as backpacks, saddlebags, saddles, and all sorts of harnesses.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Local History: </rich_text>
+			<rich_text> 
+The character is a storehouse of facts about the history of a region the size of a large county or a small province. The character knows when the ruined tower on the hill was built and who built it (and what happened to him), what great heroes and villains fought and fell at the old battlefield, what great treasure is supposed to be kept in a local temple, how the mayor of the next town miraculously grew hair on his balding  
+pate, and more.  
+
+  
+The GM will provide information about local sites and events as the character needs to know them. Furthermore, the character can try to retell these events as entertaining stories. Once the subject is chosen, he can either make a skill check and, if successful, add that tale to his repertoire, or actually tell the story to other characters. The character can tell these stories to entertain others, granting him a +2 bonus to his Charisma for the encounter. But telling stories to hostile beings is probably not going to do any good.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Mining: </rich_text>
+			<rich_text> 
+A character with mining skill is needed to site and supervise the operations of any mine. First, the character can attempt to determine what types of ores or gems can be found in a given area. To do this, he must spend at least a week searching a four-square-mile area. The GM may rule that more area must be searched to find anything of value and may thus increase the amount of time required. At the end of the search, the character can say what is likely to be found in this area. After this, the character can site the mine. On a successful skill check, the character has found a good site to begin mining for any minerals that may be in the area. The check does not guarantee a successful mine, only that a particular site is the best choice in a given area. The GM must determine what minerals, if any, are to be found in the region of the mine.  
+
+  
+Once the mine is in operation, a character with mining skill must remain on site to supervise all work. Although this is a steady job, most player characters will find it better to hire an NPC for this purpose.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Mountaineering: </rich_text>
+			<rich_text> 
+A character with this skill can make difficult and dangerous climbs up steep slopes and cliffs with the aid of spikes, ropes, etc. If a character with mountaineering skill leads a party, placing the pitons (spikes) and guiding the others, all in the party can gain the benefit of his knowledge. A mountaineer can guide a party up a cliff face it could not otherwise climb. A character with this skill gains a +1 bonus per skill slot spent to his chance to use his Thief Ability. Note that mountaineering is not the same as the Thief's Climbing ability, since the latter does not require aids of any sort.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Musical Instrument: </rich_text>
+			<rich_text> 
+The character can play a specific musical instrument. An additional instrument can be added for every extra slot devoted to this skill. The character plays quite well, and no skill check is normally required. The GM may direct the character to make a skill check in what he feels are extraordinary circumstances.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Navigation: </rich_text>
+			<rich_text> 
+The character has learned the arts of navigating by the stars, studying currents, and watching for telltale signs of land, reefs, and hidden danger. This is not particularly useful on land. At sea, a successful skill check by the navigator keeps one from getting lost.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Pottery: </rich_text>
+			<rich_text> 
+A character with this skill can create any type of clay vessel or container commonly used in the campaign world. The character requires a wheel and a kiln, as well as a supply of clay and glaze. The character can generally create two small or medium-sized items or one large-sized item per day. The pieces of pottery must then be fired in the kiln for an additional day.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Reading Lips: </rich_text>
+			<rich_text> 
+The character can understand the speech of those he can see but not hear. When this skill is chosen, the player must specify what language the  
+character can lip read (it must be a language the character can already speak). To use the skill, the character must be within 30 feet of the speaker and be able to see him speak. A skill check is made. If successful, 70% of the conversation is understood. Since certain sounds are impossible to differentiate, the understanding of a lip-read conversation is never better than this.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Religion: </rich_text>
+			<rich_text> 
+Characters with religion skill know the common beliefs and cults of their homeland and the major faiths of neighboring regions. Ordinary information (type of religious symbol used, basic attitude of the faith, etc.) of any religion is automatically known by the character. Special information, such as how the clergy is organized or the significance of particular holy days, requires a skill check. Additional skills spent on religion enable the character either to expand his general knowledge into more distant regions (using the guidelines above) or to gain precise information about a single faith. If the latter is chosen, the character is no longer required to make a skill check when answering questions about that religion. Such expert knowledge is highly useful to priest characters when dealing with their own and rival faiths.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Riding, Airborne: </rich_text>
+			<rich_text> 
+The character is trained in handling a flying mount. The particular creature must be chosen when the skill is chosen. Additional skill slots can  
+be used to learn how to handle other types of mounts. Unlike land-based riding, a character must have this skill (or ride with someone who does) to handle a flying mount.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Riding, Land-Based: </rich_text>
+			<rich_text> 
+Those skilled in land riding are skilled in the art of riding and handling horses or other types of ground mounts. When the skill slot is filled, the character must declare which type of mount he is skilled in. Possibilities include griffons, unicorns, dire wolves, and virtually any creatures used as mounts by humans, demihumans, or humanoids.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Seamanship: </rich_text>
+			<rich_text> 
+The character is familiar with boats and ships. He is qualified to work as a crewman, although he cannot actually navigate. Crews of trained seamen are necessary to manage any ship.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Seamstress/Tailor: </rich_text>
+			<rich_text> 
+The character can sew and design clothing. He can also do all kinds of embroidery and ornamental work. Although no skill check is required, the character must have at least needle and thread to work.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Set Snares: </rich_text>
+			<rich_text> 
+The character can make simple snares and traps, primarily to catch small game. These can include rope snares and spring traps. A skill check must be rolled when the snare is first constructed and every time the snare is set. A failed skill check means the trap does not work for some reason. It may be that the workmanship was bad, the character left too much scent in the area, or he poorly concealed the finished work. The exact nature of the problem does not need to be known. The character can also attempt to set traps and snares for larger creatures: tiger pits and net snares, for example. A skill check must be rolled at a Hard Difficulty. In both cases, setting a successful snare does not ensure that it catches anything, only that the snare works if triggered. The GM must decide if the trap is triggered.  
+
+  
+Thief characters (and only thieves) with this skill can also attempt to rig man-traps. These can involve such things as crossbows, deadfalls, spiked springboards, etc. The procedure is the same as that for setting a large snare. The GM must determine the amount of damage caused by a man-trap.  
+
+  
+Setting a small snare or trap takes one hour of work. Setting a larger trap requires two to three people (only one need have the skill) and 2d4 hours of work. Setting a man-trap requires one or more people (depending on its nature) and 1d8 hours of work. To prepare any trap, the character must have appropriate materials on hand. Characters with animal lore skill gain a +2 bonus to their ability score when attempting to set a snare for the purposes of catching game. Their knowledge of animals and the woods serves them well for this purpose. They gain no benefit when attempting to trap monsters or intelligent beings.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Singing: </rich_text>
+			<rich_text> 
+The character is an accomplished singer and can use this ability to entertain others and perhaps earn a small living. No skill check is required to sing. The character can also create choral works on a successful skill check.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Spellcraft: </rich_text>
+			<rich_text> 
+Although this skill does not grant the character any spellcasting powers, it does give him familiarity with the different forms and rites of spellcasting. If he observes and overhears someone who is casting a spell, or if he examines the material components used, he can attempt to identify the spell being cast. A skill check must be rolled to make a correct identification. Note that since the spellcaster must be observed until the very instant of casting, the spellcraft skill does not grant an advantage against combat spells. The skill is quite useful, however, for identifying spells that would otherwise have no visible effect. Those talented in this skill also have a chance (At a Hard Difficulty) of recognizing magical or magically endowed constructs for what they are.  
+  
+</rich_text>
+			<rich_text weight="heavy">Stonemasonry: </rich_text>
+			<rich_text> 
+A stonemason is able to build structures from stone so that they last many years. He can do simple stone carvings, such as lettering, columns, and flourishes. The stone can be mortared, carefully fitted without mortar, or loosely fitted and chinked with rocks and earth. A stonemason equipped with his tools (hammers, chisels, wedges, block and tackle) can build a plain section of wall one foot thick, ten feet long, and five feet high in one day, provided the stone has already been cut. A stonemason can also supervise the work of unskilled laborers to quarry stone; one stonemason is needed for every five laborers. Dwarves are among the most accomplished stonemasons in the world; they receive a +2 bonus when using this skill.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Survival: </rich_text>
+			<rich_text> 
+This skill must be applied to a specific environment--i.e., a specific type of terrain and weather factors. Typical environments include arctic, woodland, desert, steppe, mountain, or tropical. The character has basic survival knowledge for that terrain type. Additional skill slots can be used to add more types of terrain. A character skilled in survival has a basic knowledge of the hazards he might face in that land. He understands the effects of the weather and knows the proper steps to lessen the risk of exposure. He knows the methods to locate or gather drinkable water. He knows how to find basic, not necessarily appetizing, food where none is apparent, thus staving off starvation. Furthermore, a character with survival skill can instruct and aid others in the same situation. When using the skill to find food or water, the character must roll a skill check. If the check is failed, no more attempts can be made that day.  
+
+  
+The survival skill in no way releases the player characters from the hardships and horrors of being lost in the wilderness. At best it alleviates a small portion of the suffering. The food found is barely adequate, and water is discovered in minuscule amounts. It is still quite possible for a character with survival knowledge to die in the wilderness.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Swimming: </rich_text>
+			<rich_text> 
+A character with swimming skill knows how to swim. Those without this skill cannot swim. They can hold their breath and float, but they cannot move themselves about in the water.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Tightrope Walking: </rich_text>
+			<rich_text> 
+The character can attempt to walk narrow ropes or beams with greater than normal chances of success. He can negotiate any narrow surface not angled up or down greater than 45 degrees. The Difficulty of the attempt is determined by the GM on situational factors: the width of the surface, the slickness of the surface, etc.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Tracking: </rich_text>
+			<rich_text> 
+Characters with tracking skill are able to follow the trail of creatures and characters across most types of terrain. Difficulty is based on the type of terrain and other situational modifiers.   
+
+  
+</rich_text>
+			<rich_text weight="heavy">Tumbling: </rich_text>
+			<rich_text> 
+The character is practiced in all manner of acrobatics--dives, rolls, somersaults, handstands, flips, etc. Tumbling can only be performed while lightly burdened. Aside from entertaining, the character with the tumbling skill can get a +4 bonus to his Armor Class against attacks directed solely at him in any round of combat, provided he has the initiative and foregoes all attacks that round. When in unarmed combat he can improve his attack roll by 2. On a successful skill check, he suffers only one-half the normal damage from falls of 60 feet or less and none from falls of 10 feet or less. Falls from greater heights result in normal damage.  
+
+  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Ventriloquism: </rich_text>
+			<rich_text> 
+The character has learned the secrets of &quot;throwing his voice.&quot; Although not actually making sound come from somewhere else (like the spell), the  
+character can deceive others into believing this to be so. When using ventriloquism, the supposed source of the sound must be relatively close to the character. The nature of the speaking object and the intelligence of those watching can modify the character's chance of success. If the character makes an obviously inanimate object talk (a book, mug, etc.) the Difficulty is Very Hard. If a believable source (a PC or NPC) is made to appear to speak the Difficulty is Normal. The observer's intelligence can modify this.  
+
+  
+A successful skill check means the character has successfully deceived his audience. The character is limited to sounds he could normally make (thus, the roar of a lion is somewhat beyond him). Since ventriloquism relies on deception, people's knowledge of speech, and assumptions about what should and shouldn't talk, it is effective only on intelligent creatures. Thus, it has no effect on animals and the like. Furthermore, the  audience must be watching the character since part of the deception is visual (&quot;Hey, his lips don't move!&quot;). Using ventriloquism to get someone to look behind him does not work, since the voice is not actually behind him (this requires the ventriloquism spell). All but those with the gullibility of children realize what is truly happening. They may be amused--or they may not be.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Weaponsmithing: </rich_text>
+			<rich_text> 
+This highly specialized skill enables a character to perform the difficult and highly exacting work involved in making metal weapons, particularly  
+those with blades. The character blends some of the skill of the blacksmith with an ability to create blades of strength and sharpness. A fully equipped smithy is necessary to use this skill.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Weather Sense: </rich_text>
+			<rich_text> 
+This skill enables the character to make intelligent guesses about upcoming weather conditions. A successful skill check means the character  
+has correctly guessed the general weather conditions in the next six hours. A failed check means the character read the signs wrong and forecast the weather incorrectly. Sometimes impending weather conditions are so obvious that no skill check is required. It is difficult not to notice the tornado funnel tearing across the plain or the mass of dark clouds on the horizon obviously headed the character's way. In these cases, the  
+player should be able to deduce what is about to happen to his character anyway.  
+
+  
+</rich_text>
+			<rich_text weight="heavy">Weaving: </rich_text>
+			<rich_text> 
+A character with weaving skill is able to create garments, tapestries, and draperies from wool or cotton. The character requires a spinning apparatus and a loom. A weaver can create two square yards of material per day.  
+</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="True" name="Equipment" prog_lang="custom-colors" readonly="False" tags="" unique_id="61">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Armor" prog_lang="custom-colors" readonly="False" tags="" unique_id="62">
+			<rich_text weight="heavy">Armor</rich_text>
+			<rich_text>     
+Banded mail   200 gp    
+Brigandine   120 gp    
+Chain mail   75 gp   
+Field plate   2000 gp    
+Full plate   4,000-10,000 gp  
+Hide    15 gp    
+Leather   5 gp    
+Padded   4 gp    
+Plate mail   600 gp    
+Ring mail   100 gp   
+Scale mail   120 gp    
+Shield    7 gp  
+Splint mail   80 gp    
+Studded leather  20 gp    
+
+  
+</rich_text>
+			<rich_text weight="heavy">Type of Armor  </rich_text>
+			<rich_text>  </rich_text>
+			<rich_text weight="heavy">AC</rich_text>
+			<rich_text>  
+None      10   Light 
+Leather      11 Light  
+Studded leather     12  Light  
+Ring Mail   13 Medium  
+Scale mail   14 Medium  
+Chain mail     15  Medium  
+Banded mail     16  Heavy  
+Plate mail     17  Heavy  
+Full plate     18  Heavy  
+Shield     +1  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Weapons" prog_lang="custom-colors" readonly="False" tags="" unique_id="63">
+			<rich_text>Battle axe    5 gp   
+Blowgun    5 gp   
+Barbed Dart    1 sp  
+Needle    2 cp   
+Bow     75 gp  
+Arrows (20)  1 gp  
+Club     --   
+Crossbow    50 gp  
+Bolts (20)  1 gp  
+Dagger or dirk   2 gp   
+Dart     5 sp   
+Footman's flail   15 gp   
+Footman's mace   8 gp   
+Footman's pick   8 gp   
+Hand axe    1 gp   
+Harpoon    20 gp   
+Horseman's flail   8 gp   
+Horseman's mace   5 gp   
+Horseman's pick   7 gp   
+Javelin    5 sp   
+Knife     5 sp   
+Lance     --   
+Heavy horse lance   15 gp   
+Light horse lance   6 gp   
+Jousting lance   20 gp   
+Medium horse lance  10 gp   
+Mancatcher     30 gp   
+Morning star    10 gp   
+Polearm    --   
+  Awl pike     5 gp  
+  Bardiche    7 gp   
+  Bec de corbin   8 gp   
+  Bill-guisarme   7 gp   
+  Fauchard    5 gp   
+  Fauchard-fork   8 gp   
+  Glaive     6 gp   
+  Glaive-guisarme  10 gp   
+  Guisarme    5 gp   
+  Guisarme-voulge   8 gp   
+  Halberd    10 gp   
+  Hook fauchard   10 gp   
+  Lucern hammer    7 gp   
+  Military fork    5 gp   
+  Partisan     10 gp   
+  Ranseur     6 gp   
+  Spetum     5 gp   
+  Voulge    5 gp   
+Quarterstaff    --   
+Scourge    1 gp   
+Sickle    6 sp   
+Sling     5 cp   
+Sling bullet    1 cp   
+Sling stone    --   
+Spear     8 sp   
+Staff sling    2 sp  
+Sword    --   
+  Bastard sword   25 gp  
+  Broad sword   10 gp   
+  Khopesh    10 gp   
+  Long sword    15 gp   
+  Scimitar    15 gp  
+  Short sword    10 gp   
+  Two-hand. sword   50 gp   
+Trident    15 gp   
+Warhammer    2 gp   
+Whip     1 sp   
+
+  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Clothing" prog_lang="custom-colors" readonly="False" tags="" unique_id="64">
+			<rich_text>Belt    3 sp  
+Boots    --  
+  Riding   3 gp  
+  Soft    1 gp  
+Breeches   2 gp  
+Cap, hat   1 sp  
+Cloak    --  
+  Good cloth   8 sp  
+  Fine fur  50 gp  
+Girdle    3 gp  
+Gloves   1 gp  
+Gown, common 12 sp  
+Hose    2 gp  
+Knife sheath   3 cp  
+Mittens   3 sp  
+Pin    6 gp  
+Plain brooch   10 gp 
+Robe    --  
+  Common   9 sp  
+  Embroidered  20 gp 
+Sandals   5 cp  
+Sash    2 sp  
+Shoes    1 gp  
+Silk jacket   80 gp  
+Surcoat   6 sp  
+Sword scabbard, hanger, baldric  4 gp  
+Tabard   6 sp  
+Toga, coarse   8 cp  
+Tunic    8 sp  
+Vest    6 sp  
+
+  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Food and Lodging" prog_lang="custom-colors" readonly="False" tags="" unique_id="65">
+			<rich_text>Ale (per gallon)    2 sp  
+Banquet (per person)    10 gp  
+Bread      5 cp  
+Cheese     4 sp  
+City rooms (per month)   --  
+  Common     20 gp  
+  Poor      6 sp  
+Common wine (pitcher)   2 sp  
+Egg or fresh vegetables   1 cp  
+Grain and stabling, horse (daily)  5 sp  
+Honey      5 sp  
+Inn lodging (per day/week)   --  
+  Common     5 sp/3 gp  
+  Poor      5 cp/2 sp  
+Meat for one meal    1 sp  
+Meals (per day)    --  
+  Good     5 sp  
+  Common     3 sp  
+  Poor      1 sp  
+Small beer (per gallon)   5cp  
+Soup      5cp  
+Household Provisioning    
+  Barrel of pickled fish   3gp  
+  Butter (per lb.)    2 sp  
+  Coarse sugar (per lb.)   1 gp  
+  Dry rations (per week)   10 gp  
+  Eggs (per 100)    8 sp  
+  (per two dozen)    2 sp  
+  Figs (per lb.)    3 sp  
+  Firewood (per day)    1 cp  
+  Herbs (per lb.)    5 cp  
+  Nuts (per lb.)    1 gp  
+  Raisins (per lb.)    2 sp  
+  Rice (per lb.)    2 sp  
+  Salt (per lb.)     1 sp  
+  Salted herring (per 100)   1 gp  
+  Spice (per lb.)    --  
+    Exotic      15 gp  
+    Rare      2 gp  
+    Uncommon    1 gp 
+  Tun of cider (250 gal.)   8 gp  
+  Tun of good wine (250 gal.)  20 gp  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Services" prog_lang="custom-colors" readonly="False" tags="" unique_id="66">
+			<rich_text>Bath      3cp  
+  Clerk (per letter)    2sp  
+  Doctor, leech, or bleeding   3gp  
+  Guide, in city (per day)   2sp  
+  Lantern / torchbearer(per night) 1sp  
+  Laundry (by load)    1cp  
+  Messenger, in city (per message)  1sp  
+  Minstrel (per performance)   3gp  
+  Mourner (per funeral)   2sp  
+  Teamster w/wagon    1sp/mile  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Transport" prog_lang="custom-colors" readonly="False" tags="" unique_id="67">
+			<rich_text>Barge     500 gp  
+  Canoe     --  
+    Small     30 gp  
+    War      50 gp  
+  Caravel     10,000 gp  
+  Carriage     --  
+    Common     150 gp  
+    Coach, ornamented   7,000 gp  
+  Chariot     --  
+    Riding     200 gp  
+    War      500 gp  
+  Coaster     5,000 gp  
+  Cog      10,000 gp 
+  Curragh     500 gp 
+  Drakkar     25,000 gp  
+  Dromond     15,000 gp  
+  Galleon     50,000 gp  
+  Great galley     30,000 gp  
+  Knarr     3,000 gp 
+  Longship     10,000 gp  
+  Oar      --  
+    Common     2 gp  
+    Galley     10 gp 
+  Raft or small keelboat   100 gp  
+  Sail      20 gp  
+  Sedan chair     100 gp  
+  Wagon or cart wheel   5 gp  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Animals" prog_lang="custom-colors" readonly="False" tags="" unique_id="68">
+			<rich_text>Boar      10 gp  
+Bull      20 gp  
+Calf      5 gp  
+Camel      50 gp  
+Capon      3 cp  
+Cat      1 sp  
+Chicken     2 cp  
+Cow      10 gp  
+Dog      --  
+  Guard     25 gp  
+  Hunting     17 gp  
+  War      20 gp  
+Donkey, mule, or ass    8 gp  
+Elephant     --  
+  Labor     200 gp  
+  War      500 gp  
+Falcon (trained)    1,000 gp  
+Goat      1 gp  
+Goose      5 cp  
+Guinea hen     2 cp  
+Horse      --  
+  Draft      200 gp  
+  Heavy war     400 gp  
+  Light war     150 gp  
+  Medium war     225 gp  
+  Riding     75 gp  
+Hunting cat (jaguar, etc.)   5,000 gp  
+Ox      15 gp  
+Partridge     5 cp  
+Peacock     5 sp  
+Pig      3 gp  
+Pigeon     1 cp  
+Pigeon, homing    100 gp  
+Pony      30 gp  
+Ram      4 gp  
+Sheep      2 gp  
+Songbird     10 sp  
+Swan      5 sp  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Tack and Harness" prog_lang="custom-colors" readonly="False" tags="" unique_id="69">
+			<rich_text>Barding     --  
+  Chain     500 gp  
+  Full plate     2,000 gp  
+  Full scale     1,000 gp  
+  Half brigandine    500 gp  
+  Half padded     100 gp  
+  Half scale     500 gp  
+  Leather or padded    150 gp  
+Bit and bridle     15 sp  
+Cart harness     2 gp  
+Halter      5 cp  
+Horseshoes &amp; shoeing   1 gp  
+Saddle     --  
+  Pack      5 gp  
+  Riding     10 gp  
+Saddle bags     --  
+  Large     4 gp  
+  Small     3 gp  
+Saddle blanket    3 sp  
+Yoke      --  
+  Horse     5 gp  
+  Ox      3 gp  
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Miscellaneous" prog_lang="custom-colors" readonly="False" tags="" unique_id="70">
+			<rich_text>Backpack     2 gp  
+Barrel, small     2 gp  
+Basket     --  
+  Large     3 sp  
+  Small     5 cp  
+Bell      1 gp  
+Belt pouch     --  
+  Large     1 gp  
+  Small     7 sp  
+Block and tackle    5 gp  
+Bolt case     1 gp  
+Bucket     5 sp  
+Chain (per ft.)    --  
+  Heavy     4 gp  
+  Light      3 gp  
+Chest      --  
+  Large      2 gp  
+  Small     1 gp  
+Cloth (per 10 sq. yds.)   --  
+  Common     7 gp  
+  Fine      50 gp  
+  Rich      100 gp  
+Candle     1 cp  
+Canvas (per sq. yard)    4 sp  
+Chalk      1 cp  
+Crampons     4 gp  
+Fishhook     1 sp  
+Fishing net, 10 ft. sq.    4 gp  
+Flint and steel    5 sp  
+Glass bottle     10 gp  
+Grappling hook    8 sp  
+Holy item (symbol, water, etc.)  25 gp  
+Hourglass     25 gp  
+Iron pot     5 sp  
+Ladder, 10 ft.     5 cp  
+Lantern     --  
+  Beacon     150 gp  
+  Bullseye     12 gp 
+  Hooded     7 gp  
+Lock      --  
+  Good     100 gp  
+  Poor      20 gp  
+Magnifying glass    100 gp  
+Map or scroll case    8 sp  
+Merchant's scale    2 gp  
+Mirror, small metal    10 gp  
+Musical instrument    5-100 gp  
+Oil (per flask)    --  
+  Greek fire     10 gp  
+  Lamp     6 cp  
+Paper (per sheet)    2 gp  
+Papyrus (per sheet)    8 sp  
+Parchment (per sheet)   1 gp  
+Perfume (per vial)    5 gp  
+Piton      3 cp  
+Quiver     8 sp  
+Rope (per 50 ft.)    --  
+  Hemp     1 gp  
+  Silk      10 gp  
+Sack      --  
+  Large     2 sp  
+  Small     5 cp  
+Sealing/candle wax (per lb.)   1 gp  
+Sewing needle    5 sp  
+Signal whistle    8 sp  
+Signet ring or personal seal   5 gp  
+Soap (per lb.)     5 sp  
+Spyglass     1,000 gp  
+Tent      --  
+  Large     25 gp  
+  Pavilion     100 gp  
+  Small     5 gp  
+Thieves' Tools    30 gp  
+Torch      1 cp  
+Water clock     1,000 gp  
+Whetstone     2 cp  
+Wineskin     8 sp  
+Winter blanket    5 sp  
+Writing ink (per vial)    8 gp  
 </rich_text>
 		</node>
 	</node>
