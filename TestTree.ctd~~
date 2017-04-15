@@ -114,36 +114,152 @@ Other modifiers can come into play when making a check. It could be raining, so 
 </rich_text>
 			</node>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="Advancement" prog_lang="custom-colors" readonly="False" tags="" unique_id="71">
-				<rich_text>Rather than keep up with a lot of experience points and how many are needed to get to the next level, the GM simply hands out an Advancement to each character at a thematically appropriate time. Each advancement gives a single class character a new level. Multi class characters are handled according to the table below.
+				<rich_text>As the game is played, players are rewarded for defeating foes, completing quests and good role-playing. The primary reward is Experience Points.  Each character starts with 0 Experience Points.  When the character gets enough Experience Points according to the chart below they can move to the next level.  They immediately get all the benefits and powers of the new level.
 
-Advancement Table
-        Level per # of Classes
-# Adv   One     Two     Three
------------------------------
-1       2       2       1
-2       3       2       2
-3       4       3       2
-4       5       4       3
-5       6       4       4
-6       7       5       4
-7       8       6       5
-8       9       6       6
-9       10      7       6
-10      11      8       7
-11      12      8       8
-12      13      9       8
-13      14      10      9
-14      15      10      9
-15      16      11      10
-16      17      12      10
-17      18      12      11
-18      19      13      11
-19      20      14      12
+</rich_text>
+				<rich_text justification="left"></rich_text>
+				<rich_text>
+
 
 </rich_text>
 				<rich_text style="italic">Example: 
 
-A Fighter with 10 Advancements would be 11th level. A Fighter / Mage with 10 Advancements would be 8th level in each class. A Fighter / Mage / Thief with 10 Advancements would be 7th level in each class.</rich_text>
+A Fighter with </rich_text>
+				<rich_text>0 XP is at 1st level. Once the character accummulates 500 XP through play, it advances immediately to 2nd level.  A Dwarf or an Elf with 500 XP is still 1st level. The Dwarf gains 2nd level at 750 XP and the Elf at 875 XP.</rich_text>
+				<table char_offset="376" col_max="400" col_min="40">
+					<row>
+						<cell>Level</cell>
+						<cell>XP</cell>
+						<cell>XP</cell>
+						<cell>XP</cell>
+					</row>
+					<row>
+						<cell>1</cell>
+						<cell>0 </cell>
+						<cell>0 </cell>
+						<cell>0 </cell>
+					</row>
+					<row>
+						<cell>2</cell>
+						<cell>500 </cell>
+						<cell>750 </cell>
+						<cell>875 </cell>
+					</row>
+					<row>
+						<cell>3</cell>
+						<cell>1,000 </cell>
+						<cell>1,500 </cell>
+						<cell>1,750 </cell>
+					</row>
+					<row>
+						<cell>4</cell>
+						<cell>2,000 </cell>
+						<cell>3,000 </cell>
+						<cell>3,500 </cell>
+					</row>
+					<row>
+						<cell>5</cell>
+						<cell>4,000 </cell>
+						<cell>6,000 </cell>
+						<cell>7,000 </cell>
+					</row>
+					<row>
+						<cell>6</cell>
+						<cell>8,000 </cell>
+						<cell>12,000 </cell>
+						<cell>14,000 </cell>
+					</row>
+					<row>
+						<cell>7</cell>
+						<cell>16,000 </cell>
+						<cell>24,000 </cell>
+						<cell>28,000 </cell>
+					</row>
+					<row>
+						<cell>8</cell>
+						<cell>32,000 </cell>
+						<cell>48,000 </cell>
+						<cell>56,000 </cell>
+					</row>
+					<row>
+						<cell>9</cell>
+						<cell>64,000 </cell>
+						<cell>96,000 </cell>
+						<cell>112,000 </cell>
+					</row>
+					<row>
+						<cell>10</cell>
+						<cell>128,000 </cell>
+						<cell>192,000 </cell>
+						<cell>224,000 </cell>
+					</row>
+					<row>
+						<cell>11</cell>
+						<cell>256,000 </cell>
+						<cell>384,000 </cell>
+						<cell>448,000 </cell>
+					</row>
+					<row>
+						<cell>12</cell>
+						<cell>384,000 </cell>
+						<cell>576,000 </cell>
+						<cell>672,000 </cell>
+					</row>
+					<row>
+						<cell>13</cell>
+						<cell>512,000 </cell>
+						<cell>768,000 </cell>
+						<cell>896,000 </cell>
+					</row>
+					<row>
+						<cell>14</cell>
+						<cell>640,000 </cell>
+						<cell>960,000 </cell>
+						<cell>1,120,000 </cell>
+					</row>
+					<row>
+						<cell>15</cell>
+						<cell>768,000 </cell>
+						<cell>1,152,000 </cell>
+						<cell>1,344,000 </cell>
+					</row>
+					<row>
+						<cell>16</cell>
+						<cell>896,000 </cell>
+						<cell>1,344,000 </cell>
+						<cell>1,568,000 </cell>
+					</row>
+					<row>
+						<cell>17</cell>
+						<cell>1,024,000 </cell>
+						<cell>1,536,000 </cell>
+						<cell>1,792,000 </cell>
+					</row>
+					<row>
+						<cell>18</cell>
+						<cell>1,152,000 </cell>
+						<cell>1,728,000 </cell>
+						<cell>2,016,000 </cell>
+					</row>
+					<row>
+						<cell>19</cell>
+						<cell>1,280,000 </cell>
+						<cell>1,920,000 </cell>
+						<cell>2,240,000 </cell>
+					</row>
+					<row>
+						<cell>20</cell>
+						<cell>1,408,000 </cell>
+						<cell>2,112,000 </cell>
+						<cell>2,464,000 </cell>
+					</row>
+					<row>
+						<cell>click me</cell>
+						<cell>FMTC</cell>
+						<cell>Dwarf</cell>
+						<cell>Elf</cell>
+					</row>
+				</table>
 			</node>
 			<node custom_icon_id="0" foreground="" is_bold="False" name="Attributes" prog_lang="custom-colors" readonly="False" tags="" unique_id="72">
 				<rich_text>Each character has 6 Attributes that describe their character's natural ability and range in value from -2 to +4. A -2 represents disability or incompetence while and +4 represents to peak of talent. Each Attribute gives the character either bonuses or penalties on rolls that involve those Attributes. The bonus / penalty is equal to the value of the Attribute.
@@ -438,41 +554,41 @@ Allowed Classes: Any combination of 3 or fewer classes.
 Prerequisite: Wisdom +1 
 
   
-Level   AB  HD      Skills  #Att    Prayers  
+Level   AB  HD      Skills  #Att    Domains
 -------------------------------------------  
-1       +1  +1d8    3       1       1  
-2       +1  +1d8    3       1       1  
-3       +1  +1d8    3       1       2  
-4       +2  +1d8    4       1       2  
-5       +2  +1d8    4       1       3  
-6       +2  +1d8    4       1       3  
-7       +3  +1d8    4       1       4  
-8       +3  +1d8    5       1       4  
-9       +3  +1d8    5       1       5  
-10      +4  +1d8    5       1       5  
-11      +4  +2      5       3/2     6  
-12      +4  +2      6       3/2     6  
-13      +4  +2      6       3/2     7  
-14      +5  +2      6       3/2     7  
-15      +5  +2      6       3/2     8  
-16      +5  +2      7       3/2     8  
-17      +5  +2      7       3/2     9  
-18      +6  +2      7       3/2     9  
-19      +6  +2      7       3/2     10  
-20      +6  +2      8       3/2     10    
+1       +1  +1d8    3       1       1
+2       +1  +1d8    3       1       1
+3       +1  +1d8    3       1       1
+4       +2  +1d8    4       1       2
+5       +2  +1d8    4       1       2
+6       +2  +1d8    4       1       2
+7       +3  +1d8    4       1       3
+8       +3  +1d8    5       1       3
+9       +3  +1d8    5       1       3
+10      +4  +1d8    5       1       3
+11      +4  +2      5       3/2     4
+12      +4  +2      6       3/2     4
+13      +4  +2      6       3/2     4
+14      +5  +2      6       3/2     4
+15      +5  +2      6       3/2     5
+16      +5  +2      7       3/2     5
+17      +5  +2      7       3/2     5
+18      +6  +2      7       3/2     5
+19      +6  +2      7       3/2     6
+20      +6  +2      8       3/2     6
 
   
 Armor: Any  
 
 Weapons: Clerics get 1 Primary Weapon and 3 Secondary Weapons. Their primary weapon does 1d8 damage. Secondary weapons do 1d6.  Untrained weapons do 1d4 damage.
 
-Combat Stunts: Clerics start with no combat stunts.  They get new Combat Stunts at levels 3, 6, 9, 14 and 19.
+Combat Stunts: Clerics start with no combat stunts.  They get new Combat Stunts at levels  6, 12 and 18.
+
+Domains: Clerics get powers called Prayers from their deities based on Domains. Domains are areas in which certain deities hold sway. Each Domain has 5 Prayers: 2 Tier 1 Prayers, 2 Tier 2 Prayers and a single Tier 3 Prayer. When a cleric chooses a Domain for the first time, he gets the Tier 1 Prayers. When he chooses it a second time he gets the Tier 2 Prayers as well. A third choosing gets him the Tier 3 Prayer.
   
-Prayers: Cleric knows the number of Prayers listed plus his Wisdom bonus.  Each level the cleric can learn a new prayer if he has a slot open and/or change 1 prayer for another of his choice.  He may only learn or switch to prayers that have a level equal to or less than his current cleric level.  
+
   
-Turn Undead: A cleric can attempt to turn a number of hit dice of undead equal to twice his level. The undead targets must be in Close range. The cleric makes an attack with his Base Attack Bonus plus his Charisma against each target's Willpower Defense. If the attack succeeds then the target is turned.  A turned target must attempt to flee or at least move as far away from the cleric as possible for 1d6 rounds.  
-  
-If the cleric has more than twice the hit dice of the undead, it is totally destroyed rather than being turned.
+
 </rich_text>
 		</node>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Fighter" prog_lang="custom-colors" readonly="False" tags="" unique_id="20">
@@ -518,28 +634,28 @@ Combat Stunts: Fighters get new Combat Stunts at levels 1, 3, 6, 9, 12, 15, 18 a
 Prerequisite: Intelligence +1 
 
   
-Lvl AB  HD      Skills  #Att    Spells  Mana  
---------------------------------------------  
-1   +0  +1d4    3       1       1       1  
-2   +0  +1d4    3       1       1       2  
-3   +1  +1d4    3       1       2       3  
-4   +1  +1d4    4       1       2       4  
-5   +1  +1d4    4       1       3       5  
-6   +1  +1d4    4       1       3       6  
-7   +2  +1d4    4       1       4       7  
-8   +2  +1d4    5       1       4       8  
-9   +2  +1d4    5       1       5       9  
-10  +2  +1d4    5       1       5       10  
-11  +3  +1      5       1       6       11  
-12  +3  +1      6       1       6       12  
-13  +3  +1      6       1       7       13  
-14  +3  +1      6       1       7       14  
-15  +3  +1      6       1       8       15  
-16  +4  +1      7       1       8       16  
-17  +4  +1      7       1       9       17  
-18  +4  +1      7       1       9       18  
-19  +4  +1      7       1       10      19  
-20  +4  +1      8       1       10      20  
+Lvl AB  HD      Skills  #Att    Spells  Mana    Max Level  
+---------------------------------------------------------  
+1   +0  +1d4    3       1       1       1       1
+2   +0  +1d4    3       1       1       2       1
+3   +1  +1d4    3       1       2       3       2
+4   +1  +1d4    4       1       2       4       2
+5   +1  +1d4    4       1       3       5       3
+6   +1  +1d4    4       1       3       6       3
+7   +2  +1d4    4       1       4       7       4
+8   +2  +1d4    5       1       4       8       4
+9   +2  +1d4    5       1       5       9       4
+10  +2  +1d4    5       1       5       10      5
+11  +3  +1      5       1       6       11      5
+12  +3  +1      6       1       6       12      5
+13  +3  +1      6       1       7       13      6
+14  +3  +1      6       1       7       14      6
+15  +3  +1      6       1       8       15      6
+16  +4  +1      7       1       8       16      7
+17  +4  +1      7       1       9       17      7
+18  +4  +1      7       1       9       18      8
+19  +4  +1      7       1       10      19      8
+20  +4  +1      8       1       10      20      9
 
   
 Armor: Light  
@@ -549,6 +665,8 @@ Weapons: Mages have 2 Primary weapons. Primary weapons do 1d6 damage. All other 
 Combat Stunts: Mages get Combat Stunts at levels 6, 12 and 18.
   
 Spells: The Mage know the number of Spells listed plus his Intelligence.  He has the amount of Mana listed plus his Charisma.  At each new level he can learn a new spell if a slot is open and / or change an existing spell for a new one.  Spells learned or switched to must be the same or lower level than the character's Mage level.
+
+Mana Recovery: At a Short Rest a Mage may roll Hit Dice to recover Mana instead of Hit Points. These Hit Dice are then expended just as if they had been used for Hit Points. 
 
   
 </rich_text>
@@ -561,7 +679,7 @@ Prerequisite: Dexterity +1
 
   
 Level   AB      HD      Skills  Thief   #Att 
---------------------------------- 
+-------------------------------------------- 
 1       +1      +1d6    4       1       1 
 2       +1      +1d6    4       1       1 
 3       +1      +1d6    5       1       1 
@@ -599,6 +717,104 @@ Find / Remove Traps
 Pick Locks            
 Climb                 
 Slieght of Hand   </rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Dwarf" prog_lang="custom-colors" readonly="False" tags="" unique_id="40">
+			<rich_text>Dwarves are short and stocky. They rarely grow over 4 ½ feet tall but generally weight as much as a normal sized human. They generaly live to around 350 years old. The men generally grow beards and the length and fullness of their beards is a point of pride. Dwarves are a strong and hearty folk who love to work with their hands and to craft wondrous things, especially stone and metal works. Dwarves typically dwell in hilly or mountainous regions. They prefer life in the comforting gloom and solidness that is found underground. 
+
+  
+Prerequisite: Strength +1, Constitution +1 
+
+  
+Level   AB  HD      Skills  #Att  
+-------------------------------------  
+1       +1  +1d10   2       1  
+2       +1  +1d10   2       1  
+3       +2  +1d10   2       1  
+4       +2  +1d10   2       1  
+5       +3  +1d10   3       1  
+6       +3  +1d10   3       3/2  
+7       +4  +1d10   3       3/2  
+8       +4  +1d10   3       3/2  
+9       +4  +1d10   3       3/2  
+10      +5  +1d10   4       3/2  
+11      +5  +3      4       3/2  
+12      +5  +3      4       2  
+13      +6  +3      4       2  
+14      +6  +3      4       2  
+15      +6  +3      5       2  
+16      +7  +3      5       2  
+17      +7  +3      5       2  
+18      +7  +3      5       5/2  
+19      +8  +3      5       5/2  
+20      +8  +3      6       5/2  
+  
+Armor: Any  (No 2 handed weapons)  
+
+Weapons: Dwarves get 1 Primary and 3 Secondary weapons. Their Primary weapons do 1d10 damage. Secondary weapons do 1d8.  Untrained weapons do 1d6.
+
+Combat Stunts: Dwarves get new Combat Stunts at levels 1, 4, 8, 12, 16 and 20.
+
++2 to Defenses vs Mage Spells
+
++2 to Defenses vs Poisons
+
++2 to hit Orcs, Half-orcs, goblins and hobgoblins
+
++2 AC vs Ogres, Trolls, Ogre Magi, Giants and Titans
+
++2 to Stonemason, Mining, Armorsmithing, Weaponsmithing and Blacksmithing
+
+Darkvision </rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Elf" prog_lang="custom-colors" readonly="False" tags="" unique_id="41">
+			<rich_text>Elves are tall and slender, with fair skin and light eyes. They tend to be graceful and beautiful with strong personalities. As creatures who are essentially immortal unless killed or they choose to die, they take a long view on things. This makes them seem to jump between reckless frivolity and somber conservatism to the shorter lived races. Elves prefer to live in heavily forested areas. Their tree-cities are some of the most marvelous places in the world.
+
+  
+Prerequisite: Charisma +1, Dexterity +1 
+
+  
+Level   AB  HD      Skills  #Att    Spells  Mana    Max Level
+-------------------------------------------------------------  
+1       +1  +1d6    2       1       1       1       1
+2       +1  +1d6    2       1       1       2       1
+3       +2  +1d6    2       1       1       3       1
+4       +2  +1d6    2       1       2       4       2
+5       +3  +1d6    3       1       2       5       2
+6       +3  +1d6    3       1       2       6       2
+7       +4  +1d6    3       1       3       7       3
+8       +4  +1d6    3       1       3       8       3
+9       +4  +1d6    3       1       3       9       3
+10      +5  +1d6    4       1       4       10      4
+11      +5  +1      4       3/2     4       11      4
+12      +5  +1      4       3/2     4       12      4
+13      +6  +1      4       3/2     5       13      4
+14      +6  +1      4       3/2     5       14      5
+15      +6  +1      5       3/2     5       15      5
+16      +7  +1      5       3/2     5       16      5
+17      +7  +1      5       3/2     6       17      5
+18      +7  +1      5       3/2     6       18      6
+19      +8  +1      5       3/2     6       19      6
+20      +8  +1      6       3/2     6       20      6
+  
+Armor: Light and Medium  
+
+Weapons: Elves get 1 Primary and 3 Secondary weapons. Their Primary weapons do 1d10 damage. Secondary weapons do 1d8.  Untrained weapons do 1d6.
+
+Combat Stunts: Elves get new Combat Stunts at levels 3, 6, 9, 14 and 19.
+
+Spells: The Elf know the number of Spells listed plus his Intelligence.  He has the amount of Mana listed plus his Charisma.  At each new level he can learn a new spell if a slot is open and / or change an existing spell for a new one.  Spells learned or switched to must be the same or lower level than the character's Mage level.
+
+Mana Recovery: At a Short Rest an Elf may roll Hit Dice to recover Mana instead of Hit Points. These Hit Dice are then expended just as if they had been used for Hit Points. 
+
++4 to Defenses vs Magical Sleep and Charm Spells
+
++2 to Attack Bonus with Longswords and Bows
+
++4 to Search for secret doors
+
++2 AC vs Ogres, Trolls, Ogre Magi, Giants and Titans
+
+Low-light Vision </rich_text>
 		</node>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="True" name="Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="23">
@@ -779,7 +995,7 @@ A pearl of at least 100 gp value. Component is destroyed in the casting.
 </rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="3rd Level Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="36">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="2nd Level Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="36">
 			<rich_text>Protection from Arrows: Subject immune to most ranged attacks.  
 Resist Energy: Ignores first 10 (or more) points of damage/attack from specified energy type.  
 Mirror Image: Creates decoy duplicates of you (1d4 +1 per three levels, max 8).  
@@ -791,8 +1007,146 @@ Levitate: Subject moves up and down at your direction.
 Rope Trick: As many as eight creatures hide in extradimensional space.  
 Scorching Ray: Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).  
 </rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Protection From Arrows" prog_lang="custom-colors" readonly="False" tags="" unique_id="94">
+				<rich_text>Protection From Arrows  
+Casting Time: 1 Action  
+Range: Touch  
+Target: Creature Touched  
+Duration: 1 hour  
+
+The warded creature gains resistance to ranged weapons. The creature subtracts 1d6 points of damage from any ranged attack. 
+  
+Augmentation: +1 creature per Mana
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Resist Energy" prog_lang="custom-colors" readonly="False" tags="" unique_id="95">
+				<rich_text>Resist Energy 
+Casting Time: 1 Action  
+Range: Touch  
+Target: Creature Touched  
+Duration: 10 minutes  
+
+This spell grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject reduces any damage taken from one of these types of source by 1d6. The spell protects the recipient’s equipment as well.
+
+Resist energy absorbs only damage. The subject could still suffer unfortunate side effects.
+  
+Augmentation: +1 creature per Mana; +10 minutes per Mana
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Mirror Image" prog_lang="custom-colors" readonly="False" tags="" unique_id="96">
+				<rich_text>Mirror Image 
+Casting Time: 1 Action  
+Range: Personal  
+Target: You  
+Duration: 1 minute  
+
+Several illusory duplicates of you pop into being, making it difficult for enemies to know which target to attack. The figments stay near you and disappear when struck.
+
+Mirror image creates 1d4+1 images. These figments separate from you and remain in a cluster near you. The figments mimic your actions, pretending to cast spells when you cast a spell, drink potions when you drink a potion, levitate when you levitate, and so on.
+
+Enemies attempting to attack you or cast spells at you must select from among indistinguishable targets. Generally, roll randomly to see whether the selected target is real or a figment. Any successful attack against an image destroys it. An image’s AC is 10 + your Dex. 
+
+An attacker must be able to see the images to be fooled. If you are invisible or an attacker shuts his or her eyes, the spell has no effect. (Being unable to see carries its own penalties.)
+  
+Augmentation: +1 minute per Mana; +1 figment per Mana
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Web" prog_lang="custom-colors" readonly="False" tags="" unique_id="97">
+				<rich_text>Web
+Casting Time: 1 Action  
+Range: 100 ft  
+Target: 20 foot radius area  
+Duration: 10 minutes
+
+Web creates a many-layered mass of strong, sticky strands. These strands trap those caught in them. The strands are similar to spider webs but far larger and tougher. These masses must be anchored to two or more solid and diametrically opposed points or else the web collapses upon itself and disappears. Creatures caught within a web become entangled among the gluey fibers. Attacking a creature in a web won’t cause you to become entangled.
+
+Make a ranged attack roll against the Reflex defense of any creatures in the effect's area when the spell is cast.  If the attack succeeds, the creature is entangled and can’t move from its space, but can break loose by spending 1 round and making a DC 15 Strength check or a DC 20 Escape Artist check. If this attack fails, the creature is entangled, but not prevented from moving, though moving is more difficult than normal for being entangled. Once loose a creature moves 5 feet per round until out of the webbing.
+
+The strands of a web spell are flammable. A magic flaming sword can slash them away as easily as a hand brushes away cobwebs. Any fire can set the webs alight and burn away 5 square feet in 1 round. All creatures within flaming webs take 2d4 points of fire damage from the flames.
+  
+Augmentation: +10 minutes per Mana; +5 foot radius per Mana
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Fog Cloud" prog_lang="custom-colors" readonly="False" tags="" unique_id="98">
+				<rich_text>Fog Cloud
+Casting Time: 1 Action  
+Range: 100 ft  
+Target: 20 foot radius area (20 feet high)  
+Duration: 10 minutes
+
+A bank of fog billows out from the point you designate. The fog obscures all sight, including darkvision, beyond 5 feet.
+
+A moderate wind disperses the fog in 4 rounds; a strong wind disperses the fog in 1 round.
+  
+Augmentation: +10 minutes per Mana; +5 foot radius per Mana
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Scare" prog_lang="custom-colors" readonly="False" tags="" unique_id="99">
+				<rich_text>Scare
+Casting Time: 1 Action  
+Range: 100 ft  
+Target: 1 living creature 
+Duration: 1 round
+
+Caster makes a Charisma attack against the target's Will defense. If successful, the target must flee as best it can from the caster. If the target cannot flee it may continue to fight but has a -2 penalty on all rolls for the duration of the effect.
+  
+Augmentation: +1 round per Mana; +1 creature per Mana
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Knock" prog_lang="custom-colors" readonly="False" tags="" unique_id="100">
+				<rich_text>Knock
+Casting Time: 1 Action  
+Range: 100 ft  
+Target: 1 door, box or chest 
+Duration: Instant
+
+The knock spell opens stuck, barred, locked, held, or magically locked doors. It opens secret doors, as well as locked or trick-opening boxes or chests. It also loosens welds, shackles, or chains (provided they serve to hold closures shut). If used to open a magically locked door, the spell does not remove the magical lock but simply suspends its functioning for 10 minutes. In all other cases, the door does not relock itself or become stuck again on its own. Knock does not raise barred gates or similar impediments (such as a portcullis), nor does it affect ropes, vines, and the like. 
+  
+Augmentation: +1 door (or other object) per Mana
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Levitate" prog_lang="custom-colors" readonly="False" tags="" unique_id="101">
+				<rich_text>Levitate
+Casting Time: 1 Action  
+Range: 25 ft  
+Target: You or 1 creature / object within range. 
+Duration: 1 minute
+
+Levitate allows you to move yourself, another creature, or an object up and down as you wish. A creature must be willing to be levitated, and an object must be unattended or possessed by a willing creature. You can mentally direct the recipient to move up or down as much as 20 feet each round; doing so as your movement in the Movement phase of combat. You cannot move the recipient horizontally, but the recipient could clamber along the face of a cliff, for example, or push against a ceiling to move laterally. 
+
+Max weight of the object being levitated is 100 pounds.
+  
+Augmentation: +1 minute per Mana; +100 pounds per Mana
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Rope Trick" prog_lang="custom-colors" readonly="False" tags="" unique_id="102">
+				<rich_text>Rope Trick
+Casting Time: 1 Action  
+Range: Touch 
+Target: 1 rope
+Duration: 1 hour
+
+When this spell is cast upon a piece of rope from 5 to 30 feet long, one end of the rope rises into the air until the whole rope hangs perpendicular to the ground, as if affixed at the upper end. The upper end is, in fact, fastened to an extradimensional space that is outside the multiverse. Creatures in the extradimensional space are hidden, beyond the reach of spells (including divinations), unless those spells work across planes. The space holds as many as eight creatures (of any size). Creatures in the space can pull the rope up into the space, making the rope “disappear.” In that case, the rope counts as one of the eight creatures that can fit in the space. The rope can support up to 16,000 pounds. A weight greater than that can pull the rope free.
+
+Spells cannot be cast across the extradimensional interface, nor can area effects cross it. Those in the extradimensional space can see out of it as if a 3-foot by 5-foot window were centered on the rope. The window is present on the Material Plane, but it’s invisible, and even creatures that can see the window can’t see through it. Anything inside the extradimensional space drops out when the spell ends. The rope can be climbed by only one person at a time. The rope trick spell enables climbers to reach a normal place if they do not climb all the way to the extradimensional space.
+  
+Augmentation: +1 hour per Mana
+</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Scorching Ray" prog_lang="custom-colors" readonly="False" tags="" unique_id="103">
+				<rich_text>Scorching Ray
+Casting Time: 1 Action  
+Range: 25 feet 
+Effect: 1 ray
+Duration: instant
+
+You blast your enemies with fiery rays. Each ray requires a ranged attack against Reflex defense to hit and deals 2d6 points of fire damage. You can fire multiple rays by augmenting.  The rays may be fired at the same or different targets, but all bolts must be aimed at targets within 30 feet of each other and fired simultaneously.
+  
+Augmentation: +1 ray per Mana; + 5 feet per Mana
+</rich_text>
+			</node>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="5th Level Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="37">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="3rd Level Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="37">
 			<rich_text>Magic Circle against Chaos/Evil/Good/Law: As protection spells, but 10-ft. radius and 10 min./level.  
 Dispel Magic: Cancels magical spells and effects.  
 Fireball: 1d6 damage per level, 20-ft. radius.  
@@ -804,289 +1158,353 @@ Heroism: Gives +2 bonus on attack rolls, saves, skill checks.
 Major Image: As silent image, plus sound, smell and thermal effects.  
 Fly: Subject flies at speed of 60 ft.
 </rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Magic Circle" prog_lang="custom-colors" readonly="False" tags="" unique_id="91">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Dispell Magic" prog_lang="custom-colors" readonly="False" tags="" unique_id="92">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Fireball" prog_lang="custom-colors" readonly="False" tags="" unique_id="93">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Lightning Bolt" prog_lang="custom-colors" readonly="False" tags="" unique_id="104">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Wind Wall" prog_lang="custom-colors" readonly="False" tags="" unique_id="105">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Sleet Storm" prog_lang="custom-colors" readonly="False" tags="" unique_id="106">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Stinking Cloud" prog_lang="custom-colors" readonly="False" tags="" unique_id="107">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Heroism" prog_lang="custom-colors" readonly="False" tags="" unique_id="108">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Major Image" prog_lang="custom-colors" readonly="False" tags="" unique_id="109">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Fly" prog_lang="custom-colors" readonly="False" tags="" unique_id="110">
+				<rich_text></rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="4th Level Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="111">
+			<rich_text>Fire Trap
+Stoneskin
+Globe of Invulnerability
+Summon Monster
+Fire Shield
+Invisibility
+Animate Dead
+Contagion
+Stone Shape
+Polymorph
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="5th Level Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="112">
+			<rich_text>Private Sanctum
+Wall of Stone
+Secret Chest
+Prying Eyes
+Contact Other Plane
+Mind Fog
+Symbol of Sleep
+Persistent Image
+Symbol of Pain
+Rock to Mud</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="6th Level Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="113">
+			<rich_text>Antimagic Field
+Guards and Wards
+Wall of Iron
+Acid Fog
+True Seeing
+Heroism
+Chain Lightning
+Contingency
+Shadow Walk
+Create Undead
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="7th Level Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="114">
+			<rich_text>Banishment
+Spell Turning
+Magnificent Manor
+Teleport
+Scrying
+Mage's Sword
+Forcecage
+Simulacrum
+Finger of Death
+Reverse Gravity
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="8th Level Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="115">
+			<rich_text>Dimensional Lock
+Protection from Spells
+Maze
+Summon Demon
+Binding
+Power Word Stun
+Sunburst
+Screen
+Clone
+Create Greater Undead
+Iron Body</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="9th Level Spells" prog_lang="custom-colors" readonly="False" tags="" unique_id="116">
+			<rich_text>Imprisonment / Freedom
+Gate
+Teleportation Circle
+Power Word Kill
+Crushing Hand
+Meteor Swarm
+Energy Drain
+Wail of the Banshee
+Shapechange
+Time Stop</rich_text>
 		</node>
 	</node>
-	<node custom_icon_id="0" foreground="" is_bold="True" name="Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="38">
-		<rich_text>A priest can cast any prayer he knows.  After casting the prayer the priest rolls a d20 plus his Wisdom bonus against a Difficulty of 15.  If roll succeeds then the prayer can be used again.  If it fails then it is used up until the next long rest.  Some prayers can be augmented.  Each augmentation increases the difficulty of the roll to reuse the prayer.  Prayers may not be augmented beyond a Difficulty of 20.  
-</rich_text>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="1st Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="39">
-			<rich_text></rich_text>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Shield of Faith" prog_lang="custom-colors" readonly="False" tags="" unique_id="40">
-				<rich_text weight="heavy">Shield of Faith </rich_text>
-				<rich_text> 
-Casting Time: 1 Action  
-Range: Touch  
-Target: Creature touched.  
-Duration: 1 minute  
-  
-This spell creates a shimmering, magical field around the touched creature that averts attacks. The spell grants the subject a +2 bonus to AC.  
-  
-Augmentation: +1 AC per 2 augment.  
-</rich_text>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Endure Elements" prog_lang="custom-colors" readonly="False" tags="" unique_id="41">
-				<rich_text weight="heavy">Endure Elements </rich_text>
-				<rich_text> 
-Casting Time: 1 Action  
-Range: Touch  
-Target: Creature touched.  
-Duration: 24 hours  
-  
-A creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit). The creature’s equipment is likewise protected.  Endure elements doesn’t provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.  
-</rich_text>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Bane" prog_lang="custom-colors" readonly="False" tags="" unique_id="42">
-				<rich_text weight="heavy">Bane </rich_text>
-				<rich_text> 
-Casting Time: 1 Action  
-Range: Close  
-Target: 1 Enemy in range.  
-Duration: 5 rounds  
-Defense: Willpower  
-  
-Bane fills your enemies with fear and doubt. Each affected creature takes a -1 penalty on attack rolls and a -1 penalty on Willpower Defense against fear effects. Bane counters and dispels bless.  
-  
-Augmentation: +2 rounds per augment. +1 target per augment.  
-</rich_text>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Command" prog_lang="custom-colors" readonly="False" tags="" unique_id="43">
-				<rich_text weight="heavy">Command </rich_text>
-				<rich_text> 
-Casting Time: 1 Action  
-Range: Close  
-Target: 1 creature in range.  
-Duration: 1 round  
-Defense: Willpower  
-  
-You give the subject a single command, which it obeys to the best of its ability at its earliest opportunity. You may select from the following options.  
-  
-Approach  
-On its turn, the subject moves toward you as quickly and directly as possible for 1 round. The creature may do nothing but move during its turn, and it provokes attacks of opportunity for this movement as normal.  
-  
-Drop  
-On its turn, the subject drops whatever it is holding. It can’t pick up any dropped item until its next turn.  
-  
-Fall  
-On its turn, the subject falls to the ground and remains prone for 1 round. It may act normally while prone but takes any appropriate penalties.  
-  
-Flee  
-On its turn, the subject moves away from you as quickly as possible for 1 round. It may do nothing but move during its turn, and it provokes attacks of opportunity for this movement as normal.  
-  
-Halt  
-The subject stands in place for 1 round. It may not take any actions but is not considered helpless.  
-  
-If the subject can’t carry out your command on its next turn, the spell automatically fails.  
+	<node custom_icon_id="0" foreground="" is_bold="True" name="Domains" prog_lang="custom-colors" readonly="False" tags="" unique_id="38">
+		<rich_text>A cleric can cast any prayer he knows.  Prayers are divided into 3 Tiers per Domain. At each level a cleric can have a certain number of Domains. The first time a character chooses a Domain he gets access to the Tier 1 prayers.  The second time the Domain is chosen he gets the Tier 2 prayers.  The third time he gets Tier 3.  A cleric cannot choose a Domain twice in a row. He must choose another Domain between.
 
-  
-</rich_text>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Bless" prog_lang="custom-colors" readonly="False" tags="" unique_id="44">
-				<rich_text weight="heavy">Bless </rich_text>
-				<rich_text> 
-Casting Time: 1 Action  
-Range: Close  
-Target: The caster or 1 ally in range.  
-Duration: 5 rounds  
-  
-Bless fills your allies with courage. Each ally gains a +1 bonus on attack rolls and on Defenses against fear effects. Bless counters and dispels Bane.  
-  
-Augmentation: +2 rounds per augment. +1 target per augment.  
+Example: At first level Bob the Righteous gets 1 Domain. He chooses the Good Domain. He now has access to the Tier 1 Good Prayers. At 5th Level Bob gets another Domain. He cannot choose Good because that is what he chose last time.  This time Bob chooses Protection. He now has access to the Tier 1 prayers for the Good and Protection Domains.  At 8th level Bob can again choose the Good Domain or any other Domain except the Protection Domain. He chooses the Good Domain. He can now access the Tier 1 and 2 Prayers of the Good Domain and the Tier 1 Prayers of the Protection Domain.
 
-  
-</rich_text>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Divine Favor" prog_lang="custom-colors" readonly="False" tags="" unique_id="45">
-				<rich_text weight="heavy">Divine Favor </rich_text>
-				<rich_text> 
-Casting Time: 1 Action  
-Range: Personal  
-Target: The caster  
-Duration: 1 minute  
-  
-Calling upon the strength and wisdom of a deity, you gain a +1 bonus on attack and weapon damage rolls. The bonus doesn’t apply to spell damage.  
-  
-Augmentation: +1 bonus per +2 augment.  
-</rich_text>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Magic Weapon" prog_lang="custom-colors" readonly="False" tags="" unique_id="46">
-				<rich_text weight="heavy">Magic Weapon </rich_text>
-				<rich_text> 
-Casting Time: 1 Action  
-Range: Touch  
-Target: 1 Weapon  
-Duration: 1 minute  
-  
-Magic weapon gives a weapon a +1 bonus on attack and damage rolls. You can’t cast this spell on a natural weapon, such as an unarmed strike.  
-  
-Augmentation: +1 minute per augment.  
-</rich_text>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Cure Wounds" prog_lang="custom-colors" readonly="False" tags="" unique_id="47">
-				<rich_text weight="heavy">Cure Wounds </rich_text>
-				<rich_text> 
-Casting Time: 1 Action  
-Range: Touch  
-Target: 1 Creature  
-Defense: Reflex  
-  
-When laying your hand upon a living creature, you cure 6 points of damage. This spell deals damage to undead instead of curing their wounds. An undead creature can apply spell resistance and can apply their Reflex defense to not be touched.  
-  
-Augmentation: +4 points per augment.  
-</rich_text>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Remove Fear" prog_lang="custom-colors" readonly="False" tags="" unique_id="48">
-				<rich_text weight="heavy">Remove Fear </rich_text>
-				<rich_text> 
-Casting Time: 1 Action  
-Range: Close  
-Target: 1 Creature  
-Duration: 10 minutes 
-  
-You instill courage in the subject, granting it a +4 bonus against fear effects. If the subject is under the influence of a fear effect when receiving the spell, that effect is suppressed for the duration of the spell. Remove fear counters and dispels cause fear.  
-  
-Augmentation: +1 creature per augment.  
-</rich_text>
-			</node>
-			<node custom_icon_id="0" foreground="" is_bold="False" name="Santuary" prog_lang="custom-colors" readonly="False" tags="" unique_id="49">
-				<rich_text weight="heavy">Sanctuary </rich_text>
-				<rich_text> 
-Casting Time: 1 Action  
-Range: Touch  
-Target: 1 Creature.  
-Duration: 1 Round  
-  
-Any opponent attempting to strike or otherwise directly attack the warded creature, even with a targeted spell, must have a Willpower Defense of 15. If not, the opponent can’t follow through with the attack, that part of its action is lost and it can’t directly attack the warded creature for the duration of the spell. Those not attempting to attack the subject remain unaffected. This spell does not prevent the warded creature from being attacked or affected by area or effect spells. The subject cannot attack without breaking the spell but may use nonattack spells or otherwise act.  
-  
-Augmentation: +1 to Willpower Defense per augmentation. +1 round per augmentation.  
+Tier 1 Powers may be used once per Encounter. They recharge at the end of an Encounter and are immediately usable again.
 
-  
+Tier 2 Powers may be used once and then are recharged at a Short Rest or Long Rest.
+
+Tier 3 Powers may be used once and then are only recharged at a Long Rest.
 </rich_text>
-			</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Healing Domain" prog_lang="custom-colors" readonly="False" tags="" unique_id="39">
+			<rich_text underline="single" weight="heavy">Tier 1</rich_text>
+			<rich_text>
+
+Heal Wounds: The cleric can heal an ally with a simple touch. The target gets 1d8 hit points instantly healed, +1 per level of the cleric.
+
+Minor Restoration: Dispels any magical effects reducing one of the subject’s ability scores or cures 1d4 points of temporary ability damage to one of the subject’s ability scores. It does not restore permanent ability drain or level drain.
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 2</rich_text>
+			<rich_text>
+
+Healing Aura: The cleric heals all allies within 20 feet. The targets get 1d6 hit points for every 2 levels of the cleric.
+
+Restoration</rich_text>
+			<rich_text weight="heavy">:</rich_text>
+			<rich_text> Functions like minor restoration, except that it also dispels negative levels and restores one experience level to a creature who has had a level drained. The drained level is restored only if the time since the creature lost the level is equal to or less than one day per caster level. A character who has a level restored by restoration has exactly the minimum number of experience points necessary to restore him or her to his or her previous level.
+
+Restoration cures all temporary ability damage, and it restores all points permanently drained from a single ability score (your choice if more than one is drained). 
+
+Restoration does not restore levels or Constitution points lost due to death.
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 3</rich_text>
+			<rich_text>
+
+Heal: Instantly heals all hit point damage, ability damage and level drain suffered by the target. The cleric must touch the intended target.</rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="3rd Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="50">
-			<rich_text>Aid: +1 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10).  
-Bear’s Endurance: Subject gains +4 to Con for 1 min./level.  
-Bull’s Strength: Subject gains +4 to Str for 1 min./level.  
-Eagle’s Splendor: Subject gains +4 to Cha for 1 min./level.  
-Owl’s Wisdom: Subject gains +4 to Wis for 1 min./level.  
-Hold Person: Paralyzes one humanoid for 1 round/level.  
-Remove Paralysis: Frees one or more creatures from paralysis or slow effect.  
-Restoration, Lesser: Dispels magical ability penalty or repairs 1d4 ability damage.  
-Shield Other F: You take half of subject’s damage.  
-Silence: Negates sound in 20-ft. radius.  
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Protection Domain" prog_lang="custom-colors" readonly="False" tags="" unique_id="50">
+			<rich_text underline="single" weight="heavy">Tier 1</rich_text>
+			<rich_text>
+
+Sanctuary: The cleric makes a Charisma attack vs Willpower against any foe that wants to attack him. If the attack is successful then the foe cannot attack for the duration of the prayer. If the attack is not successful then the foe can attack normally. The cleric attacking an enemy instantly negates the effects of the prayer on that enemy. The prayer lasts for 2d4 rounds. 
+
+Shield Other: This prayer wards the subject and creates a mystic connection between you and the subject so that some of its wounds are transferred to you. The subject gains a +1 to all defences. Additionally, the subject takes only half damage from all wounds and attacks that deal hit point damage. The amount of damage not taken by the warded creature is taken by you. This prayer lasts 2d4 rounds.
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 2</rich_text>
+			<rich_text>
+
+Absorb Energy: You absorb 10 points per cleric level of damage from a specific type of energy (fire, cold, negative energy, etc). The type of energy is determined at the time of the prayer. The effect last until all the points are absorbed or the end of the encounter.
+
+Resistance</rich_text>
+			<rich_text weight="heavy">:</rich_text>
+			<rich_text> Cleric or the target touched gets a +4 bonus to all defences against spells and magical attacks. This lasts until the end of the encounter.
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 3</rich_text>
+			<rich_text>
+
+Anti Magic Field: Negates all magic within 10 feet of the cleric (including benefitial magic). Effect lasts for 1 round per level of the cleric.</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Air Domain" prog_lang="custom-colors" readonly="False" tags="" unique_id="51">
+			<rich_text underline="single" weight="heavy">Tier 1</rich_text>
+			<rich_text>
+
+Obscuring Mist: A misty vapor arises around you. It is stationary once created. The vapor obscures all sight, including darkvision, beyond 5 feet. The mist lasts for 1 minute per level of the cleric.
+
+Wind Wall: A vertical wall of wind 10 feet long and 5 feet high per cleric level springs up. It is 2 feet thick and of considerable strength. Small flying creatures cannot fly through it. Arrows and crossbow bolts automatically miss if fired through it. Larger projectiles suffer a -4 chance to hit. Giant sized projectiles and seige engines are unaffected. The effect lasts until the end of the encounter. 
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 2</rich_text>
+			<rich_text>
+
+Gaseous Form: The cleric or a touched subject and all its gear become insubstantial, misty, and translucent. A gaseous creature can’t run, but it can fly at a speed of 10 feet. It can pass through small holes or narrow openings, even mere cracks, with all it was wearing or holding in its hands, as long as the spell persists. The creature is subject to the effects of wind, and it can’t enter water or other liquid. It also can’t manipulate objects or activate items, even those carried along with its gaseous form. Continuously active items remain active, though in some cases their effects may be moot. The effects last for 2 minutes per cleric level.
+
+Air Walk</rich_text>
+			<rich_text weight="heavy">:</rich_text>
+			<rich_text> The cleric or a touched target can tread on air as if walking on solid ground. Moving upward is similar to walking up a hill. The maximum upward or downward angle possible is 45 degrees, at a rate equal to one-half the air walker’s normal speed. The effect lasts for 10 minutes per cleric level.
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 3</rich_text>
+			<rich_text>
+
+Whirlwind: This prayer creates a powerful cyclone of raging wind that moves through the air, along the ground, or over water at a speed of 60 feet per round. You can concentrate on controlling the cyclone’s every movement or give it simple instructions. Directing the cyclone’s movement or changing its instructions counts as your action for the round and occurs in the Missile / Movement phase. The cyclone always moves during your turn on the Movement phase. If the cyclone gets more than 500 feet from you, it moves in a random, uncontrolled fashion for 1d3 rounds and then dissipates. You can’t regain control of the cyclone, even if comes back within range.
+
+Any Large or smaller creature that comes in contact with the spell effect is attacked at your Base Attack Bonus versus Reflex. A successful attack does 3d6 points of damage. A Medium or smaller creature that takes this damage is attacked again. A success on this attack means the creature is picked up bodily by the cyclone and held suspended in its powerful winds, taking 1d8 points of damage each round on your turn with no save allowed. You may direct the cyclone to eject any carried creatures whenever you wish, depositing the hapless souls wherever the cyclone happens to be when they are released.
+
+This prayer lasts for 1 round per cleric level.</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Plant Domain" prog_lang="custom-colors" readonly="False" tags="" unique_id="52">
+			<rich_text underline="single" weight="heavy">Tier 1</rich_text>
+			<rich_text>
+
+Entangle: Grasses, weeds, bushes, and even trees wrap, twist, and entwine about creatures in a 20 foot radius area within 100 feet of the cleric, holding them fast and causing them to become entangled. Caster makes an attack mofified by Wis against each creature in the area's Reflex defence. A successful attack means the target is immobilized. An immobilized target can use it's turn to attempt to break free with a Strength or Escape Artist check against DC 15. Each round that any creature is in the area the cleric makes an attack roll to immobilize them. The effect last for 1d4 +1 round per level of the cleric.
+
+Barkskin: The cleric can touch a target and cause its skin to become hard and bark-like. The target gets a +2 bonus to AC that lasts for 10 minutes per level of the cleric. The bonus gets an additional +1 for every 5 cleric levels.
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 2</rich_text>
+			<rich_text>
+
+Wall of Thorns: The cleric can create a wall of thorns that blocks movement. The wall is 10 feet long per cleric level and 5 feet wide. Anyone caught in the wall when it is cast or attempts to move through the wall takes damage: 1d10 for no armor, 1d8 for light armor and 1d6 for medium.  Those in heavy armor or its equivalent are unaffected. Someone can push through the 5 foot width of the wall with a successful Strength check vs a DC of 15. The wall lasts for 10 minutes per cleric level.
+
+Animate Plants</rich_text>
+			<rich_text weight="heavy">:</rich_text>
+			<rich_text> You imbue inanimate plants with mobility and a semblance of life. Each animated plant then immediately attacks whomever or whatever you initially designate. You may animate one Large or smaller plant per three cleric levels. You can change the designated target in the Move phase of combat. The prayer lasts for 1 round per cleric level. 
+
+TODO: Stats for the Animated Plant.
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 3</rich_text>
+			<rich_text>
+
+Shambler: This prayer creates 1d4+2 large Shambling Mounds. The creatures willingly aid you in combat or battle, perform a specific mission, or serve as bodyguards. The creatures remain with you for seven days unless you dismiss them. If the shamblers are created only for guard duty, however, the duration of the spell is seven months. In this case, the shamblers can only be ordered to guard a specific site or location. Shamblers summoned to guard duty cannot move outside the spell’s range, which is measured from the point where each first appeared.
+
+TODO: Stats for the Shambling Mound.</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Animal Domain" prog_lang="custom-colors" readonly="False" tags="" unique_id="53">
+			<rich_text underline="single" weight="heavy">Tier 1</rich_text>
+			<rich_text>
+
+Calm Animals: Cleric can cause all animals within 30 feet to become docile and harmless. Only ordinary animals can be affected by the spell. If the animal is trained to attack or guard then the cleric must succeed at an base attack plus his Charisma vs the animal's Will defence. The effect lasts for 1 minute per cleric level.
+
+Dominate Animal: You can enchant an animal and direct it with simple commands such as “Attack,” “Run,” and “Fetch.” Suicidal or self-destructive commands (including an order to attack a creature much larger than the dominated animal) are simply ignored. The animal must be within 25 feet of the cleric and the cleric must make a Charisma attack vs the animal's Will defence. The effect lasts 1 round per cleric level.
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 2</rich_text>
+			<rich_text>
+
+Summon Nature's Ally: The cleric can summon a natural animal. The animal appears within 25 feet of the cleric. It attacks the clerics opponents to the best of its ability. The cleric must be able to communicate with the animal in order to direct it to attack specific foes or to do other specific actions. The cleric cannot summon an animal with more hit dice than his cleric level. The animal stays for 1 round per cleric level and then disappears.
+
+Commune with Nature</rich_text>
+			<rich_text weight="heavy">:</rich_text>
+			<rich_text> The cleric instantly gains knowledge of as many as three facts from among the following subjects: the ground or terrain, plants, minerals, bodies of water, people, general animal population, presence of woodland creatures, presence of powerful unnatural creatures, or even the general state of the natural setting. In outdoor settings, the effect spans a radius of 1 mile per caster level. In natural underground settings—caves, caverns, and the like—the radius is limited to 100 feet per caster level. The prayer does not function where nature has been replaced by construction or settlement, such as in dungeons and towns.
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 3</rich_text>
+			<rich_text>
+
+Shapechange: The cleric can assume the shape of any animal with equal or fewer hit dice than his cleric levels. The cleric gains all the animal's attacks and special abilities but loses his own special abilities. Items worn and carried are absorbed into the new form and reappear when the effect ends. The cleric can change form once per round on his turn. The effect lasts 10 minutes per level.</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Sun Domain" prog_lang="custom-colors" readonly="False" tags="" unique_id="54">
+			<rich_text underline="single" weight="heavy">Tier 1</rich_text>
+			<rich_text>
+
+Heat Metal: Cleric causes metal on targeted creatures within 25 feet to get hot and potentially cause damage.  The cleric can target 1 creature for every 2 cleric levels.  Damage is caused according to the chart below.  If the metal on the creature isn't worn or is very small then it takes minimum damage.
+
+Round   Temp    Damage
+----------------------
+1       Warm    None
+2       Hot     1d4
+3-5     Searing 2d4
+6       Hot     1d4
+7       Warm    None
+
+Searing Light: A successful Wisdom based attack against a target creature within 100 ft causes them to be struck by a focused ray of sunlight from your hand. The target takes 1d8 damage per 2 cleric levels (max 5d8). Undead take 1d6 per caster level (max 10d6). Constructs or inanimate objects take 1d6 per 2 caster levels (max 5d6). 
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 2</rich_text>
+			<rich_text>
+
+Fire Shield: The cleric is wreathed in a shield of flames. He takes half damage from cold based attacks.  Any creature that successfully attacks the cleric with a melee attack takes 1d6 +1 per cleric level in fire damage.
+
+Sunbeam</rich_text>
+			<rich_text weight="heavy">:</rich_text>
+			<rich_text> Once per round the cleric can evoke a dazzling beam of intese light. The cleric gets 1 beam for every 3 cleric levels.  The beams require a Wisdom based attack against a target's Reflex defense.  A successful attack blinds the creature for 1d6 rounds and does 4d6 damage. An unsuccessful attack negates the blindness and delivers only half damage. Undead take double damage.
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 3</rich_text>
+			<rich_text>
+
+Sunburst: Cleric causes a 80 foot radius burst of searing radiance at a point within 400 feet. All creatures within the radius are subject to a Wisdom attack versus Reflex. A successful attack blinds the target for 1d6 rounds and does 6d6 damage. A failed attack negates the blindness and does half damage.  Undead take 1d6 damage per cleric level.
 </rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="5th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="51">
-			<rich_text>Animate Dead M: Creates undead skeletons and zombies.  
-Remove Blindness/Deafness: Cures normal or magical conditions.  
-Remove Curse: Frees object or person from curse.  
-Remove Disease: Cures all diseases affecting subject.  
-Prayer: Allies +1 bonus on most rolls, enemies -1 penalty.  
-Protection from Energy: Absorb 12 points/level of damage from one kind of energy.  
-Searing Light: Ray deals 1d8/two levels damage, more against undead.  
-Magic Vestment: Armor or shield gains +1 enhancement per four levels.  
-Glyph of Warding M: Inscription harms those who pass it.  
-Create Food and Water: Feeds three humans (or one horse)/level.  
+		<node custom_icon_id="0" foreground="" is_bold="False" name="War Domain" prog_lang="custom-colors" readonly="False" tags="" unique_id="55">
+			<rich_text underline="single" weight="heavy">Tier 1</rich_text>
+			<rich_text>
+
+Magic Weapon: Touched weapon gains +1 magic bonus to hit. Bonus lasts for 1 minute per cleric level.
+
+Magic Vestment: Touched armor or shield gains +1 magic bonus per 5 cleric levels (max +3). Bonus lasts 1 hour per cleric level.
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 2</rich_text>
+			<rich_text>
+
+Divine Power: The cleric's diety imbues him with strength and skill. The cleric gets the attack bonus and number of attacks of a fighter at the same level. He also gets a +1 to strength per 5 cleric levels (max +3). The effects last for 1 round per 2 cleric levels.
+
+Blade Barrier</rich_text>
+			<rich_text weight="heavy">:</rich_text>
+			<rich_text> An immobile, vertical curtain of whirling blades shaped of pure force springs into existence. Any creature passing through the wall is subject to a Wisdom based attack versus Reflex.  A successful attack deals 1d6 points of damage per caster level (max 15d6).  A failed attack does half damage.
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 3</rich_text>
+			<rich_text>
+
+Power Word Kill: Cleric utters a word and instantly kills a single creature of 100 hit points or less. Creatures with more than 100 hit points are unaffected. Creatures that are already dead are unaffected.
 </rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="7th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="52">
-			<rich_text>Air Walk: Subject treads on air as if solid (climb at 45-degree angle).  
-Control Water: Raises or lowers bodies of water.  
-Death Ward: Grants immunity to death spells and negative energy effects.  
-Dimensional Anchor: Bars extradimensional movement.  
-Discern Lies: Reveals deliberate falsehoods.  
-Dismissal: Forces a creature to return to native plane.  
-Divination M: Provides useful advice for specific proposed actions.  
-Divine Power: You gain attack bonus, +6 to Str, and 1 hp/level.  
-Freedom of Movement: Subject moves normally despite impediments.  
-Neutralize Poison: Immunizes subject against poison, detoxifies venom in or on subject.  
-Planar Ally, Lesser X: Exchange services with a 6 HD extraplanar creature.  
-Poison: Touch deals 1d10 Con damage, repeats in 1 min.  
-Restoration M: Restores level and ability score drains.  
-Sending: Delivers short message anywhere, instantly.  
-Spell Immunity: Subject is immune to one spell per four levels.  
-Tongues: Speak any language.  
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Good Domain" prog_lang="custom-colors" readonly="False" tags="" unique_id="56">
+			<rich_text>The Good Domain Prayers often target “evil” foes. What is evil is left up to the GM to judge. However, evil shouldn't be defined as just anyone who opposes the PC.
+
 </rich_text>
-		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="10th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="53">
-			<rich_text>Break Enchantment: Frees subjects from enchantments, alterations, curses, and petrification.  
-Commune X: Deity answers one yes-or-no question/level.  
-Disrupting Weapon: Melee weapon destroys undead.  
-Flame Strike: Smite foes with divine fire (1d6/level damage).  
-Hallow M: Designates location as holy.  
-Mark of Justice: Designates action that will trigger curse on subject.  
-Plane Shift F: As many as eight subjects travel to another plane.  
-Raise Dead M: Restores life to subject who died as long as one day/level ago.  
-Righteous Might: Your size increases, and you gain combat bonuses.  
-Slay Living: Touch attack kills subject.  
-Spell Resistance: Subject gains SR 12 + level.  
-Symbol of Pain M: Triggered rune wracks nearby creatures with pain.  
-Symbol of Sleep M: Triggered rune puts nearby creatures into catatonic slumber.  
-True Seeing M: Lets you see all things as they really are.  
-Unhallow M: Designates location as unholy.  
+			<rich_text underline="single" weight="heavy">Tier 1</rich_text>
+			<rich_text>
+
 </rich_text>
-		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="13th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="54">
-			<rich_text>Antilife Shell: 10-ft. field hedges out living creatures.  
-Banishment: Banishes 2 HD/level of extraplanar creatures.  
-Blade Barrier: Wall of blades deals 1d6/level damage.  
-Create Undead: Create ghouls, ghasts, mummies, or mohrgs.  
-Find the Path: Shows most direct way to a location.  
-Forbiddance M: Blocks planar travel, damages creatures of different alignment.  
-Geas/Quest: As lesser geas, plus it affects any creature.  
-Harm: Deals 10 points/level damage to target.  
-Heal: Cures 10 points/level of damage, all diseases and mental conditions.  
-Heroes’ Feast: Food for one creature/level cures and grants combat bonuses.  
-Planar Ally X: As lesser planar ally, but up to 12 HD.  
-Symbol of Fear M: Triggered rune panics nearby creatures.  
-Symbol of Persuasion M: Triggered rune charms nearby creatures.  
-Undeath to Death M: Destroys 1d4 HD/level undead (max 20d4).  
-Wind Walk: You and your allies turn vaporous and travel fast.  
-Word of Recall: Teleports you back to designated place.  
+			<rich_text weight="heavy">Protection</rich_text>
+			<rich_text>: The cleric can protect himself from evil foes. He gains a +2 to all defences. This lasts for 1d4 +1 round per level of the cleric.
+
 </rich_text>
-		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="15th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="55">
-			<rich_text>Blasphemy: Kills, paralyzes, weakens, or dazes nonevil subjects.  
-Control Weather: Changes weather in local area.  
-Destruction F: Kills subject and destroys remains.  
-Ethereal Jaunt: You become ethereal for 1 round/level.  
-Holy Word: Kills, paralyzes, blinds, or deafens nongood subjects.  
-Refuge M: Alters item to transport its possessor to you.  
-Regenerate: Subject’s severed limbs grow back, cures 4d8 damage +1/level (max +35).  
-Repulsion: Creatures can’t approach you.  
-Resurrection M: Fully restore dead subject.  
-Symbol of Stunning M: Triggered rune stuns nearby creatures.  
-Symbol of Weakness M: Triggered rune weakens nearby creatures.  
-Word of Chaos: Kills, confuses, stuns, or deafens nonchaotic subjects.  
+			<rich_text weight="heavy">Bless</rich_text>
+			<rich_text>: The cleric can pray a blessing on his companions. All allies within 30 feet recieve a +1 bonus to all attack rolls and to all defence scores. This bonus lasts for 1d4 +1 round per level of the cleric.
+
 </rich_text>
-		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="17th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="56">
-			<rich_text>Antimagic Field: Negates magic within 10 ft.  
-Create Greater Undead M: Create shadows, wraiths, spectres, or devourers.  
-Dimensional Lock: Teleportation and interplanar travel blocked for one day/level.  
-Discern Location: Reveals exact location of creature or object.  
-Earthquake: Intense tremor shakes 80-ft.-radius.  
-Fire Storm: Deals 1d6/level fire damage.  
-Holy Aura F: +4 to AC, +4 resistance, and SR 25 against evil spells.  
-Planar Ally, Greater X: As lesser planar ally, but up to 18 HD.  
-Shield of Law F: +4 to AC, +4 resistance, and SR 25 against chaotic spells.  
-Spell Immunity, Greater: As spell immunity, but up to 8th-level spells.  
-Symbol of Death M: Triggered rune slays nearby creatures.  
-Symbol of Insanity M: Triggered rune renders nearby creatures insane.  
-Unholy Aura F: +4 to AC, +4 resistance, and SR 25 against good spells.  
+			<rich_text underline="single" weight="heavy">Tier 2</rich_text>
+			<rich_text>
+
 </rich_text>
-		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="19th Level Prayers" prog_lang="custom-colors" readonly="False" tags="" unique_id="57">
-			<rich_text>Astral Projection M: Projects you and companions onto Astral Plane.  
-Energy Drain: Subject gains 2d4 negative levels.  
-Etherealness: Travel to Ethereal Plane with companions.  
-Gate X: Connects two planes for travel or summoning.  
-Heal, Mass: As heal, but with several subjects.  
-Implosion: Kills one creature/round.  
-Miracle X: Requests a deity’s intercession.  
-Soul Bind F: Traps newly dead soul to prevent resurrection.  
-Storm of Vengeance: Storm rains acid, lightning, and hail.
+			<rich_text weight="heavy">Holy Smite</rich_text>
+			<rich_text>: The cleric makes a Charisma attack against Willpower for all evil foes within 20 feet. If the attack succeeds the target takes 1d8 damage per 2 levels of the cleric. If the attack fails the enemy takes half damage. 
+
 </rich_text>
+			<rich_text weight="heavy">Turn Undead:</rich_text>
+			<rich_text> A cleric can attempt to turn a number of hit dice of undead equal to twice his level. The undead targets must be in Close range. The cleric makes an attack with his Base Attack Bonus plus his Charisma against each target's Willpower Defense. If the attack succeeds then the target is turned.  A turned target must attempt to flee or at least move as far away from the cleric as possible for 1d6 rounds.  If the cleric has more than twice the hit dice of the undead, it is totally destroyed rather than being turned. 
+
+</rich_text>
+			<rich_text underline="single" weight="heavy">Tier 3</rich_text>
+			<rich_text>
+
+Holy Word: Any evil creature within 40 feet who hears the words suffers the following effect based on their hit dice:
+
+HD equal to cleric:                 Deaf for 2d4 rounds.
+HD greater than half the cleric's:  Stunned an unable to act for 2d4 rounds.
+HD half or less than the cleric's:  Killed (or destroyed if undead)
+
+There is no attack roll required for Holy Word.</rich_text>
 		</node>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="True" name="Combat Stunts" prog_lang="custom-colors" readonly="False" tags="" unique_id="76">
@@ -1106,7 +1524,13 @@ Subtle Blow: When attacking an opponent that is engaged with another foe, increa
 
 Nerve Strike: Must be declared before the attack. If the attack hits, instead of damage the target is stunned and unable to act for 1 round.
 
-Quick Strike: When using a Primary or Secondary melee weapon, the character may attack during the Movement and Missile phase of the round instead of the Melee and Magic phase.</rich_text>
+Quick Strike: When using a Primary or Secondary melee weapon, the character may attack during the Movement and Missile phase of the round instead of the Melee and Magic phase.
+
+Dual Wield: Character can fight with 2 weapons as long as the first weapon can be wielded in 1 hand and the second weapon is a small one-handed weapon.  The character gains 1 extra attack a round.  The additional attack is at their base attack bonus with no Strength added to the attack or damage.
+
+Two Handed Style: Two handed weapons do an additional +2 damage. 
+
+Armor Defense Style: When wearing medium or heavy armor and using a shield, get a +2 bonus to AC.</rich_text>
 	</node>
 	<node custom_icon_id="0" foreground="" is_bold="True" name="Skills" prog_lang="custom-colors" readonly="False" tags="" unique_id="58">
 		<rich_text>Skills allow a character to get a bonus to an Ability Check where the skill applies. If the character is making an Intelligence Check and the Ancient History skill would be applicable to the check then she gets a +4 bonus if she has that skill.  She gets an additional +2 bonus for every slot after the first spent on a single skill.  
@@ -1279,21 +1703,16 @@ Giving the unconscious character a healing potion or casting a healing spell cau
 
 Recovery
 
-As the characters adventure, they are continually using up and losing their resources in terms of Hit Points, Mana, Turn Attempts, etc. Eventually they will need to rest and recover. There are two ways this happens.
+As the characters adventure, they are continually using up and losing their resources in terms of Hit Points, Mana, potions, etc. Eventually they will need to rest and recover. There are two ways this happens.
 
-First, the characters can take a Short Rest. A Short Rest means they stop somewhere for at least 10-15 minutes of game time and take a breather. During this rest they can undertake no strenuous activity. The benefits of a Short Rest are:
+First, the characters can take a Short Rest. A Short Rest means they stop somewhere for at least 30 minutes of game time and take a breather. During this rest they can undertake no strenuous activity. You cannot take multiple Short Rests in a row. An encounter must take place between Short Rests. The benefits of a Short Rest are:
 
-1 – Each character has a number of hit dice equal to his level, to a maximum of 10. The die size is the same in which that character rolls for Hit Points. At a Short Rest, the characters may roll any number of their Hit Dice to regain Hit Points. Once rolled, those Hit Dice may not be used again until after a Long Rest (described below).
+Each character has a number of hit dice equal to his level, to a maximum of 10. The die size is the same in which that character rolls for Hit Points. At a Short Rest, the characters may roll any number of their Hit Dice to regain Hit Points. Once rolled, those Hit Dice may not be used again until after a Long Rest (described below).
 
-2 – Mage characters may roll Hit Dice to recover Mana instead of Hit Points. These Hit Dice are then expended just as if they had been used for Hit Points. 
-
-3 – Clerics may make one attempt to recharge any expended Prayers. The characters may take as many Short Rests as they want. However, after a short rest there must be at least 1 encounter before taking another Short Rest.
-
-Once per 24 hour period the characters may take a Long Rest. The benefits of a Long Rest are:
+Second, once per 24 hour period the characters may take a Long Rest. A Long Rest is at least 8 hours long, during which at least 4 hours are spent sleeping.  When not sleeping the character may not undertake any strenuous activity. The benefits of a Long Rest are:
 
 1 – All the character's Hit Dice are recharged.
 2 – All Mana is recovered.
-3 – All Prayers are recovered.
 4 – Each character recovers their level + Constitution in hit points.</rich_text>
 		</node>
 	</node>
@@ -1672,20 +2091,50 @@ Writing ink (per vial)          8 gp
 </rich_text>
 		</node>
 	</node>
+	<node custom_icon_id="0" foreground="" is_bold="True" name="Magic Items" prog_lang="custom-colors" readonly="False" tags="" unique_id="84">
+		<rich_text>Ring of Iron Will: +2 to Willpower Defense.
+
+Amulet of Health: +2 to Fortitude Defense.
+
+Cloak of Shadows: +2 to Stealth rolls.
+
+Shortbow of Speed: User gets 1 additional attack per round.
+
+Ring of Blindsight: Wearer can see in total darkness.
+
+Wands: These items are approximately 1 foot long and slender. They are made from a variety of materials but all do basically the same thing. They can store spells to be used later. They have a Mana point maximum that sets the limit for what they can cast.  If a spell costs the Mage 5 Mana to cast normally then it takes up 5 Mana from the Wand's capacity. Once the spell is cast from the Wand, those Mana are once again available. Once the spell is cast from the Wand, the spell must be recast into the Wand before it can be used again. The maximum any Wand can store is 10 Mana. 
+
+Staff: Works just like a Wand except the item is larger and stores more Mana worth of spells. Staves store between 15 and 25 Mana worth of spells.
+
+Mana Crystals: These crystals store Mana for use later. Each day the Mage can elect to put any or all of his available Mana into the crystal. That Mana is used up for the day as if he had cast a spell and used it.  The Mana then stays in the crystal indefinitely until the Mage decides to use it later.
+
+Ring of Protection: This ring gives a bonus (+1, +2 or +3) to all the wearer's defenses.
+
+Brooch of Warding: Absorbs spells cast at the wearer. The brooch starts with 30 spell levels. Every time a spell is cast at the wearer, the effect is negated and the level of that spell is subtracted from the brooch's total. When the brooch has 0 levels left, it becomes a non-magical ornament.  The brooch only protects the wearer from spells that specifically target the caster. Area effect spells and the like are unaffected. The brooch protects from friendly and non-friendly spells both.
+
+Lightning Staff: This is a +2 staff that stores 10 Mana and has the following special abilities:
+    1 / day - Lightning Bolt
+    3 / day - Shocking Grasp
+    3 / day - Thunderclap (Int attack vs Will in a 20 foot cone. Success stuns the target for 1d4 rounds. Stunned targets can cast no spells or use any magical items and make all rolls at a -2 penalty.)
+    
+Holy Symbol: Gives a bonus to the cleric to retain their spells after casting. The pluses generally range from +1 to +5.
+
+Rod of Turning: +3 to Turning Undead attack roll.</rich_text>
+	</node>
 	<node custom_icon_id="0" foreground="" is_bold="True" name="Sample Characters" prog_lang="custom-colors" readonly="False" tags="" unique_id="77">
 		<rich_text></rich_text>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="1st Level Human Fighter" prog_lang="custom-colors" readonly="False" tags="" unique_id="78">
-			<rich_text>Human Fighter Level 1  
-Str: +4     Dex: +2     Con: +3   
+		<node custom_icon_id="0" foreground="" is_bold="False" name="1st Level Fighter" prog_lang="custom-colors" readonly="False" tags="" unique_id="78">
+			<rich_text>Fighter Level 1  
+Str: +4     Dex: +2     Con: +2   
 Int: -1     Wis: +0     Cha: +1  
-HP: 21  AB: +1  Mana: 0  
-AC: 16  Fort: 13    Ref: 12     Will: 11  
+HP: 20  AB: +1  Mana: 0  
+AC: 16  Fort: 13    Ref: 12     Will: 10  
 
 Primary Weapons: Longsword, Longbow, Flail
 Secondary Weapons: Spear, Lance, Dagger, Battle Axe, Crossbow
 Combat Stunts: Cleave
 
-Skills: Ride, First Aid
+Skills: Ride
   
 Weapons:        AB  Damage  #Att  
 Longsword       +5  1d10+4  1  
@@ -1694,19 +2143,14 @@ Dagger(Thrown)  +3  1d8+2   1
 Longbow         +3  1d10+2  1 
   
 Equipment: Scale Mail, Shield, LongBow, Arrows (20), Dagger, Longsword, Backpack (50' rope, 1 torch, 7 days rations, waterskin)  
-  
-Racial Features:  
-+1 to any single Attribute          (Con)
-+1 to any single Defense            (Wil)
-+1 Additonal Skill at 1st level.    (First Aid)
-+1 to any 2 Skills.                 (Ride, First Aid)</rich_text>
+  </rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="1st Level Human Thief" prog_lang="custom-colors" readonly="False" tags="" unique_id="79">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="1st Level Thief" prog_lang="custom-colors" readonly="False" tags="" unique_id="79">
 			<rich_text>Human Thief Level 1  
 Str: +1     Dex: +4     Con: +2   
-Int: +3     Wis: -1     Cha: +0  
+Int: +2     Wis: -1     Cha: +0  
 HP: 14  AB: +0  Mana: 0  
-AC: 14  Fort: 12    Ref: 14     Will: 10
+AC: 14  Fort: 12    Ref: 14     Will: 9
 
 Primary Weapons: Shortsword
 Secondary Weapons: Shortbow, Dagger, Quarterstaff
@@ -1714,7 +2158,7 @@ Combat Stunts:
 
 Sneak Attack: +1d6
 
-Skills: Appraise, Athletics, Balance, Bluff, Disguise, Gather Information, Perception, Sense Motive
+Skills: Appraise, Athletics, Bluff, Disguise, Gather Information, Perception
 
 Thief Skills: 
     Stealth               (Focus)
@@ -1730,69 +2174,55 @@ Dagger(Thrown)  +4  1d6+4   1
 Shortbow        +4  1d6+4   1 
   
 Equipment: Leather Armor, Shortbow, Arrows (20), Dagger, Shortsword, Backpack (50' rope, 1 torch, 7 days rations, waterskin)  
-  
-Racial Features:  
-+1 to any single Attribute          (Int)
-+1 to any single Defense            (Wil)
-+1 Additonal Skill at 1st level.    (Appraise)
-+1 to any 2 Skills.                 (Perception, Bluff)</rich_text>
+  </rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="1st Level Human Mage" prog_lang="custom-colors" readonly="False" tags="" unique_id="80">
-			<rich_text>Human Mage Level 1  
-Str: -1     Dex: +2     Con: +2   
-Int: +4     Wis: +0     Cha: +2  
-HP: 15  AB: 0   Mana: 3  
-AC: 12  Fort: 12    Ref: 12     Will: 11  
+		<node custom_icon_id="0" foreground="" is_bold="False" name="1st Level Mage" prog_lang="custom-colors" readonly="False" tags="" unique_id="117">
+			<rich_text>Mage Level 1  
+Str: -1     Dex: +1     Con: +2   
+Int: +4     Wis: 0     Cha: +2  
+HP: 15  AB: +0  Mana: 3  
+AC: 13  Fort: 12    Ref: 11     Will: 10
 
-Primary Weapons: Longbow, Quarterstaff
-Combat Stunts: Cleave
+Primary Weapons: Staff, Shortbow
+Combat Stunts:
 
-Skills: Ride, Spellcraft, Diplomacy, Concentration, Knowledge Arcana, Knowledge History, Craft Weapons, Craft Wands
-  
+Skills: Languages (Elven), Knowledge (Arcana, History), Craft (Potions, Scrolls), Spellcraft, Concentration 
+
+Spells:
+    1st Level: Mage Armor, Magic Missile, Enlarge Person, Alarm, Identify
+
 Weapons:        AB  Damage  #Att  
-Longbow         +2  1d6+2   1 
-Quarterstaff    -1  1d6-1   1
+Staff           -1  1d6-1   1
+Shortbow        +1  1d6+1   1 
   
-Equipment: Longbow, Arrows (20), Quarterstaff, Backpack (50' rope, 1 torch, 7 days rations, waterskin, spellbook)  
-
-Spells: Shield, Summon Monster, Enlarge Person, Magic Missile, Identify
-  
-Racial Features:  
-+1 to any single Attribute          (Dex)
-+1 to any single Defense            (Will)
-+1 Additonal Skill at 1st level.    (Craft Wands)
-+1 to any 2 Skills.                 (Diplomacy, Concentration)</rich_text>
+Equipment: Leather Armor, Staff, Shortbow, Arrows (20), Backpack (50' rope, 1 torch, 7 days rations, waterskin, Spellbook)  
+  </rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="1st Level Human Cleric" prog_lang="custom-colors" readonly="False" tags="" unique_id="81">
-			<rich_text>Human Cleric Level 1  
-Str: +2     Dex: 0      Con: +1   
+		<node custom_icon_id="0" foreground="" is_bold="False" name="1st Level Cleric" prog_lang="custom-colors" readonly="False" tags="" unique_id="81">
+			<rich_text>Cleric Level 1  
+Str: +2     Dex: -1     Con: +1   
 Int: 0      Wis: +4     Cha: +2  
 HP: 16  AB: 0   Mana: 0  
-AC: 10  Fort: 11    Ref: 11     Will: 14  
+AC: 14  Fort: 11    Ref: 9     Will: 14  
 
 Primary Weapons: Battle Axe
 Combat Stunts: Crossbow, Mace, Spear
 
-Skills: Ride, Knowledge Religion, Profession Scribe, Forgery
+Skills: Ride, Knowledge Religion, Profession Scribe
   
 Weapons:        AB  Damage  #Att  
 Battle Axe      +2  1d8+2   1 
 Crossbow        +0  1d6     1
 Mace            +2  1d6+2   1
   
-Equipment: Crossbow, Arrows (20), Mace, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Holy Symbol)  
+Equipment: Scale Mail, Shield, Crossbow, Arrows (20), Battle Axe, Mace, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Holy Symbol)  
 
-Prayers: Bless, Magic Weapon, Divine Favor, Remove Fear, Cure Wounds
+Domains: Healing I
 
 Turning: +2 vs Will, 2 HD
-  
-Racial Features:  
-+1 to any single Attribute          (Dex)
-+1 to any single Defense            (Reflex)
-+1 Additonal Skill at 1st level.    (Forgery)
-+1 to any 2 Skills.                 (Knowledge Religion, Ride)</rich_text>
+  </rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="5th Level Human Fighter" prog_lang="custom-colors" readonly="False" tags="" unique_id="82">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="5th Level Fighter" prog_lang="custom-colors" readonly="False" tags="" unique_id="82">
 			<rich_text>Human Fighter Level 5  
 Str: +4     Dex: +2     Con: +3   
 Int: -1     Wis: +0     Cha: +1  
@@ -1819,7 +2249,7 @@ Racial Features:
 +1 Additonal Skill at 1st level.    (First Aid)
 +1 to any 2 Skills.                 (Ride, First Aid)</rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="5th Level Human Thief" prog_lang="custom-colors" readonly="False" tags="" unique_id="87">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="5th Level Thief" prog_lang="custom-colors" readonly="False" tags="" unique_id="87">
 			<rich_text>Human Thief Level 5  
 Str: +1     Dex: +4     Con: +2   
 Int: +3     Wis: -1     Cha: +0  
@@ -1855,7 +2285,69 @@ Racial Features:
 +1 Additonal Skill at 1st level.    (Appraise)
 +1 to any 2 Skills.                 (Perception, Bluff)</rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="10th Level Human Fighter" prog_lang="custom-colors" readonly="False" tags="" unique_id="83">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="5th Level Mage" prog_lang="custom-colors" readonly="False" tags="" unique_id="118">
+			<rich_text>Human Mage Level 5 
+Str: -1     Dex: +1     Con: +2   
+Int: +4     Wis: 0     Cha: +3  
+HP: 36  AB: +1  Mana: 8  
+AC: 13  Fort: 12    Ref: 11     Will: 11
+
+Primary Weapons: Staff, Shortbow
+Combat Stunts:
+
+Skills: Languages (Elven, Dragon), Knowledge (Arcana, History), Craft (Potions, Scrolls, Wands), Spellcraft, Concentration 
+
+Spells:
+    1st Level: Mage Armor, Magic Missile, Alarm, Identify
+    3rd Level: Hold Person
+    5th Level: Heroism, Lightning Bolt
+
+Weapons:        AB  Damage  #Att  
+Staff           +0  1d6-1   1
+Shortbow        +2  1d6+1   1 
+  
+Equipment: Leather Armor, Staff, Shortbow, Arrows (20), Backpack (50' rope, 1 torch, 7 days rations, waterskin, Spellbook), Wand (5 Mana)  
+  
+Racial Features:  
++1 to any single Attribute          (Cha)
++1 to any single Defense            (Will)
++1 Additonal Skill at 1st level.    (Concentration)
++1 to any 2 Skills.                 (Knowledge (Arcana), Concentration)</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="5th Level Cleric" prog_lang="custom-colors" readonly="False" tags="" unique_id="121">
+			<rich_text>Human Cleric Level 5  
+Str: +2     Dex: 0      Con: +1   
+Int: 0      Wis: +4     Cha: +2  
+HP: 41  AB: +2   Mana: 0  
+AC: 17  Fort: 11    Ref: 11     Will: 14  
+
+Primary Weapons: Battle Axe
+Secondary Weaponse: Crossbow, Mace, Spear
+
+Combat Stunts: Armor Defense Style
+
+Skills: Ride, Knowledge Religion, Profession Scribe, Forgery, Language (Celestial)
+  
+Weapons:        AB  Damage  #Att  
+Battle Axe      +4  1d8+2   1 
+Crossbow        +2  1d6     1
+Mace            +4  1d6+2   1
+  
+Equipment: Scale Mail, Shield, Crossbow, Arrows (20), Battle Axe, Mace, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Holy Symbol +2)  
+
+Prayers: 
+    1st Level: Bless, Magic Weapon, Divine Favor, Remove Fear, Cure Wounds
+    3rd Level: Aid, Restoration
+
+Turning: +4 vs Will, 10 HD
+  
+Racial Features:  
++1 to any single Attribute          (Dex)
++1 to any single Defense            (Reflex)
++1 Additonal Skill at 1st level.    (Forgery)
++1 to any 2 Skills.                 (Knowledge Religion, Ride)</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="10th Level Fighter" prog_lang="custom-colors" readonly="False" tags="" unique_id="83">
 			<rich_text>Human Fighter Level 10  
 Str: +4     Dex: +2     Con: +3   
 Int: -1     Wis: +0     Cha: +1  
@@ -1883,7 +2375,7 @@ Racial Features:
 +1 Additonal Skill at 1st level.    (First Aid)
 +1 to any 2 Skills.                 (Ride, First Aid)</rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="10th Level Human Thief" prog_lang="custom-colors" readonly="False" tags="" unique_id="88">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="10th Level Thief" prog_lang="custom-colors" readonly="False" tags="" unique_id="88">
 			<rich_text>Human Thief Level 10  
 Str: +1     Dex: +4     Con: +2   
 Int: +3     Wis: -1     Cha: +0  
@@ -1919,7 +2411,75 @@ Racial Features:
 +1 Additonal Skill at 1st level.    (Appraise)
 +1 to any 2 Skills.                 (Perception, Bluff)</rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="15th Level Human Fighter" prog_lang="custom-colors" readonly="False" tags="" unique_id="85">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="10th Level Mage" prog_lang="custom-colors" readonly="False" tags="" unique_id="80">
+			<rich_text>Human Mage Level 10
+Str: -1     Dex: +1     Con: +2   
+Int: +4     Wis: 0      Cha: +3  
+HP: 58  AB: +2  Mana: 13  
+AC: 14  Fort: 13    Ref: 12     Will: 12
+
+Primary Weapons: Staff, Shortbow
+Combat Stunts: Specialize (Shortbow)
+
+Skills: Languages (Elven, Dragon), Knowledge (Arcana, History), Craft (Potions, Scrolls, Wands), Spellcraft, Concentration, Perception 
+
+Spells:
+    1st Level:  Magic Missile, Alarm, Identify
+    3rd Level:  Hold Person
+    5th Level:  Heroism, Lightning Bolt
+    7th Level:  Stone Skin, Globe of Invulnerability
+    10th Level: Private Sanctum
+
+Weapons:        AB  Damage  #Att  
+Staff           +1  1d6-1   1
+Shortbow        +5  1d6+2   1 
+  
+Equipment: Leather Armor, Staff (15 Mana), Shortbow +1, Arrows (20), Backpack (50' rope, 1 torch, 7 days rations, waterskin, Spellbook), Wand (5 Mana), Mana Crystal (5), Ring of Protection +1  
+  
+Racial Features:  
++1 to any single Attribute          (Cha)
++1 to any single Defense            (Will)
++1 Additonal Skill at 1st level.    (Concentration)
++1 to any 2 Skills.                 (Knowledge (Arcana), Concentration)</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="10th Level Cleric" prog_lang="custom-colors" readonly="False" tags="" unique_id="122">
+			<rich_text>Human Cleric Level 10  
+Str: +2     Dex: 0      Con: +1   
+Int: 0      Wis: +4     Cha: +2  
+HP: 64  AB: +4   Mana: 0  
+AC: 18  Fort: 11    Ref: 11     Will: 14  
+
+Primary Weapons: Battle Axe
+Secondary Weaponse: Crossbow, Mace, Spear
+
+Combat Stunts: Armor Defense Style, Specialize (Battle Axe), Weapons and Shield Style
+
+Skills: Ride, Knowledge Religion, Profession Scribe, Forgery, Language (Celestial)
+  
+Weapons:        AB  Damage  #Att  
+Battle Axe      +8  1d8+3   1 
+Crossbow        +4  1d6     1
+Mace            +6  1d6+2   1
+Shield          +4  1d6     1
+  
+Equipment: Scale Mail +1, Shield, Crossbow, Arrows (20), Battle Axe +1, Mace, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Holy Symbol +2)  
+
+Prayers: 
+    1st Level:  Magic Weapon, Remove Fear, Cure Wounds
+    3rd Level:  Aid, Restoration
+    5th Level:  Create Food and Water
+    7th Level:  Divine Power
+    10th Level: Raise Dead, Flame Strike
+
+Turning: +6 vs Will, 20 HD
+  
+Racial Features:  
++1 to any single Attribute          (Dex)
++1 to any single Defense            (Reflex)
++1 Additonal Skill at 1st level.    (Forgery)
++1 to any 2 Skills.                 (Knowledge Religion, Ride)</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="15th Level Fighter" prog_lang="custom-colors" readonly="False" tags="" unique_id="85">
 			<rich_text>Human Fighter Level 15  
 Str: +4     Dex: +2     Con: +3   
 Int: -1     Wis: +0     Cha: +1  
@@ -1948,12 +2508,12 @@ Racial Features:
 +1 Additonal Skill at 1st level.    (First Aid)
 +1 to any 2 Skills.                 (Ride, First Aid)</rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="15th Level Human Thief" prog_lang="custom-colors" readonly="False" tags="" unique_id="89">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="15th Level Thief" prog_lang="custom-colors" readonly="False" tags="" unique_id="89">
 			<rich_text>Human Thief Level 15  
 Str: +1     Dex: +4     Con: +2   
 Int: +3     Wis: -1     Cha: +0  
 HP: 64  AB: +5  Mana: 0  
-AC: 14  Fort: 12    Ref: 14     Will: 10
+AC: 16  Fort: 12    Ref: 14     Will: 10
 
 Primary Weapons: Shortsword
 Secondary Weapons: Shortbow, Dagger, Quarterstaff
@@ -1971,12 +2531,12 @@ Thief Skills:
     Slieght of Hand 
   
 Weapons:        AB  Damage  #Att  
-Shortsword      +8  1d8+3   3/2  
+Shortsword      +6  1d8+1   3/2  
 Dagger          +7  1d6+2   3/2  
 Dagger(Thrown)  +10 1d6+5   3/2
 Shortbow*       +9  1d6+4   3/2 (5/2) 
   
-Equipment: Leather Armor, Shortbow of Speed, Arrows (20), Dagger +1, Shortsword +2, Backpack (50' rope, 1 torch, 7 days rations, waterskin), Cloak of Shadows  
+Equipment: Leather Armor +2, Shortbow of Speed, Arrows (20), Dagger +1, Shortsword, Backpack (50' rope, 1 torch, 7 days rations, waterskin), Cloak of Shadows  
   
 Racial Features:  
 +1 to any single Attribute          (Int)
@@ -1984,7 +2544,79 @@ Racial Features:
 +1 Additonal Skill at 1st level.    (Appraise)
 +1 to any 2 Skills.                 (Perception, Bluff)</rich_text>
 		</node>
-		<node custom_icon_id="0" foreground="" is_bold="False" name="20th Level Human Fighter" prog_lang="custom-colors" readonly="False" tags="" unique_id="86">
+		<node custom_icon_id="0" foreground="" is_bold="False" name="15th Level Mage" prog_lang="custom-colors" readonly="False" tags="" unique_id="119">
+			<rich_text>Human Mage Level 15
+Str: -1     Dex: +1     Con: +2   
+Int: +4     Wis: 0      Cha: +3  
+HP: 63  AB: +3  Mana: 18  
+AC: 14  Fort: 13    Ref: 12     Will: 12
+
+Primary Weapons: Staff, Shortbow
+Combat Stunts: Specialize (Shortbow), Wounding Strike (Shortbow)
+
+Skills: Languages (Elven, Dragon), Knowledge (Arcana, History, Planes), Craft (Potions, Scrolls, Wands), Spellcraft, Concentration, Perception 
+
+Spells:
+    1st Level:  Magic Missile, Alarm, Identify
+    3rd Level:  Hold Person
+    5th Level:  Heroism, Lightning Bolt
+    7th Level:  Stone Skin, Globe of Invulnerability
+    10th Level: Private Sanctum
+    13th Level: Guards and Wards, Acid Fog
+    15th Level: Teleport
+
+Weapons:        AB  Damage  #Att  
+Lightning Staff +4  1d6+1   1
+Shortbow        +6  1d6+4   1 
+  
+Equipment: Leather Armor, Lightning Staff, Shortbow +1, Arrows (20), Backpack (50' rope, 1 torch, 7 days rations, waterskin, Spellbook), Wand (5 Mana), Mana Crystal (5), Ring of Protection +1, Brooch of Warding (15)  
+  
+Racial Features:  
++1 to any single Attribute          (Cha)
++1 to any single Defense            (Will)
++1 Additonal Skill at 1st level.    (Concentration)
++1 to any 2 Skills.                 (Knowledge (Arcana), Concentration)</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="15th Level Cleric" prog_lang="custom-colors" readonly="False" tags="" unique_id="123">
+			<rich_text>Human Cleric Level 15  
+Str: +2     Dex: 0      Con: +1   
+Int: 0      Wis: +4     Cha: +2  
+HP: 74  AB: +5   Mana: 0  
+AC: 18  Fort: 11    Ref: 11     Will: 14  
+
+Primary Weapons: Battle Axe
+Secondary Weaponse: Crossbow, Mace, Spear
+
+Combat Stunts: Armor Defense Style, Specialize (Battle Axe), Weapons and Shield Style, Wounding Strike (Battle Axe)
+
+Skills: Ride, Knowledge Religion, Profession Scribe, Forgery, Language (Celestial), Diplomacy
+  
+Weapons:        AB  Damage  #Att  
+Battle Axe      +9  1d8+3   3/2 
+Crossbow        +5  1d6     3/2
+Mace            +7  1d6+2   3/2
+Shield          +5  1d6     3/2
+  
+Equipment: Scale Mail +1, Shield, Crossbow, Arrows (20), Battle Axe +1, Mace, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Holy Symbol +4), Rod of Turning  
+
+Prayers: 
+    1st Level:  Magic Weapon, Remove Fear, Cure Wounds
+    3rd Level:  Aid, Restoration
+    5th Level:  Create Food and Water
+    7th Level:  Divine Power
+    10th Level: Raise Dead, Flame Strike
+    13th Level: Heal, Blade Barrier
+    15th Level: Holy Word
+
+Turning: +7 (+10) vs Will, 30 HD
+  
+Racial Features:  
++1 to any single Attribute          (Dex)
++1 to any single Defense            (Reflex)
++1 Additonal Skill at 1st level.    (Forgery)
++1 to any 2 Skills.                 (Knowledge Religion, Ride)</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="20th Level Fighter" prog_lang="custom-colors" readonly="False" tags="" unique_id="86">
 			<rich_text>Human Fighter Level 20  
 Str: +4     Dex: +2     Con: +3   
 Int: -1     Wis: +0     Cha: +1  
@@ -2014,16 +2646,120 @@ Racial Features:
 +1 Additonal Skill at 1st level.    (First Aid)
 +1 to any 2 Skills.                 (Ride, First Aid)</rich_text>
 		</node>
-	</node>
-	<node custom_icon_id="0" foreground="" is_bold="True" name="Magic Items" prog_lang="custom-colors" readonly="False" tags="" unique_id="84">
-		<rich_text>Ring of Iron Will: +2 to Willpower Defense.
+		<node custom_icon_id="0" foreground="" is_bold="False" name="20th Level Thief" prog_lang="custom-colors" readonly="False" tags="" unique_id="90">
+			<rich_text>Human Thief Level 20  
+Str: +1     Dex: +4     Con: +2   
+Int: +3     Wis: -1     Cha: +0  
+HP: 74  AB: +6  Mana: 0  
+AC: 16  Fort: 12    Ref: 14     Will: 10
 
-Amulet of Health: +2 to Fortitude Defense.
+Primary Weapons: Shortsword
+Secondary Weapons: Shortbow, Dagger, Quarterstaff
+Combat Stunts: Subtle Blow, Specialization (Shortbow), Nerve Strike, Quick Strike, Dual Wield
 
-Cloak of Shadows: +2 to Stealth rolls.
+Sneak Attack: +3d6
 
-Shortbow of Speed: User gets 1 additional attack per round.
+Skills: Appraise, Athletics, Balance, Bluff, Disguise, Gather Information, Perception, Sense Motive, Escape Artist, Profession (Merchant), Craft (Snares and Traps), Knowledge (Criminal Underworld), Language (Thief's Cant, Elven)
 
-</rich_text>
+Thief Skills: 
+    Stealth               (Focus)
+    Find / Remove Traps   (Focus)
+    Pick Locks            (Focus)
+    Climb                 (Focus)
+    Slieght of Hand 
+  
+Weapons:        AB  Damage  #Att  
+Shortsword      +7  1d8+1   3/2  
+Dagger          +8  1d6+2   3/2  
+Dagger**        +7  1d6+1   1
+Dagger(Thrown)  +11 1d6+5   3/2
+Shortbow*       +10 1d6+4   3/2 (5/2) 
+
+*Shortbow of Speed, **Off-hand attack
+  
+Equipment: Leather Armor +2, Shortbow of Speed, Arrows (20), Dagger +1, Shortsword, Backpack (50' rope, 1 torch, 7 days rations, waterskin), Cloak of Shadows, Ring of Blindsight  
+  
+Racial Features:  
++1 to any single Attribute          (Int)
++1 to any single Defense            (Wil)
++1 Additonal Skill at 1st level.    (Appraise)
++1 to any 2 Skills.                 (Perception, Bluff)</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="20th Level Mage" prog_lang="custom-colors" readonly="False" tags="" unique_id="120">
+			<rich_text>Human Mage Level 20
+Str: -1     Dex: +1     Con: +2   
+Int: +4     Wis: 0      Cha: +3  
+HP: 68  AB: +4  Mana: 23  
+AC: 14  Fort: 13    Ref: 12     Will: 12
+
+Primary Weapons: Staff, Shortbow
+Combat Stunts: Specialize (Shortbow), Wounding Strike (Shortbow), Two Handed Style
+
+Skills: Languages (Elven, Dragon, Dwarven), Knowledge (Arcana, History, Planes), Craft (Potions, Scrolls, Wands, Staves), Spellcraft, Concentration, Perception 
+
+Spells:
+    1st Level:  Magic Missile, Alarm
+    3rd Level:  Hold Person
+    5th Level:  Heroism, Lightning Bolt
+    7th Level:  Stone Skin, Globe of Invulnerability
+    10th Level: Private Sanctum
+    13th Level: Acid Fog
+    15th Level: Teleport
+    17th Level: Iron Body, Power Word Stun
+    19th Level: Meteor Swarm, Shapechange
+
+Weapons:        AB  Damage  #Att  
+Lightning Staff +5  1d6+3   1
+Shortbow        +7  1d6+4   1 
+  
+Equipment: Leather Armor, Lightning Staff, Shortbow +1, Arrows (20), Backpack (50' rope, 1 torch, 7 days rations, waterskin, Spellbook), Wand (10 Mana), Mana Crystal (10), Ring of Protection +1, Brooch of Warding (15)  
+  
+Racial Features:  
++1 to any single Attribute          (Cha)
++1 to any single Defense            (Will)
++1 Additonal Skill at 1st level.    (Concentration)
++1 to any 2 Skills.                 (Knowledge (Arcana), Concentration)</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="20th Level Cleric" prog_lang="custom-colors" readonly="False" tags="" unique_id="124">
+			<rich_text>Human Cleric Level 20  
+Str: +2     Dex: 0      Con: +1   
+Int: 0      Wis: +4     Cha: +2  
+HP: 84  AB: +6   Mana: 0  
+AC: 20  Fort: 11    Ref: 11     Will: 14  
+
+Primary Weapons: Battle Axe
+Secondary Weaponse: Crossbow, Mace, Spear
+
+Combat Stunts: Armor Defense Style, Specialize (Battle Axe), Weapons and Shield Style, Wounding Strike (Battle Axe), Massive Damage (Battle Axe)
+
+Skills: Ride, Knowledge (Religion, History), Profession Scribe, Forgery, Language (Celestial, Dwarven), Diplomacy, First Aid
+  
+Weapons:        AB  Damage  #Att  
+Battle Axe      +10 1d8+5   3/2 
+Crossbow        +6  1d6     3/2
+Mace            +8  1d6+2   3/2
+Shield          +6  1d6     3/2
+  
+Equipment: Scale Mail +3, Shield, Crossbow, Arrows (20), Battle Axe +1, Mace +1, Backpack (50' rope, 1 torch, 7 days rations, waterskin, Holy Symbol +4), Rod of Turning  
+
+Prayers: 
+    1st Level:  Magic Weapon, Remove Fear, Cure Wounds
+    3rd Level:  Aid, Restoration
+    5th Level:  Create Food and Water
+    7th Level:  Divine Power
+    10th Level: Raise Dead, Flame Strike
+    13th Level: Heal, Blade Barrier
+    15th Level: Holy Word
+    17th Level: Anti-Magic Field
+    19th Level: Gate
+
+Turning: +8 (+11) vs Will, 40 HD
+  
+Racial Features:  
++1 to any single Attribute          (Dex)
++1 to any single Defense            (Reflex)
++1 Additonal Skill at 1st level.    (Forgery)
++1 to any 2 Skills.                 (Knowledge Religion, Ride)</rich_text>
+		</node>
 	</node>
 </cherrytree>
