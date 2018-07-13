@@ -1,0 +1,41 @@
+Race and Class are the two primary defining characteristics of a character. There are 6 races to choose from: Human, Half-Elf, Halfling, Dwarf, Elf, Gnome.  A character's race bestows some benefits and some restrictions.  All the races except human have some minimum and maximum attribute requirements to take.  All races except humans have class and level limits. Level limits do not keep the character from progressing past that level but it does mean the number of experience points needed in that class double after that level.
+
+Dwarf
+-----
+Attribute Restrictions: Con: 10+  Cha: 17-  Dex: 17-
+Attribute Bonuses: +2 Con, -1 Cha, -1 Dex
+Racial Abilities: Stoneworking, Fort Save Bonus, Dark Vision, Racial Enemies Bonus, Underground Navigation
+Classes Allowed: Fighter, Cleric, Thief, Fighter/Cleric, Fighter/Thief, Cleric/Thief
+Class Limits: Fighter 10th, Cleric 8th
+
+Elf
+---
+Attribute Restrictions: Dex: 10+  Cha: 10+  Con: 17-
+Attribute Bonuses: +1 Dex, +1 Cha, -2 Con
+Racial Abilities: Proficient (Longsword, Longbow), d8 Initiative, Low Light Vision, Perception Bonus, Sleep / Charm Resistance
+Classes Allowed: Fighter, Ranger, Cleric, Druid, Mage, Thief, Fighter/Thief, Fighter/Cleric, Fighter/Mage, Mage/Thief
+Class Limits: Fighter 10th, Cleric 8th, Mage 11th
+
+Halfling
+--------
+Attribute Restrictions: Dex: 10+  Con: 10+  Strength: 16-
+Attribute Bonuses: +2 Dex, -2 Str
+Racial Abilities: Bonus Thrown Weapons, Fort and Will Save Bonus, Low Light Vision, Halfling Luck
+Classes Allowed: Fighter, Cleric, Thief, Bard, Fighter/Thief, Fighter/Cleric, Fighter/Bard
+Class Limits: Fighter 8th, Cleric 10th
+
+Half-Elf
+--------
+Attribute Restrictions: None
+Attribute Bonuses: None
+Racial Abilities: Low Light Vision, d8 Initiative, Sleep / Charm Resistance
+Classes Allowed: Fighter, Ranger, Paladin, Cleric, Druid, Mage, Thief, Bard, (Any 2 or 3 combo of Fighter/Mage/Cleric/Thief), Fighter/Bard, Ranger/Cleric, Ranger/Mage
+Class Limits: Fighter 10th, Cleric 10th, Mage 10th, Ranger 10th, Paladin 10th, Druid 10th
+
+Gnome
+-----
+Attribute Restrictions: Con: 10+  Int: 10+  Str: 17-
+Attribute Bonuses: +1 Con, +1 Int, -2 Str
+Racial Abilities: Dark Vision, d8 Initiative, Gemcutting, Engineering, Bonus Fort Save, Racial Enemies
+Classes Allowed: Fighter, Ranger, Cleric, Druid, Mage, Thief, Bard, Fighter/Thief, Fighter/Cleric, Fighter/Mage, Fighter/Druid, Ranger/Mage
+Class Limits: Fighter 8th, Cleric 10th, Druid 10th, Mage 8th, Ranger 8th

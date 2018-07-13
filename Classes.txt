@@ -18,4 +18,4 @@ Hit Points from the first class are kept until the second class is a higher leve
 
 Non-weapon Proficiencies, Weapon Proficiencies, and Talents are determined by the best of the current levels in each class.  They do not stack.  If the character is a 5th Level Mage / 3rd Level Fighter, they get 5 Weapon Proficiencies based on their Fighter class because it is a higher number than the 3 Weapon Proficiencies they would get from their levels in Mage.
 
-The character can never go back to any class they abandon when they dual class.
+The character can never go back to any class they abandon when they dual class.  Dual classing requires that the character have a 14+ in the Primary Attributes of the class being abandonned and the new class.
