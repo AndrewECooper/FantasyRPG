@@ -1,0 +1,21 @@
+Characters have one or more classes. The core classes are: Fighter, Paladin, Ranger, Mage, Cleric, Druid, Thief and Bard.  Many characters will only belong to one class.  There are two ways to have multiple classes: dual classing and multi-classing.  Humans may dual class.  Demi-humans may multi-class.
+
+Multi-Class
+-----------
+Multi-class characters start play with two or three classes at 1st level.  The amount of experience needed to go up in level is equal to the sum of the experience needed for all the classes.  A single class Fighter needs 2000 experience points to reach 2nd level.  A Fighter/Thief needs 3250 experience to reach 2nd level [2000 + 1250].  A Fighter/Mage/Thief needs 5750 experience to reach 2nd level [2000 + 2500 + 1250].
+
+Multi-class characters get all of the abilities for each of their classes.  They also get all of the restrictions.  A Fighter/Mage gets all the fighter's weapon abilities and can wear any armor; however, he cannot cast spells while wearing the armor.  Clerics would also have to abide by any restrictions imposed by their chosen deity.
+
+When determining To Hit Bonuses, Saving Throws, and Proficiencies use the best available out of the available classes.
+
+When determining Hit Points, roll one of each of the appropriate die type and average the results, rounding up, then add the Constitution bonus.  A Fighter/Thief would roll a d10 and a d6.  If the results were a 6 and a 3, the character would get an additional 5 Hit Points that level [(6 + 3) / 2].  If the character had a +1 Constitution bonus then it would get 6 Hit Points.
+
+Dual Class
+----------
+Dual class characters start with a single class. After progressing in their starting class the player eventually decides to abandon the first class and start another class.  They then start over at 1st level in the second class with 0 experience points.  They then progress from then on in the second class.  They keep all the benefits from the first class while progressing in the second class.  Other scores are determined by the methods below.
+
+Hit Points from the first class are kept until the second class is a higher level than the original.  Then Hit Points are accrued as normal for the current class.  A character starts as a Fighter and progresses to 5th level and has rolled 30 Hit Points.  Instead of progressing to 6th level as a Fighter, the character takes their 1st level as a Mage. They then progress to 5th level with no additional Hit Points being gained.  Once they gain their 6th level as a Mage the character rolls a d4 for more Hit Points.
+
+Non-weapon Proficiencies, Weapon Proficiencies, and Talents are determined by the best of the current levels in each class.  They do not stack.  If the character is a 5th Level Mage / 3rd Level Fighter, they get 5 Weapon Proficiencies based on their Fighter class because it is a higher number than the 3 Weapon Proficiencies they would get from their levels in Mage.
+
+The character can never go back to any class they abandon when they dual class.

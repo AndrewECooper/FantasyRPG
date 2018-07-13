@@ -1,0 +1,22 @@
+Characters have 6 Attributes: Strength, Dexterity, Constitution, Wisdom, Intelligence, and Charisma.  Scores range from 3 to 18 for most characters.  It is possible for truly exceptional characters or the use of magic to raise attributes above 18.  Attributes have to following bonuses and penalties associated with them.
+
+Score   Bonus
+-------------
+3       -4
+4       -3
+5       -2
+6       -2
+7       -1
+8       -1
+9       0
+10      0
+11      0
+12      0
+13      0
+14      +1
+15      +1
+16      +2
+17      +2
+18      +3
+19      +4
+20      +5
