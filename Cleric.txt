@@ -1,0 +1,92 @@
+﻿Cleric
+-------
+
+Requirements
+------------
+10+ Wisdom
+
+
+Level   to Hit  Hit Dice    Fort    Ref     will    WP      NWP		Special
+---------------------------------------------------------------------------
+1       +0      1d8         +6      +4      +5      2       4		Spells 1st, Religion, Turn Undead 1d6
+2       +0      2d8         +6      +4      +5      2       4		Turn Undead 2d6
+3       +1      3d8         +7      +5      +6      2       5		Spells 2nd
+4       +2      4d8         +7      +5      +6      3       5
+5       +2      5d8         +7      +5      +7      3       5		Spells 3rd
+6       +3      6d8         +8      +6      +7      3       6
+7       +4      7d8         +8      +6      +8      3       6		Spells 4th, Scribe
+8       +4      8d8         +8      +7      +8      4       6
+9       +5      9d8         +9      +7      +8      4       7		Spells 5th, Potions
+10      +6      10d8        +9      +8      +9      4       7		Followers
+11      +6      +2          +10     +8      +9      4       7		Spells 6th
+12      +7      +2          +10     +9      +10     5       8
+13      +8      +2          +10     +9      +10     5       8		Spells 7th
+14      +8      +2          +11     +10     +11     5       8		
+15      +9      +2          +11     +10     +11     5       9		
+16      +10     +2          +12     +10     +11     6       9
+17      +10     +2          +12     +11     +12     6       9		
+18      +11     +2          +12     +11     +12     6       10		
+19      +12     +2          +13     +11     +12     6       10		
+20      +22     +2          +13     +12     +13     7       10
+
+Weapons and Armor:  Clerics may not become proficient in any piercing or slashing weapons unless they are wielding a weapon favored by their deity or mythos. Clerics wield non-proficient weapons at a -3 penalty. Clerics may wear any armor and use shields.
+
+Spells: Clerics are granted spells by their deity for faithful service. They receive a number of spells each day after praying for at least 30 minutes at a time of day appropriate for their deity.  During this time of prayer the cleric chooses which spells they would like for the day.  Once cast the spell fades from their memory.
+
+If the cleric is of a good aligned deity, they may substitute an appropriate level healing spell for a memorized spell. If the cleric is of an evil aligned deity, the spell is a harm spell instead. If they have a neutral deity, they chose at character creation and the choice cannot be undone.
+
+Religion: Clerics get proficiency in Religion.
+
+Turn Undead: Clerics may attempt to turn undead if they are good and dominate undead if they are evil. Neutral clerics must decide which they want to do and that cannot be changed.  The difficulty of turning undead is related to the level of the undead in comparison to the level of the cleric.
+
+Successful turning causes 1d6 plus the cleric's Charisma modifier (minimum 1) worth of hit dice of undead to flee the cleric. At 2nd level the number of hit dice increases to 2d6 hit dice plus Charisma modifier. Undead with the fewest hit dice are affected first. Domination causes the undead to come under the cleric's control for 24 hours.
+
+If the turning attempt succeeds at 2 hit dice more than needed, the undead is destroyed instead of turned.
+
+The cleric gets a number of turning attempts equal to half their level rounded up plus their Wisdom modifier per day.
+
+Scribe: The cleric can scribe spells that they can normally cast on scrolls. The cleric must provide material components, which are comprised of special paper and inks costing 50 gp per spell level. To scribe, the cleric must spend eight hours each day scribing for a number of consecutive days equal to the scroll’s spell level. Once the cost in time and materials is spent, she then rolls an Intelligence check against a Difficulty of 15. The cleric is considered proficient for this roll. A failed attempt destroys whatever material components were used and the process must be restarted.
+
+Potions: The cleric begins to prepare divine potions. The preparation of a divine potion requires a special altar and basin (costing 1,000 gp), and 4 ounces of specially prepared holy water (costing 50 gp per spell level of the potion being prepared). The cleric casts a prepared spell into the holy water, which must be in the altar’s basin at the time of casting. The holy water must remain in the altar’s basin for one day per spell level of the potion. During this time, the cleric is required to spend eight hours per day praying at the altar.
+
+Upon the completion of the preparation process, the cleric rolls a Wisdom check against a Difficulty 15.  The cleric is considered proficient for this roll. A failed attempt cannot be rerolled. The divine nature of the holy water is nullified, thus, the cleric must start over with new components.
+
+Base Spells per Day
+-------------------
+Cleric			Spell Level
+Level	1	2	3	4	5	6	7
+---------------------------------
+1		1
+2		2
+3		2	1
+4		3	2
+5		3	2	1
+6		3	3	2
+7		4	3	2	1
+8		4	3	3	2
+9		5	4	3	2	1
+10		5	4	3	3	2
+11		5	5	4	3	2	1
+12		6	5	4	3	3	2
+13		6	5	5	4	3	2	1
+14		7	6	5	4	3	3	2
+15		7	6	5	5	4	3	2
+16		7	7	6	5	4	3	3
+17		8	7	6	5	5	4	3
+18		8	7	7	6	5	4	3
+19		9	8	7	6	5	5	4
+20		9	8	7	7	6	5	4
+
+Cleric Turn Check Chart
+-----------------------
+Hit Dice of Undead		Difficulty
+----------------------------------
+Cleric Level -3			Automatically turned
+Cleric Level -2			5
+Cleric Level -1			10
+Cleric Level 			15
+Cleric Level +1			20
+Cleric Level +2			25
+Cleric Level +3			Cannot turn
+
+

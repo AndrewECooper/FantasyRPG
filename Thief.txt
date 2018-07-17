@@ -1,0 +1,45 @@
+﻿Thief
+-----
+
+Requirements
+------------
+Dexterity 10+
+
+Level   to Hit  Hit Dice    Fort    Ref     will    WP      NWP		Special
+---------------------------------------------------------------------------
+1       +0      1d6         +4      +5      +4      2       3		Thief Skills, Sneak Attack +1d6
+2       +0      2d6         +4      +6      +4      2       3		Thief Skill
+3       +1      3d6         +4      +6      +5      2       4		
+4       +1      4d6         +5      +7      +5      3       4		Thief Skill
+5       +2      5d6         +5      +7      +6      3       4		Sneak Attack +2d6
+6       +2      6d6         +6      +8      +6      3       5
+7       +3      7d6         +6      +8      +7      3       5		Activate Scroll
+8       +3      8d6         +6      +9      +7      4       5		Thief Skill
+9       +4      9d6         +7      +9      +8      4       6		Sneak Attack +3d6
+10      +4      10d6        +7      +10     +8      4       6		Followers
+11      +5      +2          +8      +10     +9      4       6		Thief Skill
+12      +5      +2          +8      +11     +9      5       7		Activate Item
+13      +6      +2          +8      +11     +10     5       7		Sneak Attack +4d6
+14      +6      +2          +9      +12     +10     5       7		Thief Skill
+15      +7      +2          +9      +12     +11     5       8		
+16      +7      +2          +10     +13     +11     6       8		Thief Skill
+17      +8      +2          +10     +13     +12     6       8		Sneak Attack +5d6
+18      +8      +2          +10     +14     +12     6       9
+19      +9      +2          +11     +14     +13     6       9		Thief Skill
+20      +9      +2          +11     +15     +13     7       9		Sneak Attack +6d6
+
+Weapons and Armor:  Thieves may only become proficient in crossbows, finesse, simple melee, simple ranged, and whips. They suffer a -4 penalty when using a weapon they are not proficient with. They may wear leather, padded, studded, and brigandine armor. They cannot use shields. Armor can have a detrimental effect on thief skills.
+
+Thief Skills: At first level the thief can choose 5 of the Thief skills to become proficient in.  Periodically as the thief levels up he can choose to either become proficient with a new thief skill or get an additional +2 in an already proficient thief skill.  A thief may only have an additional +4 in this manner.
+
+Sneak Attack: If the thief attacks an opponent that is currently engaged with another of the thief's allies in melee, he gets an additional +2 to hit on top of any other Flanking and Rear Attack bonus and then the attack does an additonal 1d6 damage if it hits.  Periodically as the thief advances in levels, the damage bonus increases.
+
+Activate Scroll: The thief can now attempt to activate arcane and divine scrolls with a successful Intelligence check with a difficulty based on the level of the spell. 
+
+Scroll Level	Difficulty
+--------------------------
+1 - 3			DL 10
+4 - 6			DL 15
+7 - 9			DL 20
+
+Activate Item:  The thief can now attempt to activate magical items that are not normally useable by thieves.  This requires a DL 15 Intelligence check.
