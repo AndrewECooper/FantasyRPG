@@ -1,0 +1,89 @@
+﻿Mage
+-------
+
+Requirements
+------------
+10+ Intelligence
+
+
+Level   to Hit  Hit Dice    Fort    Ref     will    WP      NWP		Special
+---------------------------------------------------------------------------
+1       +0      1d4         +4      +5      +6      1       3		Spells 1st, Spellcraft
+2       +0      2d4         +4      +5      +6      1       3		
+3       +0      3d4         +4      +5      +6      1       4		Spells 2nd
+4       +1      4d4         +5      +6      +7      1       4
+5       +1      5d4         +5      +6      +7      1       4		Spells 3rd
+6       +1      6d4         +5      +6      +7      2       5
+7       +2      7d4         +6      +7      +8      2       5		Spells 4th
+8       +2      8d4         +6      +7      +8      2       5
+9       +2      9d4         +6      +7      +8      2       6		Spells 5th, Potions, Scrolls
+10      +3      10d4        +7      +8      +9      2       6		Followers
+11      +3      +1          +7      +8      +9      2       6		Spells 6th
+12      +3      +1          +7      +8      +10     3       7
+13      +4      +1          +8      +9      +10     3       7		Spells 7th
+14      +4      +1          +8      +9      +10     3       7		
+15      +4      +1          +8      +9      +11     3       8		Spells 8th
+16      +5      +1          +9      +10     +11     3       8
+17      +5      +1          +9      +10     +12     3       8		Spells 9th
+18      +5      +1          +9      +10     +12     4       9		
+19      +6      +1          +10     +11     +13     4       9		
+20      +6      +1          +10     +11     +14     4       9
+
+Weapons and Armor:  Wizards can become proficient in staves, daggers, darts, knives, and slings. They cannot wear armor or use shields.
+
+Spells: Wizards cast spells that produce magical effects. To cast a spell, a wizard must have recently reviewed his spell book to recall the intricate components required to create that specific magical effect. Wizards usually study their spellbook at some point during the day in preparation of casting in that day, though wizards can retain a memorized spell for days before casting. The length of time required to memorize a collection of spells depends on the amount of spells the wizard is attempting to retain. Each spell usually takes 5 - 10 minutes per level to memorize. Once the wizard has cast the memorized spell, he fails to remember each intricate detail of the casting process. He must go back to his spell book and spend some time rememorizing the spell if he wishes to cast that spell again that day. At the beginning of the day, the wizard may memorize the same spell more than once, each earmarking one spell slot. The wizard may also leave a certain amount of slots open to fill later in the day.
+
+As the wizard’s level chart indicates, they gain access to higher levels of spells as they progress. Once they gain access to a higher spell level, they automatically receive one spell from that new level. In essence, they need not roll to see whether or not they learn that spell. Subsequent spells from that level require a roll to learn which is an Intelligence check against a 10 difficulty. Failed attempts require the wizard to seek out a different set of instructions. He simply cannot understand the way in which the specific author or teacher describes the spell.
+
+Wizards require less time to memorize spells once they have studied hose spells a sufficient number of times. All spells of a level four below the max spell level usable by the wizard only require 1 min/level to memorize. For example, once the wizard can cast 6th-level spells, 2nd-level spells take only 2 minutes to memorize. 
+
+Each wizard starts out knowing an amount of 1st-level spells equal to half his Intelligence score. Adding a spell to his spell book requires an Intelligence check. Remember that the wizard gets one free spell of a new spell level once it is opened up.
+
+Spellcraft: Mages get proficiency in Spellcraft for free.
+
+Scrolls and Potions: Upon attaining 9th level, the mage has accumulated enough experience in researching and casting spells that he is now ready to attempt to create magical scrolls and potions. The mage must have the required spell in his spellbook to craft a scroll or potion that invokes the specific spell’s energy.
+
+To prepare a potion, the mage must have an alchemical lab and the required magical reagents and reactors. To prepare a scroll, special inks and paper are required. The cost of creating a potion or scroll equals 50 gp per level, and it takes 8 hours of uninterrupted work per day per level to complete the job.
+
+Once the time is spent and the materials properly prepared, the mage rolls an Intelligence check with proficiency versus a difficulty of 20 task. A failed attempt destroys whatever material components were used and the process
+must be started anew.
+
+Base Spells per Day
+-------------------
+Mage			Spell Level
+Level	1	2	3	4	5	6	7	8	9
+-----------------------------------------
+1		1
+2		2
+3		2	1
+4		3	2
+5		3	2	1
+6		4	3	2
+7		4	3	2	1
+8		4	4	3	2
+9		4	4	3	2	1
+10		4	4	4	3	2
+11		4	4	4	3	2	1
+12		4	4	4	4	3	2
+13		5	4	4	4	3	2	1
+14		5	5	4	4	4	3	2
+15		5	5	5	4	4	3	2	1
+16		5	5	5	4	4	4	3	2
+17		5	5	5	4	5	4	3	2	1
+18		5	5	5	5	5	5	4	3	2
+19		5	5	5	5	5	5	5	4	2
+20		5	5	5	5	5	5	5	5	3
+
+Mage Bonus Spells from High Intelligence
+----------------------------------------
+Intelligence		Additional Spells
+-------------------------------------
+14					1
+15					2
+16					2/1
+17					2/2
+18					3/2/1
+19					3/3/1
+20					3/3/2
+
+

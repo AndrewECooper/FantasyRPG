@@ -89,4 +89,15 @@ Cleric Level +1			20
 Cleric Level +2			25
 Cleric Level +3			Cannot turn
 
+Cleric Bonus Spells from High Wisdom
+------------------------------------
+Wisdom				Additional Spells
+-------------------------------------
+14					1
+15					2
+16					2/1
+17					2/2
+18					3/2/1
+19					3/3/1
+20					3/3/2
 
