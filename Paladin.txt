@@ -1,0 +1,60 @@
+Paladin
+-------
+
+Requirements
+------------
+10+ Strength, 10+ Wisom, 10+ Charisma
+
+
+Level   to Hit  Hit Dice    Fort    Ref     will    Profs	Special
+-------------------------------------------------------------------
+1       +0      1d10        +5      +5      +5      4		Aura of Good, Detect Evil, Lay on Hands, Immunity
+2       +1      2d10        +6      +5      +5      4       Smite Evil
+3       +2      3d10        +6      +6      +6      5		Turn Evil
+4       +3      4d10        +7      +6      +6      5       Holy Weapon, Mount
+5       +4      5d10        +7      +7      +7      5		Fearless Aura
+6       +5      6d10        +8      +7      +7      6
+7       +6      7d10        +8      +8      +8      6		Holy Weapon
+8       +7      8d10        +9      +8      +8      6
+9       +8      9d10        +9      +9      +9      7       Spells 1st
+10      +9      10d10       +10     +9      +9      7		Followers, Holy Weapon
+11      +10     +3          +10     +10     +10     7		Spells 2nd
+12      +11     +3          +11     +10     +10     8
+13      +12     +3          +11     +11     +11     8		Holy Weapon, Spells 3rd
+14      +13     +3          +12     +11     +11     8       Aura of Power
+15      +14     +3          +12     +12     +12     9		Spells 4th
+16      +15     +3          +13     +12     +12     9       Holy Weapon
+17      +16     +3          +13     +13     +13     9		Greater Smite
+18      +17     +3          +14     +13     +13     10
+19      +18     +3          +14     +14     +14     10		Planar Sentry
+20      +19     +3          +15     +14     +14     10
+
+Increased Attack Rate: Paladins attack 3/2 times per round at 7th level, 2 times a round at 13th, and 5/2 times per round at 19th.
+
+Weapons and Armor:  Paladins may use any weapon and wear any armor.
+
+Aura of Good:
+
+Detect Evil:
+
+Lay on Hands:
+
+Immunity:
+
+Smite Evil:
+
+Turn Evil:
+
+Holy Weapon:
+
+Mount:
+
+Fearless Aura:
+
+Spells:
+
+Aura of Power:
+
+Greater Smite:
+
+Planar Sentry:
