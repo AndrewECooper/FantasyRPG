@@ -32,7 +32,7 @@ Weapons and Armor:  Thieves are proficient in crossbows, finesse, simple melee, 
 
 Thief Skills: At first level the thief can choose 5 of the Thief skills to become proficient in.  Periodically as the thief levels up he can choose to either become proficient with a new thief skill or get an additional +2 in an already proficient thief skill.  A thief may only have an additional +4 in this manner.
 
-Sneak Attack: If the thief attacks an opponent that is currently engaged with another of the thief's allies in melee, he gets an additional +2 to hit on top of any other Flanking and Rear Attack bonus and then the attack does an additonal 1d6 damage if it hits.  Periodically as the thief advances in levels, the damage bonus increases.
+Sneak Attack: If the thief attacks an opponent that is currently engaged with another of the thief's allies in melee, he gets an additional +2 to hit on top of any other Flanking and Rear Attack bonus and then the attack does an additional 1d6 damage if it hits.  Periodically as the thief advances in levels, the damage bonus increases.
 
 Activate Scroll: The thief can now attempt to activate arcane and divine scrolls with a successful Intelligence check with a difficulty based on the level of the spell.
 
