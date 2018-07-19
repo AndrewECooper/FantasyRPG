@@ -1,0 +1,146 @@
+Druid
+-----
+
+Requirements
+------------
+10+ Wisdom
+
+
+Level   to Hit  Hit Dice    Fort    Ref     will    Profs	Special
+-------------------------------------------------------------------
+1       +0      1d8         +6      +4      +5      4		Spells 1st, Home Terrain, Nature Skills, Wildspeak
+2       +0      2d8         +6      +4      +5      4		Nature Lore
+3       +1      3d8         +7      +5      +6      5		Spells 2nd, Wild Stride
+4       +2      4d8         +7      +5      +6      5       Magic Protection +2
+5       +2      5d8         +7      +5      +7      5		Spells 3rd, Nature's Aspect
+6       +3      6d8         +8      +6      +7      6       Magic Protection +3
+7       +4      7d8         +8      +6      +8      6		Spells 4th, Shapechange
+8       +4      8d8         +8      +7      +8      6
+9       +5      9d8         +9      +7      +8      7		Spells 5th
+10      +6      10d8        +9      +8      +9      7		Magic Protection +4
+11      +6      +2          +10     +8      +9      7		Spells 6th
+12      +7      +2          +10     +9      +10     8       Druid Title
+13      +8      +2          +10     +9      +10     8		Spells 7th, Archdruid Title
+14      +8      +2          +11     +10     +11     8       Great Druid Title
+15      +9      +2          +11     +10     +11     9       Hierophant Druid Title
+16      +10     +2          +12     +10     +11     9       Hierophant Power
+17      +10     +2          +12     +11     +12     9       Hierophant Power
+18      +11     +2          +12     +11     +12     10      Hierophant Power
+19      +12     +2          +13     +11     +12     10      Hierophant Power
+20      +12     +2          +13     +12     +13     10      Hierophant Power
+
+Weapons and Armor: Druids are proficient in the following weapons: club, sickle, dart, spear, dagger, scimitar,
+sling and staff. Druids that wield a non-proficient weapon suffer a -3 attack penalty. Druids may wear any non-metal armor. They may use any wooden shield, as well.
+
+Spells: Druids are granted spells in a manner identical to clerics. Provided the druid appeases her god, she receives a number of spells per day after spending a sufficient time in prayer, a ritual most often performed at dawn or high noon. She chooses her spells during prayer for the day’s adventures and, once cast, a prepared spell becomes inaccessible for the day. Being bestowed by divine entities, druids may wear armor while they cast, though such armor cannot be metal. (The druid loses all spellcasting ability when wearing metal armor or when wielding an unapproved weapon.)
+
+Druids that faithfully protect wilderness and advance their gods’ mythos receive daily spells. Those that disappoint or enrage their deity lose this benefit (and other druidic class abilities) and must then embark on some quest as penance. The GM may require something small or epic in scope to regain favor.
+
+As the druid’s level chart indicates, she gains access to higher level spells as she gains experience. Once she gains access to a higher spell level, all spells of that level become accessible for daily preparation. Druids need not attempt to “learn” a new spell. They are all granted to her.
+
+Druids have major access to the following spheres: animal, elemental, healing, plant and weather. They have minor access to divination. All other spheres are prohibited. (Regardless of level, minor access restricts the druid to spells of Levels 1 through 3. Major access has no such restriction.)
+
+Prior to achieving 1st level, a druid must gather her holy symbol, a handful of mistletoe harvested during the light of the full moon and gathered with the use of a special sickle made of gold or silver. To cast any divine spell requiring a holy symbol, the druid must present her mistletoe. If she does not present it, any target of a spell
+requiring a saving throw receives a +2 save bonus.
+
+Home Terrain: A druid chooses a home terrain from the list presented in the table below. This is the terrain from which she hails. When in her home terrain, she receives a +2 on any Nature Skill check. A druid’s home terrain also indicates which animal forms she has access to for her shapechange ability. The GM has discretion to disallow an animal form with which the druid is not sufficiently familiar.
+
+Nature Skills: Druids receives proficiency in Animal Handling, Track and Wilderness Survival, free of charge.
+
+Animal handling may be used to befriend an animal. Such a friendship may last for the life of the druid or animal. Befriended animals are no different than standard animals. They may be taught to perform minor tricks, such as guard, attack, fetch, etc., with training (and additional animal handling checks). The maximum amount of animal companions a druid may have at one time equals the druid’s Wisdom check modifier.
+
+Wildspeak: All druids speak a certain language, Druidic, that can be spoken or understood by druids only. It is the fastest way for druids to identify each other. It is a spoken tongue that generalizes very basic terms. No written form exists.
+
+Furthermore, all druids study and ultimately learn to speak the languages of woodland creatures: centaurs, dragons, dryads, elves, fairies, fauns, giants, gnomes, lizardfolk, manticores, nixies, pixies, sprites and treants. (This list may be expanded.) At 1st level and at every other level thereafter, the Druid becomes fluent in one woodland language.
+
+Nature Lore: All druids of 2nd level can identify with perfect specificity any animal or plant. They can also identify pure or tainted water, berries and nuts. No roll is required.
+
+Wild Stride: At 3rd level, the druid can walk or run without leaving tracks and without being hampered by difficult terrain while in her home terrain.
+
+Magic Protection: At 4th level, the druid receives a +2 bonus on any saving throw versus a spell or effect primarily involving air, earth, electricity, fire or water. This bonus increases to +3 at 6th level and +4 at 10th level. The druid of 4th level or higher is also immune to any charm effect originating from a woodland creature having an amount
+of HD equal to or less than the druid’s levels.
+
+Nature's Aspect: Druids understand that plants and animals of the natural world are connected by a circle of intangible energy. One of a druid’s divine blessings allows her to see that connection and tap into it. At 5th level, the druid receives the ability to draw from one of the three following aspects of nature: grace, might or protection.
+
+Grace temporarily increases the druid’s land speed by 20 feet per round and grants them a proficiency in Acrobatics with a +4 modifier for Dexterity checks (unless a druid’s Dexterity should provide a higher check modifier).
+
+Might temporarily increases the druid’s combat prowess, providing her with a +2 bonus to attacks and damage.
+
+Protection temporarily boosts the druid’s defenses, providing her with a +2 bonus to her AC.
+
+A druid may call upon nature’s aspects once per day per level. (This is a cumulative total. She cannot call upon each once per day per level.) Grace lasts for 1 minute/level. Both might and protection last for 1 round/level.
+
+Shapechange: At 7th level, the druid receives the gift of shapechange. Three times per day, the druid can shapechange into the form of any non-magical reptile, bird and animal which has no magical or supernatural powers. Each form can be assumed once per day, thus the druid can change into a mammal, then morph into a bird, then assume the shape of a reptile before returning to her normal form. The druid may change her shape into any animal sized Tiny (e.g., snake, mouse or blue jay) to Medium (e.g., alligator, tiger or small bear). In animal form, the druid retains her hit points, saving throws, Intelligence and Wisdom. She takes on the animal’s Strength, Dexterity, Constitution, Charisma, movement speeds, modes of attack, damage, Armor Class and any special senses. Her d20 modifier to attack equals her HD.
+
+The druid’s clothing, worn gear and one held item meld into the new form and reappear only when the druid regains her normal form. Shapechanging also heals some, but not all, wounds. One transformation from her normal form to an animal form in the day heals 1d6 x 10% of all incurred damage (rounded down). One transformation from an animal form to her normal form in the day also heals a like amount of hit points. Transformations between animal forms do not heal hit points.
+
+Titles: A druid may, but is not required to, belong to a druidic organization. Druidic organizations are hierarchical societies that dwell deep in ancient druidic glades and govern the rules and responsibilities of all its druids. Druids that do belong to such a group have access to shelter, tutorship, protection and the benefits associated with
+attaining one of the “name levels” from 12th to 16th level.
+
+    Druid: At 12th level, the druid’s hierarchy bestows upon her the official title of Druid. (Until this time, those in the organization called her “initiate”.) She immediately receives access to three initiates (druids of levels 1 through 9, based on availability) that will follow her faithfully. It is important to note that a druidic organization often limits the number of named Druids in any given geographical region to nine. Therefore, an initiate who has attained 12th level is not guaranteed this title, or the benefits associated with the title, until a time that is appropriate for the GM’s campaign.
+
+    Archdruid: At 13th level, the druid qualifies for the title of Archdruid. At any one time, a geographical region is restricted to maintain no more than three Archdruids. An office must become available for the PC to be appointed. In the past, some Archdruids have been slain by upstarts, some voluntarily step down and others are asked to resign by the region’s Great Druid. The appointment of a new Archdruid is a major event in the campaign. Archdruids receive three initiates of 10th level that serve them faithfully.
+
+    Among other concerns, Archdruids manage the named Druids in their region and assist the Great Druid with all “administrative” affairs, such as the destruction of a corrupt artifact spoiling the local waters. Three chosen Archdruids serve the world’s Grand Druid, instead of tending to local concerns. They do not live with the Grand Druid. Instead they roam the world handling the Grand Druid’s business.
+
+    Great Druid: At 14th level, the druid qualifies to receive the honor of serving as her region’s Great Druid. There is but one Great Druid in each region and the office must be vacant before any Archdruids may petition (and often compete fiercely) for the appointment. The Great Druid is appointed by the Grand Druid, who highly considers the recommendations of the region’s Archdruids and the neighboring Great Druids. The appointment of a Great Druid is a monumental occasion for the entire druidic world.
+
+    Three 11th-level initiates serve the Great Druid at all times. Great Druids qualify to serve as Successor Grand Druid.
+
+    Hierophant Druid: At 15th level, the druid automatically becomes a Hierophant Druid regardless of whether she received title to any previous offices. The Hierophant Druid no longer gains additional spells per day as she progresses in experience. She receives certain special abilities and the chance to be appointed the world’s Grand Druid. (Note that some Hierophant Druids are actually former Grand Druids who have voluntarily stepped down to appoint a worthier successor.) 15th level Hierophant Druids qualify to serve as Successor Grand Druid, unless she has previously served as the Grand Druid. As she progresses, the Hierophant Druid receives Heirophant Powers.
+
+    Grand Druid: Hierophant Druids and Great Druids both qualify for the office of Grand Druid, a solitary position overlooking the entire druidic world. The seat of Grand Druid is not won by conquest or chance. The current Grand Druid always appoints his or her successor for immediate or future duty. The appointment of Successor Grand Druid must be accepted.
+
+    Nine attendants serve the Grand Druid at all times and such service is exclusive. Out of the nine attendants, three are chosen Archdruids that see to the affairs of the world at the request of the Grand Druid. The remaining six attendants can be of any level between 1st and 11th, provided each is chosen by the Grand Druid.
+
+    The Grand Druid continues to progress in experience points normally, and receives the same level-based powers as that of the Hierophant Druids. Similarly, no additional spells are gained beyond 15th level.
+
+Heirophant Powers:
+    16th Level: Her body begins to draw from the collective circle of life to prolong aging and increase her natural defenses. She becomes immune to all nonmagical poisons and no longer suffers age-related reductions in Strength, Dexterity or Constitution.
+
+    17th Level: Her body begins to age much slower. For every year that passes, the Hierophant Druid of 17th level or higher ages one month. She also gains the ability to hibernate for a preset period of time, wherein her body expends little energy. She appears dead to the casual observer, though magical means of seeing the true nature of things will reveal the true nature of her condition. During hibernation, the Hierophant Druid awakens to changes in her immediate environment or the presence of humanoids.
+
+    18th Level: She becomes immune to nonmagical fire and extreme heat.
+
+    19th Level: She can now breathe underwater indefinitely.
+
+    20th Level: She can travel to and survive indefinitely in the Elemental Planes of Fire, Water or Air.
+
+Base Spells per Day
+-------------------
+Druid			Spell Level
+Level	1	2	3	4	5	6	7
+---------------------------------
+1		1
+2		2
+3		2	1
+4		3	2
+5		3	2	1
+6		3	3	2
+7		4	3	2	1
+8		4	3	3	2
+9		5	4	3	2	1
+10		5	4	3	3	2
+11		5	5	4	3	2	1
+12		6	5	4	3	3	2
+13		6	5	5	4	3	2	1
+14		7	6	5	4	3	3	2
+15		7	6	5	5	4	3	2
+16		7	6	5	5	4	3	2
+17		7	6	5	5	4	3	2
+18		7	6	5	5	4	3	2
+19		7	6	5	5	4	3	2
+20		7	6	5	5	4	3	2
+
+
+Druid Bonus Spells from High Wisdom
+------------------------------------
+Wisdom				Additional Spells
+-------------------------------------
+14					1
+15					2
+16					2/1
+17					2/2
+18					3/2/1
+19					3/3/1
+20					3/3/2
