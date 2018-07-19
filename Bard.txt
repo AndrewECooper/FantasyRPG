@@ -1,0 +1,31 @@
+Bard
+-----
+
+Requirements
+------------
+Charisma 10+
+
+Level   to Hit  Hit Dice    Fort    Ref     will    Profs	Special
+-------------------------------------------------------------------
+1       +0      1d6         +4      +5      +4      3		Thief Skills, Sneak Attack +1d6
+2       +0      2d6         +4      +6      +4      3		Thief Skill
+3       +1      3d6         +4      +6      +5      4
+4       +1      4d6         +5      +7      +5      4		Thief Skill
+5       +2      5d6         +5      +7      +6      4		Sneak Attack +2d6
+6       +2      6d6         +6      +8      +6      5
+7       +3      7d6         +6      +8      +7      5		Activate Scroll
+8       +3      8d6         +6      +9      +7      5		Thief Skill
+9       +4      9d6         +7      +9      +8      6		Sneak Attack +3d6
+10      +4      10d6        +7      +10     +8      6		Followers
+11      +5      +2          +8      +10     +9      6		Thief Skill
+12      +5      +2          +8      +11     +9      7		Activate Item
+13      +6      +2          +8      +11     +10     7		Sneak Attack +4d6
+14      +6      +2          +9      +12     +10     7		Thief Skill
+15      +7      +2          +9      +12     +11     8
+16      +7      +2          +10     +13     +11     8		Thief Skill
+17      +8      +2          +10     +13     +12     8		Sneak Attack +5d6
+18      +8      +2          +10     +14     +12     9
+19      +9      +2          +11     +14     +13     9		Thief Skill
+20      +9      +2          +11     +15     +13     9		Sneak Attack +6d6
+
+Weapons and Armor:  
