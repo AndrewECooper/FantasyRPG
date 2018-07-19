@@ -6,30 +6,30 @@ Requirements
 10+ Wisdom
 
 
-Level   to Hit  Hit Dice    Fort    Ref     will    WP      NWP		Special
----------------------------------------------------------------------------
-1       +0      1d8         +6      +4      +5      2       4		Spells 1st, Religion, Turn Undead 1d6
-2       +0      2d8         +6      +4      +5      2       4		Turn Undead 2d6
-3       +1      3d8         +7      +5      +6      2       5		Spells 2nd
-4       +2      4d8         +7      +5      +6      3       5
-5       +2      5d8         +7      +5      +7      3       5		Spells 3rd
-6       +3      6d8         +8      +6      +7      3       6
-7       +4      7d8         +8      +6      +8      3       6		Spells 4th, Scribe
-8       +4      8d8         +8      +7      +8      4       6
-9       +5      9d8         +9      +7      +8      4       7		Spells 5th, Potions
-10      +6      10d8        +9      +8      +9      4       7		Followers
-11      +6      +2          +10     +8      +9      4       7		Spells 6th
-12      +7      +2          +10     +9      +10     5       8
-13      +8      +2          +10     +9      +10     5       8		Spells 7th
-14      +8      +2          +11     +10     +11     5       8		
-15      +9      +2          +11     +10     +11     5       9		
-16      +10     +2          +12     +10     +11     6       9
-17      +10     +2          +12     +11     +12     6       9		
-18      +11     +2          +12     +11     +12     6       10		
-19      +12     +2          +13     +11     +12     6       10		
-20      +22     +2          +13     +12     +13     7       10
+Level   to Hit  Hit Dice    Fort    Ref     will    Profs	Special
+-------------------------------------------------------------------
+1       +0      1d8         +6      +4      +5      4		Spells 1st, Religion, Turn Undead 1d6
+2       +0      2d8         +6      +4      +5      4		Turn Undead 2d6
+3       +1      3d8         +7      +5      +6      5		Spells 2nd
+4       +2      4d8         +7      +5      +6      5
+5       +2      5d8         +7      +5      +7      5		Spells 3rd
+6       +3      6d8         +8      +6      +7      6
+7       +4      7d8         +8      +6      +8      6		Spells 4th, Scribe
+8       +4      8d8         +8      +7      +8      6
+9       +5      9d8         +9      +7      +8      7		Spells 5th, Potions
+10      +6      10d8        +9      +8      +9      7		Followers
+11      +6      +2          +10     +8      +9      7		Spells 6th
+12      +7      +2          +10     +9      +10     8
+13      +8      +2          +10     +9      +10     8		Spells 7th
+14      +8      +2          +11     +10     +11     8
+15      +9      +2          +11     +10     +11     9
+16      +10     +2          +12     +10     +11     9
+17      +10     +2          +12     +11     +12     9
+18      +11     +2          +12     +11     +12     10
+19      +12     +2          +13     +11     +12     10
+20      +12     +2          +13     +12     +13     10
 
-Weapons and Armor:  Clerics may not become proficient in any piercing or slashing weapons unless they are wielding a weapon favored by their deity or mythos. Clerics wield non-proficient weapons at a -3 penalty. Clerics may wear any armor and use shields.
+Weapons and Armor:  Clerics are not proficient in any piercing or slashing weapons unless they are wielding a weapon favored by their deity or mythos. Clerics wield non-proficient weapons at a -3 penalty. Clerics may wear any armor and use shields.
 
 Spells: Clerics are granted spells by their deity for faithful service. They receive a number of spells each day after praying for at least 30 minutes at a time of day appropriate for their deity.  During this time of prayer the cleric chooses which spells they would like for the day.  Once cast the spell fades from their memory.
 
@@ -100,4 +100,3 @@ Wisdom				Additional Spells
 18					3/2/1
 19					3/3/1
 20					3/3/2
-
