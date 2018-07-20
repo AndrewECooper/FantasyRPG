@@ -23,3 +23,7 @@ Level   Proficiency # of
 18      +6          6
 19      +6          7
 20      +6          7
+
+At character creation, the player picks two backgrounds for their character. These are short phrases of a few words that describe how the character grew up. For example, if the character grew up in a noble household their two backgrounds might be "Minor Nobility" and "Knight in Training".  Another character might have "Street Urchin" and "Merchant Sailor"  Backgrounds provide quick information on what the character's past was like. They give the character a +1 on all Attribute Checks that relate to the background.  This stacks with any Proficiency bonus on the roll but does not stack with another background.
+
+For example, our character with the "Minor Nobility" and "Knight in Training" is 7th level and asked to make a Dexterity check to successfully ride a horse that is jumping over a low wall.  The GM rules that both Minor Nobility and Knight in Training would have provided opportunities to at least be familiar with riding a horse so the character gets a +1 to their Dexterity Check.  If the character also had a proficiency in Riding then the bonus would be +4 (+3 for the proficiency and +1 for the background).
