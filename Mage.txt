@@ -19,7 +19,7 @@ Level   to Hit  Hit Dice    Fort    Ref     will    Profs	Special
 9       +2      9d4         +6      +7      +8      6		Spells 5th, Potions, Scrolls
 10      +3      10d4        +7      +8      +9      6		Followers
 11      +3      +1          +7      +8      +9      6		Spells 6th
-12      +3      +1          +7      +8      +10     7
+12      +3      +1          +7      +8      +10     7       Create Magic Items
 13      +4      +1          +8      +9      +10     7		Spells 7th
 14      +4      +1          +8      +9      +10     7
 15      +4      +1          +8      +9      +11     8		Spells 8th
@@ -47,6 +47,8 @@ To prepare a potion, the mage must have an alchemical lab and the required magic
 
 Once the time is spent and the materials properly prepared, the mage rolls an Intelligence check with proficiency versus a difficulty of 20 task. A failed attempt destroys whatever material components were used and the process
 must be started anew.
+
+Create Magic Items: Mage can now attempt to create magic items. The process of doing so is diffiult and unique to each caster and item.  At the end, however, the caster must make a Difficulty 25 Intelligence Check (Spellcraft) or the process fails and all materials used in the process are expended.
 
 Base Spells per Day
 -------------------

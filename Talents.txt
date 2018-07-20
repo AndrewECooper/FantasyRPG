@@ -1,0 +1,104 @@
+Talents represent extrodinary abilities.  They can be the result of exceptional talent, intense training, or even supernatural origin. They allow the character to break the basic rules of the game in a way that imparts am advantage in certain situations.  Every character starts with 1 Talent and then gains additional Talents at levels 3, 6, 9, 12, 15, and 18 for a total of 7 Talents.
+
+Each class has a list of Talents they can choose from.  Talents may also have level, racial, alignment, or other requirements.
+
+Talent List
+===========
+Attribute Increase: Increase an Attribute by +1.
+Damage Increase (12th level):  Choose 1 weapon. That weapon's damage increases by 1 die size.
+Weapon Focus:  One weapon gets a +1 to hit.
+Greater Focus (6th Level, Weapon Focus):  Weapon gets a +2 to damage.
+Fast: Increase movement rate by +10' per round.
+Faster (6th Level, Fast): Increase movement rate by +10' per round.
+Fastest (12th Level, Fastest): Increase movement rate by +10' per round.
+Artificer (12th Level): +2 to all rolls involved in magic item creation.
+Weapon & Shield Style: +2 to AC over the normal shield AC.
+Two Weapon Style: Additional attack per round. (-2, -4) If offhand is small (-2, -2). No Str bonus to offhand.
+Ranged Style: +2 to damage at short range.
+Teamwork: Expend Secondary Action. +1 to hit against opponent engaged with ally.
+Itinerant: No weapon or armor restrictions or obligations to church. No followers.
+Ambidexterity:  No penalty for doing thing with offhand. (2-weapon style: -0, -2 or no penalty with small)
+Arcane Focus:  +2 to hit with spell attacks. -2 to Saving Throws othewise.
+Arcane Blast: Spend spell slot for 1d6 per spell level damage. No to hit. No Saving Throw.
+Arcane Lore: Bardic Knowledge check reveals all about magical item.
+Combat Caster: Willpower save to not lose spell after damage. (penalty equal to damage taken)
+Battle Priest: +1 to hit / damage for number of rounds equal to level per day.
+Greater Battle Priest (9th Level, Battle Priest): Additional +1 to hit / damage.
+Charming: Bard shifts npc attitudes 2 steps instead of 1.
+Skald: Bardic knowledge check results in either +1 AC or +1 to hit for battle.
+Beastmaster: 2 animal companions rather than 1.
+Blindfighting: Penalty to hit is halved.
+Versitile: May take Talent of another class. Must meet requirements other than class.
+Attuned to Nature: May spontaneous cast either Plant or Animal spells as a cleric does Healing.
+Channel Energy: Spend Turn attempt to either heal allies or harm enemies for 1d6 / 3 levels in 10' radius.
+Unarmored Style: Unarmored AC of 15 when not wearing armor. Flatfooted is 10 AC.
+Improved Animal Companion: Companion gets +1HD per 3 levels of character.
+Pious: Bard can replace 1 spell slot with a Divine Spell. Chooses per day.
+Improvised Weapons: Non-weapon things do basic club damage and are proficient.
+Thrown Weapon Style: +1 additional attack per round.
+Detect Necromancy: Use Turn attempt to detect any necromantic energy in 30' radius.
+Sense Residue: Use Turn attempt to detect where good or evil has been.
+Healer: +2 per dice rolled is healed when casting healing spells.
+Improved Shapechange: Creature has +2 HD, Strength, Constituion, Damage, and Fort Saves.
+Dirty Fighting: Secondary Action. Intelligence check (Deception) vs 15. +2 hit / dmg next attack.
+Specialist: +1 spell per level in chosen school. +2 caster level in chosen school. Lose access to 1 school.
+Dervish:  Secondary action. Performance vs 15. +2 to attack for next attack.
+Divine Aura: Paladin can spend 3 hit points from LoH. +1 to hit for allies within 10' for rnds = to Cha bonus.
+Conduit: +1d8 per Cure spell cast.
+Druidic Turning (6th Level, Hand of Death): Gain access to Cleric Turning ability.
+Marked: +2 to hit / dmg / AC against Single enemy or Organization. May be reassigned when destroyed.
+Endurance (Athletics): +2 to all Athletics checks.
+Scribe: +2 to scribe scrolls.
+Alchemist: +2 to brew potions.
+Efficient Healer: Level 3 and lower heal spells are secondary action.
+Fast Talking: +2 to Charisma checks to persuade or deceive.
+Fence: Thief can find a fence in any city.
+Fighter Mark: +1 to hit / dmg for encounter against single target.
+Ghost Hunter: 1/2 damage against incorporal creatures. +2 turn checks against ghost / incorporal undead.
+Grove:
+Greater Grove (9th Level): Better Grove.
+Hand of Death: Druid gets greater access to Necromancy.
+Divine Light: Expending 4 hit points from LoH creates torchlight for 4 hours.
+Hybrid Form:
+Inquisitor:
+Interaction:
+Intimidate:
+Item Lore:
+Improved Initiative: Initiative is a d8.
+Leadership:
+Light Armor Usage:
+Manipulate Battlefield:
+Shape Spell:
+Mounted Combat:
+Battle Mage:
+Battle Mage Master:
+Poisoner:
+Power Attack:
+Tribal Empathy:
+Prophet:
+Rapid Shot:
+Rogue's Life:
+Roguish Bent:
+Scholar:
+Self Defense:
+Show of Strength:
+Silver Tongue:
+Single Minded:
+Somatic Casting:
+Spell Mastery:
+Spirit of Steel:
+Spirtual Guardian:
+Storm Mastery:
+Surprise Shot:
+Terrain Walker:
+Theology:
+Thug:
+Totem:
+Trailing:
+Turn Target:
+Undead Hunter:
+Undead Scourge:
+Unriddle Magic:
+Urban Ranger:
+Versitile Casting:
+Worldly Stride:
