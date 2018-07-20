@@ -3,7 +3,7 @@ Paladin
 
 Requirements
 ------------
-10+ Strength, 10+ Wisom, 10+ Charisma
+10+ Strength, 13+ Wisom, 13+ Charisma
 
 
 Level   to Hit  Hit Dice    Fort    Ref     will    Profs	Special

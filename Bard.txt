@@ -3,7 +3,7 @@ Bard
 
 Requirements
 ------------
-Charisma 10+, Intelligence 10+
+Charisma 13+, Intelligence 10+
 
 Level   to Hit  Hit Dice    Fort    Ref     will    Profs	Special
 -------------------------------------------------------------------
