@@ -1,0 +1,15 @@
+The basic system is very simple.  Whenever a player wants their character to attempt an action that the GM deems is both narratively interesting and has both a chance of failure and success, they will make an Attribute Check.  The GM determines which of the character's attributes governs the action in question. He then decides how difficult the action is and assigns it a Difficulty from the list of Standard Difficulties. The player then rolls a d20 and adds the character's attribute bonus (or penalty) plus any other bonuses (or penalties) to the result.  If the result meets or exceeds the Difficulty then the attempt is a success. If not, it fails.
+
+One of the common bonuses added to the check is a Proficiency bonus.  If the character has a Proficiency that applies to the attempt, then the player adds the Proficiency bonus to the roll.
+
+For example, Bob's character is attempting to ascertain whether a particular plant is poisonous to eat. The GM determines that this is an Intelligence Check.  Bob asks if his character's Nature Lore Proficiency would apply. The GM agrees that it would. The GM assigns the check a Difficulty of Average (10) since the plant is not uncommon.  The player rolls a d20 and gets a 6.  He adds a +1 for the character's Intelligence of 14 and a +3 Proficiency bonus because the character is 7th level with Nature Lore.  This results in a 10 total.  That meets the Difficulty (barely) and so the attempt is a success.
+
+Standard Difficulties
+
+Description     Difficulty
+==========================
+Easy            5
+Average         10
+Hard            15
+Exceptional     20
+Legendary       25
