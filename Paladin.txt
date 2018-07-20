@@ -33,28 +33,75 @@ Increased Attack Rate: Paladins attack 3/2 times per round at 7th level, 2 times
 
 Weapons and Armor:  Paladins may use any weapon and wear any armor.
 
-Aura of Good:
+Aura of Good: The paladin exudes an aura of goodness that benefits the paladin and all non-evil subjects positioned within 10 feet of her. First, the subjects enjoy a +1 bonus to AC and saving throws versus evil opponents. Second, the subjects are immune to all forms of mental compulsion or control that emanate from an evil creature having no more HD than the paladin has in levels. This aura cannot be dispelled or otherwise interrupted.
 
-Detect Evil:
+    Invoke Aura: Once per day per every three levels, the paladin may call to her god to invoke her aura of good as a non-action and shield herself with an energy that disrupts the attacks of evil-aligned opponents. For a number of rounds equal to 1 plus the paladin’s Charisma bonus, the paladin enjoys a bonus to her AC equal to 1 plus her Charisma modifier. During this duration, the paladin’s aura is concentrated and it temporarily fails to provide the
+    standard benefits to the paladin or those within 10 feet. In essence, the benefits of invoking her aura are enjoyed in lieu of the standard benefits provided by her aura of good.
 
-Lay on Hands:
+Detect Evil: The paladin may concentrate for one full round and detect the presence of any evil subjects, per the spell detect evil, in a 60-ft cone from the paladin. The paladin may also detect evil intentions in otherwise non-evil subjects.
 
-Immunity:
+Lay on Hands: The paladin may heal up to 2 hit points per level per day by laying on hands. This healing may benefit the paladin or someone else and the hit points may be spread out during the day. Each healing is a primary action. Alternatively, the paladin may attempt a touch attack versus an undead or summoned evil creature to deal damage equal to the amount of hit points expended (no save).
 
-Smite Evil:
+Furthermore, once per week per five experience levels, the paladin’s healing touch may remove a subject’s sickness or disease.
 
-Turn Evil:
+Immunity: All paladins are immune to non-magical disease. This immunizes the paladin from diseases he would encounter as he ages, from monsters and from naturally-occurring organic versions he may encounter in his travels.
 
-Holy Weapon:
+Smite Evil: At 2nd level, the paladin is able to use her divine presence in an effort to deal a crippling blow to an evil opponent. For a number of times per day equal to her Charisma plus 1 per three levels, the paladin adds her Charima bonus to an attack roll. If this attack is successful, the paladin adds half her level as additional damage to evil opponents. This additional damage stacks with any bonuses he normally receives against evil creatures. A missed attack expends one daily use.
 
-Mount:
+Turn Evil: At 3rd level, the paladin may turn away creatures that manifest and embrace pure evil: all forms of intelligent undead, demons and devils. For a number of times per day equal to the paladin’s Charisma bonus plus 1, the paladin may turn such evil creatures as a cleric turns undead. The paladin uses the cleric’s Turn Undead chart and rolls as a cleric one level lower than the paladin.
 
-Fearless Aura:
+Holy Weapon: Upon attaining 4th level, the paladin is required to partake of an important rite of passage that requires 24 hours of constant prayer. Upon completing this stretch of prayer, the paladin receives a blessing that transforms his primary melee weapon (which is always the deity’s favored weapon and often a longsword) into a divine instrument that links the paladin to her deity.
 
-Spells:
+The weapon becomes a holy weapon in the hands of the paladin that acts as a +1 magical weapon. (It functions as a masterwork weapon in the hands of a non-paladin.) It functions as a +1/+2 magical weapon (+1 attack/+2 damage) versus evil creatures. As the paladin increases in experience, his holy weapon becomes more powerful:
 
-Aura of Power:
+    7th level: The weapon functions as a +2 magical weapon, +2/+4 versus evil creatures.
 
-Greater Smite:
+    10th level: The weapon functions as a +3 magical weapon, +3/+6 vs evil creatures, and provides the paladin with a 25% magic resistance when he is wielding the weapon.
 
-Planar Sentry:
+    13th level: The weapon functions as a +4 magical weapon, +4/+8 versus evil creatures, and the paladin’s magic resistance increases to 35% when wielding the weapon. In addition, once per day, the paladin may present his holy weapon and, as a full round action, dispel any ongoing magical effect considered hostile and cast by an evil caster having equal or less HD than the paladin.
+
+    16th level: The weapon functions as a +5 magical weapon, +5/+10 versus evil creatures, and a 50% magic resistance is granted to the paladin and all his allies within 10 ft. of him when wielding the weapon. The paladin may also activate the weapon’s unique dispel magic ability twice per day.
+
+Mount: At some point after attaining 4th level, the paladin may go on a quest to find a special mount that will become bound to her and her conquest. Although the mount is usually a majestic war horse, the paladin may instead be destined to ride a more advanced or exotic mount. If the paladin receives an advanced mount, such as a griffon or pegasus, the statistics for the mount remain unchanged from what is presented in the Game Master’s Guide, except that the minimum
+Intelligence of the advanced mount is 7, if not already higher.
+
+If the mount should be a war horse, this special mount is a stronger and slightly larger steed than a standard heavy war horse, with legs so powerful it moves faster (60 feet per round) and has an unencumbered carrying capacity of 350 pounds. It has the following statistics:
+
+Int 7; AL N; AC 15; HD 5+5 (hp 5d8+5); #AT 3/1;
+bite +5 (1d3), hoof +5 (1d8); SZ L; MV 60; ML 14
+
+Once the bond is set, the paladin gains the appropriate ride proficiency (land-based or aerial) unless she is already proficient, in which case the paladin receives a second proficiency slot therein. The mount can follow commands commensurate with its Intelligence and an empathic bond is forged that extends one-quarter mile. In times of need, the horse can be emotionally commanded to come to the paladin’s aid.
+
+Should the paladin’s mount die, the paladin suffers a –1 penalty on all d20 rolls for one week and may not search for another special mount until she is allowed to do so by her deity, which generally requires the paladin to earn her next level.
+
+A paladin is not required to seek out a special mount and she is equally unbound to adventure with a mount once a bond is secured. Some paladins either choose not to subject their mount to danger or choose to travel alone entirely. In either case, the choice whether to secure a mount at all, and whether to adventure alongside one so bonded, is always a private matter. For the record, though, the vast majority of paladins do take a mount and do travel with it.
+
+    Enhanced Special Mount: At 11th level, the paladin’s mount gains a +2 bonus to HD and Intelligence.
+
+Fearless Aura: At 5th level, the paladin’s aura of good immunizes the paladin and those within 10 feet of him from all forms of non-magical fear and magical fear spells and effects of 5th level or lower.
+
+Spells: At 9th level, the paladin becomes blessed with the ability to cast divine spells from the combat, healing, protection and divination spheres, per the chart below. As he progresses in experience, he gains access to higher level spells and more spells per day.  His caster level is considered to be half his Paladin level rounded down.
+
+Paladin’s Spells per Day
+Level of
+Paladin     Spell Level
+            1   2   3   4
+=========================
+9           1
+10          2
+11          2   1
+12          2   2
+13          3   2   1
+14          3   2   2
+15          3   3   2   1
+16          3   3   3   2
+17          4   3   3   3
+18          4   3   3   3
+19          4   4   3   3
+20          4   4   4   4
+
+Aura of Power: This is an advanced form of invoke aura. While the lower level paladin protects only herself with an AC bonus equal to her Charisma bonus, the 14th level paladin may cloak her mount and all allies within 10 feet of her with the protective AC bonus. In essence, aura of power removes the restriction in invoke aura that limits the benefit to the paladin alone.
+
+Greater Smite: At 17th level, the paladin’s smite evil ability deals damage equal to the paladin’s full level.
+
+Planar Sentry: The 19th level paladin defends not only the sanctity of law and good, he is also a planar sentry sworn to defend his plane against evil outsiders that would encroach upon it and defile it. The sentry receives the ability to cast the divine spell banishment once per day. The paladin’s casting level is 12 for purposes of this spell ability.
