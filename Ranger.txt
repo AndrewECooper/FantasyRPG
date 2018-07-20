@@ -1,0 +1,97 @@
+Ranger
+-------
+
+Requirements
+------------
+10+ Strength, 10+ Wisom, 10+ Constitution
+
+
+Level   to Hit  Hit Dice    Fort    Ref     will    Profs	Special
+-------------------------------------------------------------------
+1       +0      1d10        +5      +5      +4      3		Animal Empathy, Weapon Style, Nature Proficiencies
+2       +1      2d10        +6      +5      +4      3       Favored Enemy
+3       +2      3d10        +6      +6      +5      3
+4       +3      4d10        +7      +6      +6      4       Animal Companion
+5       +4      5d10        +7      +7      +6      4
+6       +5      6d10        +8      +7      +7      4
+7       +6      7d10        +8      +8      +7      4
+8       +7      8d10        +9      +8      +8      5
+9       +8      9d10        +9      +9      +9      5       Spells 1st
+10      +9      10d10       +10     +9      +9      5		Followers
+11      +10     +3          +10     +10     +10     5		Spells 2nd
+12      +11     +3          +11     +10     +10     6
+13      +12     +3          +11     +11     +11     6		Spells 3rd
+14      +13     +3          +12     +11     +11     6       Wild Stride
+15      +14     +3          +12     +12     +12     6		Spells 4th
+16      +15     +3          +13     +12     +12     7
+17      +16     +3          +13     +13     +13     7		Blend
+18      +17     +3          +14     +13     +13     7
+19      +18     +3          +14     +14     +14     7		Nature's Aspect
+20      +19     +3          +15     +14     +14     8
+
+Increased Attack Rate: Rangers attack 3/2 times per round at 7th level, 2 times a round at 13th, and 5/2 times per round at 19th.
+
+Weapons and Armor:  Rangers are proficient in any weapon and they may wear any armor, though a few of the ranger’s class abilities are either penalized or nullified when the ranger wears heavier armor.
+
+Animal Empathy: Rangers receive proficiency in Animal Handling free of charge. While they use the proficiency as written most of the time, when attempting to calm or befriend an animal, the ranger uses the rules in this class ability instead. By approaching alone and in a manner suitable to a particular animal, and then by exerting his influence on the animal, the animal is forced to perform a saving throw or become less hostile. The manner in which the ranger influences any particular wild animal depends entirely on that animal’s behavior and circumstance, but a soothing approach with calming whispers generally suffices. In all cases, the ranger must be alone and must approach the wild animal as close as possible.
+
+Tamed animals can be approached and befriended with this ability. Befriended animals may perform minor tasks for the ranger, such as watching guard over an area. (The extent to which the befriended animal can help is relative to the animal’s Intelligence.)
+
+For every three levels attained by the ranger, the animal suffers a -1 cumulative penalty on the saving throw roll.
+
+Nature Proficiencies:
+
+    Stealth: The ranger receives proficiency in Stealth free of charge, but is limited to employing stealth in wilderness environments only. The ranger does not suffer any armor-related penalties to stealth if he is wearing no armor, padded cloth, leather, studded leather, brigandine, elven chainmail, mithril chainmail or hide. The ranger cannot employ stealth if wearing armor more protective or heavier than those listed.
+
+    Survival: All rangers receive proficiency in Wilderness Survival free of charge. Furthermore, as a result of his exposure to various animals, the ranger automatically discerns whether an animal is trained or wild and whether it is a fine or poor specimen.
+
+    Tracking: All rangers receive proficiency in Tracking, free of charge. Standard proficiency checks are required when the ranger attempts to track his quarry in natural surroundings. The difficulty of any Tracking check shifts up 10 when tracking in a worked environment, such as through city streets.
+
+Weapon Style: Rangers can choose either the Two-Weapon Style or Ranged Weapon Style for free.
+
+Favored Enemy: Rangers protect the wilderness and certain monsters, such as orcs and ogres, seek to destroy its majesty. Every ranger harbors a seething hatred for one nature-hating creature and will train to hunt and destroy it. Only the most important concerns can stop a ranger from attacking its mortal enemy.
+
+Rangers announce their favored enemy at character creation and begin training to destroy them. At 2nd level, rangers begin to enjoy the fruits of this training, henceforth receiving a +4 attack bonus versus their favored enemy. They also receive a +2 damage bonus per four levels.
+
+Due to his unbridled hatred toward his favored enemy, a ranger finds it difficult to hold back an assault in times where diplomacy or less than drastic means are required. Any interaction with a favored enemy requires a difficulty 15 Charisma check. Although failure does not automatically compel the ranger to attack, the ranger displays an obvious outward disdain. (If there is little chance of a bad outcome, the ranger may not be so calm, however.)
+
+A favored enemy can be chosen by the GM or by the player with the GM’s approval. The most common favored enemies are: orcs, goblins, ogres, a specific type of giant, a specific type of dragon, and trolls. The ranger’s background plays an important role in determining the enemy, since a creature native to the ranger’s homeland is usually the most appropriate choice.
+
+In all instances, the ranger’s favored enemy must be narrowly chosen. Where more than one type of a creature exists, the ranger must choose as specifically as possible.
+
+For example, assume there are two neighboring kingdoms. The elven ranger Einedel and his band are commissioned to escort a diplomat to a council hearing to discuss the rumors that the abutting territory is eager to attack. Upon arriving at the hearing, the ranger learns that the rival king’s trusted advisor is an ogre mage, Einedel’s mortal enemy. Barely able to breathe, the ranger holds his blades. When the ogre mage asks for each of the escort’s names, the player controlling Einedel is required to perform a difficulty 15 Charisma check. A failed check reveals the elf’s utter hatred. At that point, the circumstance of the rival kingdoms and the safety of his band members may stay his swords … or not.
+
+Animal Companion: At any point after reaching 4th level, the ranger may venture into the wilderness for a period of 24 hours to search for an animal companion. Some rangers talk of a pull toward their companion, while others report that their companion found them instead. Animal companions are most often Tiny to Small animals. Common examples include: badgers, ferrets, hawks, snakes and owls. Rare instances occur when the companion will be a larger animal, like a horse, wolf, tiger, lion or bear. Magical beasts, such as unicorns and griffons, only appear as a ranger’s animal companion if the ranger is of significant experience (at least 15th level) or in times of great need, such as when a dark war is brooding.
+
+Animal companions appear as a normal example of their species. In truth, they are much smarter and the companionship forms an empathic link between the two that extends for one mile. Animal companions have an Intelligence score that is 4 points higher than an average member of its species. They cannot speak, but can be taught tricks and can follow a string of simple commands. Animal companions are also trusted friends and will remain loyal for the length of its lifetime. The two share emotions and, with the empathic connection, they can exchange vague but comprehensible feelings that serve as a means of communication. The ranger need not always speak to its companion if he wishes his companion to act a certain way, unless a very specific instruction is required. For example, the ranger could easily cause his companion to flee and hide with an empathic exchange, but a vocal instruction is required if the ranger wishes his companion to retrieve a certain object.
+
+If the ranger dies while empathically linked, the companion must succeed on a saving throw or die.
+
+The ranger may attract a different companion by returning to the wilderness for 24 hours. This is an emotional ordeal that most rangers prefer to avoid. For most rangers, the gods of nature provide only one true companion.
+
+Spells: At 9th level, the gods bestow upon the ranger the ability to cast divine spells of the plant and animal spheres. The table on the following page shows the ranger’s spell progression.  His caster level is considered to be half his Ranger level rounded down.
+
+Ranger’s Spells per Day
+Level of
+Ranger     Spell Level
+            1   2   3   4
+=========================
+9           1
+10          2
+11          2   1
+12          2   2
+13          3   2   1
+14          3   2   2
+15          3   3   2   1
+16          3   3   3   2
+17          4   3   3   3
+18          4   3   3   3
+19          4   4   3   3
+20          4   4   4   4
+=========================
+
+Wild Stride: At 14th level, the ranger can walk or run without leaving tracks and without being hampered by difficult terrain while in her favored terrain.
+
+Blend: The 17th-level ranger can blend seamlessly into the wilderness landscape in a way that mirrors the ability of a thief to hide in plain sight. Provided ample backdrop exists, the ranger camouflages himself perfectly. No roll is necessary. A difficulty 25 Wisdom (or Perception) check is required to notice a ranger blending into his surroundings.
+
+Nature's Aspect: 19th level rangers receive the ability to channel the druid class ability, nature’s aspect. This works exactly like the druid’s ability; however the ranger is limited to being able to call upon nature’s aspects once per three class levels (six times at level 19). Rangers revere this gift. Although a humble gift in the eyes of many, it is a divine gift that represents praise for a life of defending the wilds.
