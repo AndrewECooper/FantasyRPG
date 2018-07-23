@@ -1,0 +1,34 @@
+Combat takes place in rounds. Rounds are approximately 6 seconds long. Each round is divided into 4 phases.
+
+Phase 1: Player Declarations.  The GM goes around the table and asks each player what their character is going to do that round.  Each player gives their general intent.  These are not super precise.  It is perfectly fine for a player to say, "I'm going to attack one of the goblins that is close enough to get to with my longsword."  They don't have to declare, "I'm going to move to goblin A and attack it once. Then I'm going to attack goblin B with my second attack." At a bare minimum the player has to give enough information to determine what Initiative modifiers they need to use.
+
+Phase 2: GM Determinations:  The GM determines what actions the opposition (and friendly NPCs) will take. The GM may declare these actions out loud or may not depending on the situation.
+
+Phase 3:  Roll Initiative:  Each player rolls a d10 (unless a racial ability or Talent says to roll a d8) and adds any Initiative modifiers to the roll. The final result is when they go in the initiative order and is called their Initiative.
+
+Phase 4: The GM begins calling out the initiative count starting with 1 and going until the last combatant has acted. When a player hears their Initiative called out, it is their turn to take their declared actions.
+
+Turns:  On their Initiative each player gets a turn to take actions. They can take a Primary Action and a Secondary Action.
+
+Primary Actions: These are the main actions on a player's turn.  Using a Primary Action the character can attack at their attack rate, cast a spell, use a magic item, read a scroll, and other actions that comprise the majority of the action they want to take for a round.
+
+Secondary Actions: These are the actions that either take significantly less time or significantly less effort than a Primary action.  Moving the character's movement rate is a Secondary Action.  Reloading a missile weapon, retreiving an item from a belt pouch, and drawing a sheathed longsword are all Secondary Actions.
+
+There are two other types of actions: Free Actions and Full Round Actions.
+
+Free Actions: These take almost no time or effort to accomplish.  They are things like shouting out something short to another character or dropping a held item.  A character can do any number of these things in a round within reason.
+
+Full Round Action:  These actions take both a Primary and a Secondary Action to do.  Some spells require a Full Round to cast.  This means the character gives up both their Primary and Secondary Actions to cast that spell.
+
+
+Attacking in Melee
+
+A character can attack any creature within about 5 feet of them with a melee weapon. Some few weapons (such as a spear) have a Reach statistic. These weapons can make an attack within 10 feet.  To make an attack the player rolls a d20 and adds the characters Strength bonus, to Hit modifier, and any miscellaneous bonuses from magic or position.  If the result of the roll is equal to or greater than the creature's Armor Class then the attack hits and damage is rolled.  If not, then it is a miss and no damage occurs. Damage for melee attacks is the weapon's damage dice plus Strength bonus plus any miscellaneous bonuses.
+
+For example, if a 5th Level Fighter with a 16 Strength attacks an Orc in scale mail with a magical longsword +1, the player would roll a d20 and add +5 for the to Hit bonus, +2 for Strength, and +1 for the magic in the sword. If the player rolled a 10 then the final result would be 18 which is higher than the 14 Armor class provided by scale mail.  The Fighter would then roll 1d8 which is the weapon damage die and add +2 for Strength and +1 for the weapon bonus.  If the player rolled a 5 that would be a total of 8 damage against the Orc.
+
+Ranged Attacks
+
+Ranged attacks are much the same as melee attacks. The player rolls a d20 and adds the characters Dexterity bonus, to Hit bonus, and miscellaneous bonuses. If the result is greater than or equal to the targets Armor Class, then the attack is a success and damage is applied.  If not, then no damage is applied.  Damage is the weapon's damage dice plus any miscellaneous bonuses. If the weapon is a composite bow or a thrown weapon then the character's Strength bonus is also added to the damage.
+
+For example, if the same 5th Level Fighter with a 16 Strength and 14 Dexterity threw a dagger at an Orc with scale mail, the player would roll a d20 and add +5 for the to Hit bonus and +1 for Dexterity. If the player rolled a 10 then the final result would be 16 which is higher than the 14 Armor Class provided by the scale mail. The Fighter would then roll 1d4 which is the weapon damage die and add +2 for Strength (because it is thrown).  If the player rolled a 3 then the damage would be 5.
