@@ -6,13 +6,13 @@ Phase 2: GM Determinations:  The GM determines what actions the opposition (and 
 
 Phase 3:  Roll Initiative:  Each player rolls a d10 (unless a racial ability or Talent says to roll a d8) and adds any Initiative modifiers to the roll. The final result is when they go in the initiative order and is called their Initiative.
 
-Phase 4: The GM begins calling out the initiative count starting with 1 and going until the last combatant has acted. When a player hears their Initiative called out, it is their turn to take their declared actions.
+Phase 4: The GM begins calling out the initiative count starting with 1 and going until the last combatant has acted. When a player hears their Initiative called out, it is their turn to take their declared actions. If two players have the same initiative, the players can decide who goes first.  If an NPC or monster has the same initiative as a player then the player gets to go first.
 
 Turns:  On their Initiative each player gets a turn to take actions. They can take a Primary Action and a Secondary Action.
 
 Primary Actions: These are the main actions on a player's turn.  Using a Primary Action the character can attack at their attack rate, cast a spell, use a magic item, read a scroll, and other actions that comprise the majority of the action they want to take for a round.
 
-Secondary Actions: These are the actions that either take significantly less time or significantly less effort than a Primary action.  Moving the character's movement rate is a Secondary Action.  Reloading a missile weapon, retreiving an item from a belt pouch, and drawing a sheathed longsword are all Secondary Actions.
+Secondary Actions: These are the actions that either take significantly less time or significantly less effort than a Primary action.  Moving the character's movement rate is a Secondary Action.  Reloading a missile weapon, retrieving an item from a belt pouch, and drawing a sheathed longsword are all Secondary Actions.
 
 There are two other types of actions: Free Actions and Full Round Actions.
 
@@ -32,3 +32,17 @@ Ranged Attacks
 Ranged attacks are much the same as melee attacks. The player rolls a d20 and adds the characters Dexterity bonus, to Hit bonus, and miscellaneous bonuses. If the result is greater than or equal to the targets Armor Class, then the attack is a success and damage is applied.  If not, then no damage is applied.  Damage is the weapon's damage dice plus any miscellaneous bonuses. If the weapon is a composite bow or a thrown weapon then the character's Strength bonus is also added to the damage.
 
 For example, if the same 5th Level Fighter with a 16 Strength and 14 Dexterity threw a dagger at an Orc with scale mail, the player would roll a d20 and add +5 for the to Hit bonus and +1 for Dexterity. If the player rolled a 10 then the final result would be 16 which is higher than the 14 Armor Class provided by the scale mail. The Fighter would then roll 1d4 which is the weapon damage die and add +2 for Strength (because it is thrown).  If the player rolled a 3 then the damage would be 5.
+
+Applying Damage
+
+When damage occurs it is applied by subtracting the amount of damage taken from the character's current hit point total.  The result is the new current hit point total.  If the new hit point total is less than 1 but greater than -10 the character is Hurt. While Hurt the character has -10 to all hit and damage rolls, any spells cast at opponents give their targets a +10 to save against those spells, and all proficiency checks are at a -10 penalty.
+
+The Hurt condition has been created to avoid the Yo-yo Effect in combat where a character goes unconscious at 0 hit points then gets healed and is back up fighting like nothing happened then gets hit again and goes down but is healed again.  This repeats ad nauseam.  The Hurt condition does not affect their ability to move out of combat or cast a healing spell or use a healing ability but greatly reduces the effectiveness of the character to do anything other than seek healing.
+
+Once a character reaches -10 hit points, it immediately dies.
+
+In general, NPCs and monsters don't follow these rules.  Most NPC's and monsters simply die once they reach 0 hit points.  The GM can use the Hurt condition if they want for important NPCs.
+
+Healing Damage
+
+Natural Healing:  Characters will heal normally over time.  Each day that the character rests and doesn't engage in any strenuous activity (Combat is a strenuous activity.) they regain 1 hit point per character level plus their Constitution bonus.  A character cannot regain more than their total hit points.  A 3rd Level character with a 16 Constitution will regain 5 hit points per day of rest.
